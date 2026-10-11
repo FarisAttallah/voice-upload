@@ -564,91 +564,106 @@ window.VOICE_LINES = [
     "file": "Diner_Visit_1a",
     "say": "Evening, team. Quick one. Review one is in.",
     "note": "Visit 1 (after day 2). Cheerful, in person for the first time. A nod.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_1b",
     "say": "Passed. Nice. Head office likes a clean start.",
     "note": "Visit 1. Reading from a card.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_1c",
     "say": "Keep it exactly like this. Exactly. Night.",
     "note": "Visit 1. Leaving. The second \"Exactly\" a touch too firm.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_2a",
     "say": "Review two. Good numbers. A few comments on pace.",
     "note": "Visit 2 (after day 4). Clipped, tired.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_2b",
     "say": "Nothing to action. Just keep moving.",
     "note": "Visit 2. Flat.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_2c",
     "say": "Right. I'll clock off then.",
     "note": "Visit 2. Said on the way to the door; he then punches the time clock like a customer. Ordinary, as if nothing is odd.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_3a",
     "say": "Review three. We're very pleased. Very.",
     "note": "Visit 3 (after day 6). Strained. He is sitting in a booth, where a customer would sit.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_3b",
     "say": "Some of you have been noticed upstairs. That's good.",
     "note": "Visit 3. A small pause before \"That's good.\"",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_3c",
     "say": "Two more days. Then we talk about the permanent position.",
     "note": "Visit 3. The carrot. Almost kind. He then goes out holding the door bell still.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_4a",
     "say": "Final review. Passed. Well done, team.",
     "note": "Visit 4 (after day 8). Strained, slow. He came in from the back.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_4b",
     "say": "Your reassignment letter is on its way. Don't unpack.",
     "note": "Visit 4.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_4c",
     "say": "Someone will be in to reset the room. Not your concern.",
     "note": "Visit 4. Leaving. Flat, final.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_F_a",
     "say": "Evening. I'll keep this short. The review didn't pass.",
     "note": "The failed review (any of the four): he lets the crew go in person, before the letter of separation. Quiet, not angry. Sorry for himself more than for them.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_F_b",
     "say": "Your contract ends tonight. Please leave the ties. They're counted.",
     "note": "Failed review.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Diner_Visit_F_c",
     "say": "Someone will be in to reset the room. They always are.",
     "note": "Failed review. Leaving. The same line as visit 4c with a different ending; said the same flat way.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    }
   ]
  },
@@ -1095,6 +1110,111 @@ window.VOICE_LINES = [
     "say": "Target reached. The paperwork is ready. Your shift is not over.",
     "note": "Shortened for voice.",
     "group": "Goal reached"
+   },
+   {
+    "file": "Office_Visit_1a",
+    "say": "Evening, team. Quick review call. Review one is in.",
+    "note": "Call 1 (evening of day 2). Upbeat, pleased to have the team together. Camera off, as always.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_1b",
+    "say": "Passed! Great numbers. Head office loves a strong start.",
+    "note": "Call 1. Reading from a slide.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_1c",
+    "say": "Keep doing exactly this. I'll drop off now. Night!",
+    "note": "Call 1. Leaving the call. Cheerful.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_2a",
+    "say": "Review two. Passed. A few notes on response times.",
+    "note": "Call 2 (evening of day 4). Clipped, tired, typing on another call while you talk.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_2b",
+    "say": "Nothing to action. Let's keep this cadence.",
+    "note": "Call 2. Flat.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_2c",
+    "say": "Right. I'll leave the call open. Night.",
+    "note": "Call 2. Ordinary, as if nothing is odd. (The call stays open on the screen after you stop talking.)",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_3a",
+    "say": "Review three. Passed. We're very aligned on that.",
+    "note": "Call 3 (evening of day 6). Strained. For the first time your camera is on, but it only shows an empty chair in a meeting room like theirs.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_3b",
+    "say": "Some of you have been flagged upstairs. Positively. Mostly.",
+    "note": "Call 3. A small pause before \"Mostly.\"",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_3c",
+    "say": "Two more days. Then we discuss the permanent seat.",
+    "note": "Call 3. The carrot. Almost kind.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_4a",
+    "say": "Final review. Passed. Well done, team. Genuinely.",
+    "note": "Call 4 (evening of day 8). Strained, slow. In person: you are already sitting at the head of the table when the crew comes in. Speak to people across a table, not to a microphone.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_4b",
+    "say": "Your reassignment letter is in your inbox. Please don't reply.",
+    "note": "Call 4.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_4c",
+    "say": "Someone will clear your desks tonight. Not your concern.",
+    "note": "Call 4. Leaving. Flat, final.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_F_a",
+    "say": "Evening, team. Short call. The review didn't pass.",
+    "note": "Any failed review (one to four): you let the crew go on a plain call, camera off, before the letter of separation. Quiet, not angry. Nothing odd in this call: a person doing an unpleasant job.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_F_b",
+    "say": "Your contract ends tonight. Please leave the lanyards. They're counted.",
+    "note": "Failed review. The same line the diner's manager says about the ties.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Visit_F_c",
+    "say": "Your logins expire at midnight. It's not personal. It's policy.",
+    "note": "Failed review. Leaving the call. Kind, which is the creepy part.",
+    "group": "Review scenes",
+    "cutscene": true
    }
   ]
  },
@@ -1564,73 +1684,85 @@ window.VOICE_LINES = [
     "file": "Security_Visit_1a",
     "say": "Evening, team. Quick debrief from me. Review one is in.",
     "note": "Visit 1 (evening of day 2). Confident, in person for the first time. You drove up, you lean on the van.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_1b",
     "say": "Passed. Clean work. The client wants you back tomorrow.",
     "note": "Visit 1. Reading from a card.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_1c",
     "say": "Same building tomorrow. They'll have fixed a few things. Night.",
     "note": "Visit 1. Leaving. A wave.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_2a",
     "say": "Review two. Good numbers. A few notes on getting caught.",
     "note": "Visit 2 (evening of day 4). Clipped, tired. You are already sitting in the van when the crew comes back; nobody saw you arrive.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_2b",
     "say": "Nothing to action. Keep your letter on you.",
     "note": "Visit 2. Flat.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_2c",
     "say": "Right. I'll see myself out.",
     "note": "Visit 2. Ordinary, as if nothing is odd; then you walk straight past the guard at the gate, who never looks at you.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_3a",
     "say": "Final review. Passed. Well done, team. Very professional.",
     "note": "Visit 3 (evening of day 6, the placement passed). Strained, slow. You come out of the depot's front door: you were inside all day.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_3b",
     "say": "Your photos are going upstairs. Someone will review them.",
     "note": "Visit 3. Calm. (The crew's last-day photos go to the office's trays: STORY.md rung 3.)",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_3c",
     "say": "Your work here is done. I'll take the camera.",
     "note": "Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk out of the gate with it.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_F_a",
     "say": "Evening. I'll keep this short. The review didn't pass.",
     "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_F_b",
     "say": "Your engagement ends tonight. Please hand in the covers. They're counted.",
     "note": "Any failed review.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Security_Visit_F_c",
     "say": "Don't take it hard. We'll keep your photo on file.",
     "note": "Any failed review. Leaving. Kind, which is the creepy part. Nothing odd in this visit: a person doing an unpleasant job.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    }
   ]
  },
@@ -2034,73 +2166,85 @@ window.VOICE_LINES = [
     "file": "Graveyard_Visit_1a",
     "say": "Morning, team. Quick one before I clock off. Review one is in.",
     "note": "Visit 1 (dawn after night 2). Warm, in person for the first time. A thermos in one hand. You walk in through the main gate while the ones still standing walk out past you; you never look at them.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_1b",
     "say": "Passed. Lovely. Head office likes a quiet first review.",
     "note": "Visit 1. Reading from a card.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_1c",
     "say": "Same again tonight. Same plots, same order. Morning.",
     "note": "Visit 1. Leaving by the main gate, the way you came.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_2a",
     "say": "Review two. Numbers are fine. A few comments on digging pace.",
     "note": "Visit 2 (dawn after night 4). Clipped, tired. You came up the path from among the stones, not from the gate.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_2b",
     "say": "Nothing to action. Keep the clock clear.",
     "note": "Visit 2. Flat.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_2c",
     "say": "Right. I'll be off. Same time tonight.",
     "note": "Visit 2. Ordinary, as if nothing is odd; then you walk back into the plots, not out of the gate.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_3a",
     "say": "Final review. Passed. Well done, team. Truly.",
     "note": "Visit 3 (dawn after night 6, the placement passed). Strained, slow. You were already in the line walking to the gate; you step out of it to speak.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_3b",
     "say": "Your reassignment letter is on its way. Don't get comfortable.",
     "note": "Visit 3.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_3c",
     "say": "Your completion has been rescheduled. Please report to your next placement.",
     "note": "Visit 3. The last line of the placement. Then you step back into the line and walk out of the gate with the others, in step.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_F_a",
     "say": "Morning. I'll keep this short. The review didn't pass.",
     "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_F_b",
     "say": "Your contract ends this morning. Please leave the shovels. They're counted.",
     "note": "Any failed review.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "Graveyard_Visit_F_c",
     "say": "Don't worry about the future. We always find room for people.",
     "note": "Any failed review. Leaving. Kind, which is the creepy part.",
-    "group": "Visit"
+    "group": "Review scenes",
+    "cutscene": true
    }
   ]
  },
@@ -2468,85 +2612,99 @@ window.VOICE_LINES = [
     "file": "CallCentre_Review_1a",
     "say": "Evening, team. Quick one. Your first review came through.",
     "note": "Evening 1 (after day 2). Warm, the first time they see him.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_1b",
     "say": "Passed. Lovely call handling. Head office listened to a few.",
     "note": "Evening 1. Reading from the binder.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_1c",
     "say": "Same again tomorrow. Same words, same order. Night.",
     "note": "Evening 1. Leaving. Friendly.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_2a",
     "say": "Review two. Passed. Your handle times were noted.",
     "note": "Evening 2 (after day 4). Clipped, tired. Before each line he touches his headset and waits a beat, as if listening; leave a short silence before you speak.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_2b",
     "say": "No complaints logged. Well. None about you.",
     "note": "Evening 2. A small pause before \"Well.\"",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_2c",
     "say": "Right. I'm off. Please don't call me.",
     "note": "Evening 2. Leaving. Dry, half a joke. (After it, he stops at the binder shelf and checks a page before he goes.)",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_3a",
     "say": "Final review. Let me check the binder.",
     "note": "Evening 3 (after day 6, the placement's last). Strained, slow. He has just stood up from a desk where he was taking calls. Pages turning.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_3b",
     "say": "Passed. The binder says: continue. Congratulations, team.",
     "note": "Evening 3. Reads \"continue\" exactly as written. (Behind him a line starts ringing; he does not turn round.)",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_3b_Alt",
     "say": "Passed. The binder says: complete. Congratulations, team.",
     "note": "Optional. Optional. Record it, but the owner picks it only once the ending is decided: \"complete\" is the memorial park's word for a buried temp, so this line would decide the crew's fate. Same delivery as 3b.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_3c",
     "say": "Your file goes upstairs tonight. Someone up there will read it. Probably.",
     "note": "Evening 3. Leaving. A pause before \"Probably.\" Calm, as if nothing is ringing.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_a",
     "say": "Evening. Short call, this one. The review didn't pass.",
     "note": "Failed review. Quiet, not angry. A man doing an unpleasant job.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_b",
     "say": "I checked the binder twice. It says the same thing both times.",
     "note": "Failed review. Almost apologetic: it is not his decision.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_c",
     "say": "Your contract ends tonight. Please leave the headsets. They're counted.",
     "note": "Failed review. The same line the diner's manager says about the aprons.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_d",
     "say": "The lines open again tomorrow. Someone will answer them.",
     "note": "Failed review. Leaving. Flat.",
-    "group": "Review"
+    "group": "Review scenes",
+    "cutscene": true
    }
   ]
  },
