@@ -1213,12 +1213,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Security_Start_C3",
-    "say": "Morning, all. Covers are in the van. Pick one that fits.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Security_Start_K1",
     "say": "Morning. Brief's on the board. Same building, new problems.",
     "note": "The screen adds the day number in front.",
@@ -1227,12 +1221,6 @@ window.VOICE_LINES = [
    {
     "file": "Security_Start_K2",
     "say": "Morning. Radios on, heads down. Nobody needs to see your face.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Security_Start_K3",
-    "say": "Morning. Keep it quiet today. The client is listening in.",
     "note": "",
     "group": "Start"
    },
@@ -1246,12 +1234,6 @@ window.VOICE_LINES = [
     "file": "Security_Start_S2",
     "say": "Morning. Quiet day, please. Nobody needs to be a hero.",
     "note": "new",
-    "group": "Start"
-   },
-   {
-    "file": "Security_Start_S3",
-    "say": "Morning, team. Nobody goes quiet today. I need to hear everyone.",
-    "note": "",
     "group": "Start"
    },
    {
@@ -1297,32 +1279,14 @@ window.VOICE_LINES = [
     "group": "Restart"
    },
    {
-    "file": "Security_Restart_02",
-    "say": "That's the limit. From the top, team. Same building, different luck.",
-    "note": "The last strike, second version.",
-    "group": "Restart"
-   },
-   {
     "file": "Security_Alert_01",
     "say": "Site alert is up. Slow down. Look like you belong.",
     "note": "",
     "group": "Alert"
    },
    {
-    "file": "Security_Alert_02",
-    "say": "They're on alert. Walk, don't run. Running looks guilty.",
-    "note": "",
-    "group": "Alert"
-   },
-   {
     "file": "Security_Lockdown_01",
     "say": "Lockdown. The doors are shut. Nobody is a visitor now.",
-    "note": "",
-    "group": "Lockdown"
-   },
-   {
-    "file": "Security_Lockdown_02",
-    "say": "They've locked the site. Wait it out somewhere boring.",
     "note": "",
     "group": "Lockdown"
    },
@@ -1339,12 +1303,6 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Security_End_C3",
-    "say": "And that's the day. Let's see what the client thinks.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Security_End_K1",
     "say": "Time. Leave the building. Whatever you didn't prove didn't happen.",
     "note": "",
@@ -1353,12 +1311,6 @@ window.VOICE_LINES = [
    {
     "file": "Security_End_K2",
     "say": "Day's over. Back to the van. The client is reading now.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Security_End_K3",
-    "say": "Time is up. Out the way you came in.",
     "note": "",
     "group": "End"
    },
@@ -1375,20 +1327,8 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Security_End_S3",
-    "say": "Time is up. Please don't stay inside. Nobody stays inside.",
-    "note": "A small pause before the last sentence.",
-    "group": "End"
-   },
-   {
     "file": "Security_Early_01",
     "say": "Everything's back early. The client is impressed. And a little worried.",
-    "note": "",
-    "group": "Early"
-   },
-   {
-    "file": "Security_Early_02",
-    "say": "All the proof is in already. Let's debrief before they fix anything.",
     "note": "",
     "group": "Early"
    },
@@ -1753,57 +1693,9 @@ window.VOICE_LINES = [
     "group": "Visit"
    },
    {
-    "file": "Security_Visit_1a_Narrow",
-    "say": "Evening, team. Review one is in. Passed. Barely.",
-    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Confident, with a wince on \"Barely.\"",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_1b_Narrow",
-    "say": "Too many strikes. The client noticed. Clients aren't meant to notice.",
-    "note": "Visit 1, narrow pass. Replaces 1b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_2a_Narrow",
-    "say": "Review two. Passed, just. The guards are starting to know you.",
-    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_2b_Narrow",
-    "say": "There were notes. Mostly about the word 'detained'.",
-    "note": "Visit 2, narrow pass. Replaces 2b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_3a_Narrow",
-    "say": "Final review. Passed, narrowly. Upstairs rounded you up. They rarely do.",
-    "note": "Visit 3, narrow pass. Replaces 3a. Strained, slow.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_3b_Narrow",
-    "say": "Passed is passed. Your file has comments. Several.",
-    "note": "Visit 3, narrow pass. Replaces 3b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_F1a",
-    "say": "Evening. I'll keep this short. Review one didn't pass.",
-    "note": "Failed review 1: you let the crew go in person, before the letter of separation. Quiet, not angry.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_F2a",
-    "say": "Evening. Review two didn't pass. Too many strikes on the sheet.",
-    "note": "Failed review 2. Replaces F1a. Quiet, a little hurt.",
-    "group": "Visit"
-   },
-   {
-    "file": "Security_Visit_F3a",
-    "say": "Evening. The final review didn't pass. So close. That's the worst kind.",
-    "note": "Failed review 3. Replaces F1a. Quiet, genuinely sorry.",
+    "file": "Security_Visit_F_a",
+    "say": "Evening. I'll keep this short. The review didn't pass.",
+    "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
     "group": "Visit"
    },
    {
