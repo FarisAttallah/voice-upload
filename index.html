@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brightside Voice Desk</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Courier+Prime:wght@400;700&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow column of agency paper (same look as the recording scripts); each line is a script card with its
+   own Record / Upload controls; recording happens in a full-screen booth panel that reads like a teleprompter. */
+:root {
+  --paper: #eef0f2;
+  --sheet: #ffffff;
+  --ink: #12141a;
+  --muted: #545c6b;
+  --rule: #cfd4db;
+  --red: #c41f2a;
+  --red-ink: #ffffff;
+  --mint: #127a49;
+  --mint-soft: #dff3e8;
+  --warn: #9a5b00;
+  --warn-soft: #fbefd9;
+  --track: #dde1e6;
+  --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --script: "Courier Prime", "Courier New", Courier, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #12141a; --sheet: #1b1f29; --ink: #eef0f2; --muted: #a4acba; --rule: #3a4150;
+    --red: #ff6b73; --red-ink: #12141a; --mint: #7cf2b0; --mint-soft: #16352a; --warn: #ffc56b; --warn-soft: #3a2c12;
+    --track: #2a303c; color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 16px/1.55 var(--body);
+  padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 80px; display: grid; gap: 28px; }
+header.page { display: grid; gap: 10px; border-bottom: 3px solid var(--ink); padding-bottom: 18px; }
+.letterhead { font: 700 12px/1 var(--display); letter-spacing: .16em; text-transform: uppercase; color: var(--muted);
+  display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.letterhead a { color: inherit; }
+h1 { font: 700 clamp(30px, 7vw, 44px)/1.05 var(--display); margin: 0; text-wrap: balance; letter-spacing: .01em; }
+h2 { font: 700 13px/1.2 var(--display); letter-spacing: .14em; text-transform: uppercase; margin: 0; color: var(--red); }
+.sub { margin: 0; color: var(--muted); max-width: 62ch; }
+a { color: var(--ink); }
+button, .btn { font: 600 15px/1 var(--body); border: 1.5px solid var(--ink); background: var(--sheet); color: var(--ink);
+  padding: 10px 14px; min-height: 42px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+button:hover, .btn:hover { background: var(--track); }
+button:focus-visible, .btn:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+button.primary { background: var(--ink); color: var(--paper); }
+button.primary:hover { background: var(--muted); }
+button.rec { border-color: var(--red); color: var(--red); }
+button.quiet { border-color: var(--rule); }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; flex: none; }
+.banner { border: 2px solid var(--warn); background: var(--warn-soft); padding: 12px 14px; font-size: 15px; }
+.banner b { font-family: var(--display); letter-spacing: .04em; }
+
+/* Home: one row per voice */
+.voices { display: grid; gap: 10px; }
+.voice { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; align-items: center; background: var(--sheet);
+  border: 1px solid var(--rule); padding: 14px 16px; text-decoration: none; color: var(--ink); }
+.voice:hover { border-color: var(--ink); }
+.voice b { font: 700 19px/1.2 var(--display); }
+.voice span { color: var(--muted); font-size: 14px; grid-column: 1; }
+.voice .count { grid-row: 1 / span 2; grid-column: 2; font: 700 15px/1 var(--display); font-variant-numeric: tabular-nums; text-align: right; color: var(--muted); }
+.voice .count.done { color: var(--mint); }
+
+/* Actor page */
+.progress { display: grid; gap: 8px; }
+.progress .nums { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font: 700 15px/1.2 var(--display); font-variant-numeric: tabular-nums; }
+.progress .nums span { color: var(--muted); font-weight: 500; }
+.bar { height: 10px; background: var(--track); position: relative; }
+.bar i { position: absolute; inset: 0 auto 0 0; background: var(--mint); width: 0; transition: width .3s; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+details.how { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 16px; }
+details.how summary { font: 700 14px/1.3 var(--display); letter-spacing: .06em; cursor: pointer; }
+details.how ul { margin: 10px 0 0; padding-left: 20px; display: grid; gap: 6px; max-width: 65ch; }
+.drop { border: 2px dashed var(--rule); padding: 14px 16px; color: var(--muted); font-size: 14px; }
+.drop.over { border-color: var(--ink); color: var(--ink); background: var(--sheet); }
+.results { display: grid; gap: 4px; font-size: 14px; }
+.results .bad { color: var(--red); }
+.results .good { color: var(--mint); }
+.filters { display: flex; gap: 0; flex-wrap: wrap; }
+.filters button { border-width: 1.5px; margin-right: -1.5px; font-size: 14px; min-height: 36px; padding: 8px 12px; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.group { display: grid; gap: 10px; }
+.group h3 { font: 700 15px/1.3 var(--display); margin: 10px 0 0; display: flex; justify-content: space-between; gap: 12px; }
+.group h3 span { color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+.line { background: var(--sheet); border: 1px solid var(--rule); border-left: 4px solid var(--rule); padding: 14px 16px 12px; display: grid; gap: 8px; min-width: 0; }
+.line.saved { border-left-color: var(--mint); }
+.line .top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; align-items: baseline; }
+.file { font: 700 13px/1.2 var(--display); letter-spacing: .06em; overflow-wrap: anywhere; user-select: all; }
+.chip { font: 500 11px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding: 4px 6px; border: 1px solid var(--rule); white-space: nowrap; }
+.chip.saved { color: var(--mint); border-color: var(--mint); background: var(--mint-soft); }
+.say { font: 400 19px/1.45 var(--script); margin: 0; overflow-wrap: anywhere; }
+.note { font-size: 14px; color: var(--muted); margin: 0; font-style: italic; }
+.line .ctrl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.line .ctrl button, .line .ctrl .btn { min-height: 38px; padding: 8px 12px; font-size: 14px; }
+.msg { font-size: 14px; margin: 0; }
+.msg.bad { color: var(--red); }
+.msg.warn { color: var(--warn); }
+.msg.good { color: var(--mint); }
+.confirm { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 14px; }
+.empty { color: var(--muted); font-style: italic; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; }
+
+/* The booth: full-screen recorder */
+.booth { position: fixed; inset: 0; background: var(--paper); z-index: 10; overflow-y: auto;
+  padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px calc(env(safe-area-inset-bottom, 0px) + 18px); }
+.booth .inner { max-width: 720px; min-height: 100%; margin: 0 auto; display: grid; grid-template-rows: auto 1fr auto; gap: 18px; }
+.booth .head { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-bottom: 2px solid var(--ink); padding-bottom: 10px; }
+.booth .where { font: 700 12px/1.3 var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums; }
+.booth .card { align-self: center; display: grid; gap: 14px; }
+.booth .say { font-size: clamp(24px, 5.5vw, 34px); line-height: 1.35; }
+.booth .note { font-size: 16px; }
+.meter { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.meter .lvl { height: 14px; background: var(--track); position: relative; overflow: hidden; }
+.meter .lvl i { position: absolute; inset: 0 auto 0 0; width: 0; background: var(--mint); }
+.meter .lvl i.hot { background: var(--red); }
+.meter .lvl .mark { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--muted); left: 70%; }
+.meter .time { font: 700 18px/1 var(--display); font-variant-numeric: tabular-nums; min-width: 4.5ch; text-align: right; }
+.booth .controls { display: grid; gap: 12px; justify-items: center; }
+.bigrec { width: 88px; height: 88px; border-radius: 50%; border: 3px solid var(--red); background: var(--sheet); padding: 0; justify-content: center; }
+.bigrec .dot { width: 40px; height: 40px; background: var(--red); transition: border-radius .15s, width .15s, height .15s; }
+.bigrec.on .dot { border-radius: 4px; width: 30px; height: 30px; }
+.bigrec:hover { background: var(--track); }
+.row { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.hint { color: var(--muted); font-size: 14px; text-align: center; max-width: 52ch; margin: 0; }
+kbd { font: 600 12px/1 var(--display); border: 1px solid var(--rule); padding: 2px 5px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<div class="booth" id="booth" hidden role="dialog" aria-modal="true" aria-labelledby="boothSay">
+  <div class="inner">
+    <div class="head">
+      <div class="where" id="boothWhere"></div>
+      <button class="quiet" id="boothClose" type="button">Close</button>
+    </div>
+    <div class="card">
+      <div class="file" id="boothFile"></div>
+      <p class="say" id="boothSay"></p>
+      <p class="note" id="boothNote"></p>
+      <div class="meter" aria-hidden="true"><div class="lvl"><i id="lvl"></i><span class="mark"></span></div><div class="time" id="time">0.0</div></div>
+      <p class="msg" id="boothMsg" role="status"></p>
+    </div>
+    <div class="controls">
+      <button class="bigrec" id="recBtn" type="button" aria-label="Record"><span class="dot"></span></button>
+      <div class="row" id="reviewRow" hidden>
+        <button id="playTake" type="button">Play it back</button>
+        <button id="retry" type="button">Try again</button>
+        <button class="primary" id="keep" type="button">Keep this take</button>
+      </div>
+      <div class="row" id="stepRow">
+        <button class="quiet" id="back" type="button">Back</button>
+        <button class="quiet" id="skip" type="button">Skip</button>
+      </div>
+      <p class="hint" id="boothHint">Tap the red button, wait a moment, say the line, wait a moment, tap it again. On a keyboard: <kbd>Space</kbd> records and stops, <kbd>Enter</kbd> keeps.</p>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="lines.js"></script>
+<script>
+"use strict";
+const ACTORS = window.VOICE_LINES || [];
+const CFG = window.VOICE_CONFIG || {};
+const CONNECTED = !!(CFG.url && CFG.anonKey);
+const BUCKET = CFG.bucket || "voice";
+const BASE = (CFG.url || "").replace(/\/+$/, "");
+const RATE = 48000;
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const secsOf = (bytes) => Math.max(0, (bytes - 44) / (RATE * 2));
+const fmtS = (s) => s.toFixed(1) + " s";
+
+/* ---------- Storage (Supabase Storage REST API; no library) ---------- */
+function headers(extra) {
+  const h = Object.assign({ apikey: CFG.anonKey }, extra || {});
+  if (!String(CFG.anonKey).startsWith("sb_")) h.Authorization = "Bearer " + CFG.anonKey; // older JWT-style anon keys
+  return h;
+}
+const enc = (path) => path.split("/").map(encodeURIComponent).join("/");
+async function failure(r) {
+  let body = {};
+  try { body = await r.json(); } catch (e) { /* not JSON */ }
+  const text = (body.message || body.error || "").toLowerCase();
+  if (r.status === 413 || text.includes("size")) return new Error("That file is too long to save (over 50 MB). Record it in shorter parts.");
+  if (r.status === 401 || r.status === 403 || text.includes("policy") || text.includes("row-level")) return new Error("Saving was refused. The storage isn't set up to accept recordings yet.");
+  if (text.includes("bucket not found")) return new Error("The storage folder is missing. The storage isn't set up yet.");
+  return new Error("Saving failed (" + r.status + "). Try again in a minute.");
+}
+async function call(url, opts) {
+  try { return await fetch(url, opts); }
+  catch (e) { throw new Error("No connection to the storage. Check your internet and try again."); }
+}
+async function listTakes(actorKey) {
+  const r = await call(`${BASE}/storage/v1/object/list/${BUCKET}`, {
+    method: "POST", headers: headers({ "Content-Type": "application/json" }),
+    body: JSON.stringify({ prefix: actorKey + "/", limit: 1000, offset: 0, sortBy: { column: "name", order: "asc" } }),
+  });
+  if (!r.ok) throw await failure(r);
+  const out = new Map();
+  for (const o of await r.json()) {
+    if (!o.id || !o.name.endsWith(".wav")) continue;
+    out.set(o.name.slice(0, -4), { size: (o.metadata && o.metadata.size) || 0, updated: o.updated_at || o.created_at || "" });
+  }
+  return out;
+}
+async function saveTake(actorKey, file, blob) {
+  const r = await call(`${BASE}/storage/v1/object/${BUCKET}/${enc(actorKey + "/" + file + ".wav")}`, {
+    method: "POST", headers: headers({ "Content-Type": "audio/wav", "x-upsert": "true", "cache-control": "max-age=0" }), body: blob,
+  });
+  if (!r.ok) throw await failure(r);
+}
+async function loadTake(actorKey, file, version) {
+  const r = await call(`${BASE}/storage/v1/object/authenticated/${BUCKET}/${enc(actorKey + "/" + file + ".wav")}?v=${encodeURIComponent(version)}`,
+    { headers: headers(), cache: "no-store" });
+  if (!r.ok) throw await failure(r);
+  return r.blob();
+}
+async function deleteTake(actorKey, file) {
+  const r = await call(`${BASE}/storage/v1/object/${BUCKET}`, {
+    method: "DELETE", headers: headers({ "Content-Type": "application/json" }), body: JSON.stringify({ prefixes: [actorKey + "/" + file + ".wav"] }),
+  });
+  if (!r.ok) throw await failure(r);
+}
+
+/* ---------- Audio: anything the browser can play -> WAV mono 48 kHz 16-bit ---------- */
+let ac = null;
+function audioCtx() {
+  if (!ac) ac = new (window.AudioContext || window.webkitAudioContext)();
+  return ac;
+}
+async function toWav(arrayBuffer) {
+  let decoded;
+  try { decoded = await new Promise((res, rej) => audioCtx().decodeAudioData(arrayBuffer, res, rej)); }
+  catch (e) { throw new Error("This file couldn't be read as audio. WAV, MP3, M4A and OGG all work."); }
+  const len = Math.max(1, Math.ceil(decoded.duration * RATE));
+  const off = new OfflineAudioContext(1, len, RATE); // one channel: stereo is mixed down to mono
+  const src = off.createBufferSource();
+  src.buffer = decoded; src.connect(off.destination); src.start();
+  const pcm = (await off.startRendering()).getChannelData(0);
+  let peak = 0;
+  for (let i = 0; i < pcm.length; i++) { const a = Math.abs(pcm[i]); if (a > peak) peak = a; }
+  const buf = new ArrayBuffer(44 + pcm.length * 2), v = new DataView(buf);
+  const str = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  str(0, "RIFF"); v.setUint32(4, 36 + pcm.length * 2, true); str(8, "WAVE"); str(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true); v.setUint32(24, RATE, true);
+  v.setUint32(28, RATE * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); str(36, "data"); v.setUint32(40, pcm.length * 2, true);
+  for (let i = 0; i < pcm.length; i++) { const s = Math.max(-1, Math.min(1, pcm[i])); v.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true); }
+  return { blob: new Blob([buf], { type: "audio/wav" }), seconds: pcm.length / RATE, peak };
+}
+function levelWarning(w) {
+  if (w.seconds < 0.4) return "That take is very short. Was the whole line in it?";
+  if (w.peak >= 0.995) return "Too loud: it clipped. Move back a little or speak a bit softer.";
+  if (w.peak < 0.06) return "Very quiet. Move a little closer to the microphone.";
+  return "";
+}
+
+let player = null;
+function play(url) {
+  if (player) { player.pause(); }
+  player = new Audio(url);
+  player.play().catch(() => {});
+}
+
+/* ---------- State ---------- */
+const state = { actor: null, takes: new Map(), filter: "all", status: "", busy: new Set() };
+const blobCache = new Map(); // file@version -> object URL
+
+/* ---------- Pages ---------- */
+function route() {
+  const key = decodeURIComponent(location.hash.slice(1));
+  const actor = ACTORS.find((a) => a.key === key);
+  if (player) player.pause();
+  if (actor) showActor(actor); else showHome();
+  window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", route);
+
+function banner() {
+  return CONNECTED ? "" : `<div class="banner"><b>Saving isn't switched on yet.</b> You can read the lines and try the microphone, but recordings can't be kept until the storage is set up.</div>`;
+}
+
+function showHome() {
+  state.actor = null;
+  document.title = "Brightside Voice Desk";
+  $("app").innerHTML = `
+    <header class="page">
+      <div class="letterhead"><span>Brightside Staffing · Voice recording</span><span>Agent Of Something</span></div>
+      <h1>Voice desk</h1>
+      <p class="sub">Pick your character. Each line has its own Record and Upload buttons, and you can come back any time: what you save stays saved.</p>
+    </header>
+    ${banner()}
+    <div class="voices">${ACTORS.map((a) => `
+      <a class="voice" href="#${esc(a.key)}"><b>${esc(a.name)}</b><span>${esc(a.who)}</span>
+        <em class="count" id="count-${esc(a.key)}">${a.lines.length} lines</em></a>`).join("")}
+    </div>
+    <footer>Recordings are saved as WAV files and go straight into the game's project.</footer>`;
+  if (!CONNECTED) return;
+  for (const a of ACTORS) {
+    listTakes(a.key).then((t) => {
+      const el = $("count-" + a.key);
+      if (!el) return;
+      const n = a.lines.filter((l) => t.has(l.file)).length;
+      el.textContent = `${n} of ${a.lines.length} saved`;
+      el.classList.toggle("done", n === a.lines.length);
+    }).catch(() => {});
+  }
+}
+
+function showActor(a) {
+  state.actor = a;
+  state.takes = new Map();
+  state.status = CONNECTED ? "Loading what you've saved…" : "";
+  document.title = a.name.replace(/^The /, "") + " · Voice desk";
+  const groups = [];
+  for (const l of a.lines) {
+    let g = groups[groups.length - 1];
+    if (!g || g.name !== l.group) groups.push(g = { name: l.group, lines: [] });
+    g.lines.push(l);
+  }
+  $("app").innerHTML = `
+    <header class="page">
+      <div class="letterhead"><a href="#">← All voices</a><span>Brightside Staffing · Voice recording</span></div>
+      <h1>${esc(a.name)}</h1>
+      <p class="sub">${esc(a.who)}</p>
+    </header>
+    ${banner()}
+    <section class="progress" aria-live="polite">
+      <div class="nums"><b id="pCount"></b><span id="pTime"></span></div>
+      <div class="bar"><i id="pBar"></i></div>
+      <p class="msg" id="pMsg"></p>
+    </section>
+    <div class="actions">
+      <button class="primary" id="session" type="button"><span class="dot" style="color:var(--red)"></span>Record the lines in order</button>
+      <label class="btn" for="bulk">Upload files</label>
+      <input id="bulk" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.aac,.flac,.webm" multiple hidden>
+    </div>
+    <div class="drop" id="drop">Already recorded your lines? Name each file like the line, for example <b class="file">${esc(a.lines[0].file)}.wav</b>, then drop them all here (or press Upload files). Each one finds its own line.</div>
+    <div class="results" id="results" aria-live="polite"></div>
+    <details class="how">
+      <summary>How to get a good recording</summary>
+      <ul>
+        <li>The quietest, softest room you have. A wardrobe full of clothes is perfect.</li>
+        <li>Phone or microphone a hand's width (15 to 20 cm) from your mouth, the same distance every time. Speak slightly across it, not straight into it.</li>
+        <li>Leave about half a second of silence before and after the line.</li>
+        <li>Try a line two or three times and keep the best. Keep the same volume and energy for every line.</li>
+        <li>Headphones help you hear the playback clearly. Turn off music and fans.</li>
+      </ul>
+    </details>
+    <div class="filters" role="group" aria-label="Show">
+      <button type="button" data-f="all">All</button><button type="button" data-f="todo">Still to do</button><button type="button" data-f="saved">Saved</button>
+    </div>
+    <div id="lines">${groups.map((g) => `
+      <section class="group" data-group="${esc(g.name)}">
+        <h3>${esc(g.name)} <span data-gcount></span></h3>
+        ${g.lines.map((l) => `<article class="line" id="L-${esc(l.file)}" data-file="${esc(l.file)}"></article>`).join("")}
+      </section>`).join("")}
+      <p class="empty" id="noneLeft" hidden>Nothing here.</p>
+    </div>
+    <footer>Lines and directions come from your recording script. Each saved take replaces the one before it.</footer>`;
+  for (const l of a.lines) renderLine(l);
+  $("session").onclick = () => openBooth(a.lines.filter((l) => !state.takes.has(l.file)), "session");
+  $("bulk").onchange = (e) => { bulkUpload([...e.target.files]); e.target.value = ""; };
+  document.querySelectorAll(".filters button").forEach((b) => b.onclick = () => { state.filter = b.dataset.f; applyFilter(); });
+  const drop = $("drop");
+  ["dragenter", "dragover"].forEach((t) => drop.addEventListener(t, (e) => { e.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave", "drop"].forEach((t) => drop.addEventListener(t, () => drop.classList.remove("over")));
+  drop.addEventListener("drop", (e) => { e.preventDefault(); bulkUpload([...e.dataTransfer.files]); });
+  applyFilter();
+  refreshTakes();
+}
+
+async function refreshTakes() {
+  const a = state.actor;
+  if (!CONNECTED || !a) { updateProgress(); return; }
+  try {
+    const t = await listTakes(a.key);
+    if (state.actor !== a) return;
+    state.takes = t;
+    state.status = "";
+  } catch (e) { state.status = e.message; }
+  for (const l of a.lines) renderLine(l);
+  applyFilter();
+}
+
+function updateProgress() {
+  const a = state.actor;
+  const saved = a.lines.filter((l) => state.takes.has(l.file));
+  const secs = saved.reduce((s, l) => s + secsOf(state.takes.get(l.file).size), 0);
+  $("pCount").textContent = `${saved.length} of ${a.lines.length} lines saved`;
+  $("pTime").textContent = saved.length ? `${Math.floor(secs / 60)} min ${Math.round(secs % 60)} s recorded` : "";
+  $("pBar").style.width = (saved.length / a.lines.length * 100) + "%";
+  const m = $("pMsg");
+  m.textContent = state.status || (saved.length === a.lines.length ? "Every line is saved. Thank you!" : "");
+  m.className = "msg " + (state.status && state.status !== "Loading what you've saved…" ? "bad" : saved.length === a.lines.length ? "good" : "");
+  $("session").lastChild.textContent = saved.length ? "Record the rest in order" : "Record the lines in order";
+  $("session").disabled = saved.length === a.lines.length;
+}
+
+function applyFilter() {
+  const f = state.filter;
+  document.querySelectorAll(".filters button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.f === f)));
+  let shown = 0;
+  document.querySelectorAll("#lines .group").forEach((g) => {
+    let n = 0, s = 0;
+    g.querySelectorAll(".line").forEach((el) => {
+      const has = state.takes.has(el.dataset.file);
+      const vis = f === "all" || (f === "saved") === has;
+      el.hidden = !vis; n++; if (has) s++; if (vis) shown++;
+    });
+    g.hidden = ![...g.querySelectorAll(".line")].some((el) => !el.hidden);
+    g.querySelector("[data-gcount]").textContent = `${s} of ${n}`;
+  });
+  $("noneLeft").hidden = shown > 0;
+  updateProgress();
+}
+
+function renderLine(l, msg, kind) {
+  const el = $("L-" + l.file);
+  if (!el) return;
+  const t = state.takes.get(l.file);
+  const busy = state.busy.has(l.file);
+  el.className = "line" + (t ? " saved" : "");
+  el.innerHTML = `
+    <div class="top"><span class="file">${esc(l.file)}</span>
+      <span class="chip${t ? " saved" : ""}">${t ? "Saved · " + fmtS(secsOf(t.size)) : "To do"}</span></div>
+    <p class="say">“${esc(l.say)}”</p>
+    ${l.note ? `<p class="note">${esc(l.note)}</p>` : ""}
+    <div class="ctrl">
+      ${t ? `<button type="button" data-a="play">Play</button>` : ""}
+      <button type="button" class="rec" data-a="rec" ${busy ? "disabled" : ""}><span class="dot"></span>${t ? "Record again" : "Record"}</button>
+      <label class="btn" ${busy ? 'aria-disabled="true"' : ""}>${t ? "Replace with a file" : "Upload a file"}
+        <input type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.aac,.flac,.webm" hidden ${busy ? "disabled" : ""}></label>
+      ${t ? `<button type="button" class="quiet" data-a="del" ${busy ? "disabled" : ""}>Delete</button>` : ""}
+    </div>
+    ${msg ? `<p class="msg ${kind || ""}" role="status">${esc(msg)}</p>` : ""}`;
+  el.querySelector("[data-a=rec]").onclick = () => openBooth([l], "single");
+  el.querySelector("input[type=file]").onchange = (e) => { const f = e.target.files[0]; if (f) uploadOne(l, f); };
+  const p = el.querySelector("[data-a=play]");
+  if (p) p.onclick = () => playSaved(l, p);
+  const d = el.querySelector("[data-a=del]");
+  if (d) d.onclick = () => {
+    const c = document.createElement("div");
+    c.className = "confirm";
+    c.innerHTML = `<span>Delete this take for good?</span><button type="button" class="rec">Delete</button><button type="button" class="quiet">Keep it</button>`;
+    d.parentElement.replaceWith(c);
+    c.children[1].focus();
+    c.children[1].onclick = () => removeOne(l);
+    c.children[2].onclick = () => renderLine(l);
+  };
+}
+
+async function playSaved(l, btn) {
+  const t = state.takes.get(l.file);
+  const key = l.file + "@" + t.updated;
+  try {
+    if (!blobCache.has(key)) {
+      btn.textContent = "Loading…";
+      blobCache.set(key, URL.createObjectURL(await loadTake(state.actor.key, l.file, t.updated)));
+      btn.textContent = "Play";
+    }
+    play(blobCache.get(key));
+  } catch (e) { renderLine(l, e.message, "bad"); }
+}
+
+async function storeWav(l, wav) {
+  if (!CONNECTED) throw new Error("Saving isn't switched on yet, so this take can't be kept.");
+  await saveTake(state.actor.key, l.file, wav.blob);
+  state.takes.set(l.file, { size: wav.blob.size, updated: new Date().toISOString() });
+}
+
+async function uploadOne(l, file) {
+  state.busy.add(l.file);
+  renderLine(l, "Saving…");
+  try {
+    const wav = await toWav(await file.arrayBuffer());
+    await storeWav(l, wav);
+    state.busy.delete(l.file);
+    const w = levelWarning(wav);
+    renderLine(l, w || "Saved.", w ? "warn" : "good");
+  } catch (e) { state.busy.delete(l.file); renderLine(l, e.message, "bad"); }
+  applyFilter();
+}
+
+async function removeOne(l) {
+  state.busy.add(l.file);
+  renderLine(l, "Deleting…");
+  try {
+    await deleteTake(state.actor.key, l.file);
+    state.takes.delete(l.file);
+    state.busy.delete(l.file);
+    renderLine(l, "Deleted.");
+  } catch (e) { state.busy.delete(l.file); renderLine(l, e.message, "bad"); }
+  applyFilter();
+}
+
+const norm = (s) => s.toLowerCase().replace(/\.[a-z0-9]+$/, "").replace(/\s*\(\d+\)$/, "").replace(/[\s-]+/g, "_");
+async function bulkUpload(files) {
+  const a = state.actor, out = $("results");
+  if (!files.length) return;
+  const byName = new Map(a.lines.map((l) => [l.file.toLowerCase(), l]));
+  const rows = [];
+  const show = (extra) => { out.innerHTML = rows.join("") + (extra || ""); };
+  for (let i = 0; i < files.length; i++) {
+    const f = files[i], l = byName.get(norm(f.name));
+    if (!l) { rows.push(`<div class="bad">${esc(f.name)}: no line has this name. Rename it to the line's name (for example ${esc(a.lines[0].file)}.wav) and try again.</div>`); show(); continue; }
+    show(`<div>Saving ${i + 1} of ${files.length}: ${esc(f.name)}…</div>`);
+    try {
+      const had = state.takes.has(l.file);
+      const wav = await toWav(await f.arrayBuffer());
+      await storeWav(l, wav);
+      const w = levelWarning(wav);
+      rows.push(`<div class="${w ? "" : "good"}">${esc(l.file)}: ${had ? "replaced" : "saved"} (${fmtS(wav.seconds)})${w ? ". " + esc(w) : ""}</div>`);
+      renderLine(l);
+    } catch (e) { rows.push(`<div class="bad">${esc(f.name)}: ${esc(e.message)}</div>`); }
+    show();
+  }
+  applyFilter();
+}
+
+/* ---------- The booth (recording) ---------- */
+const booth = { list: [], i: 0, mode: "single", stream: null, rec: null, chunks: [], take: null, takeUrl: "", t0: 0, raf: 0, analyser: null, max: 0, wake: null, state: "idle" };
+
+function pickMime() {
+  if (!window.MediaRecorder) return null;
+  for (const m of ["audio/webm;codecs=opus", "audio/webm", "audio/mp4", "audio/ogg;codecs=opus"]) if (MediaRecorder.isTypeSupported(m)) return m;
+  return "";
+}
+
+async function openBooth(list, mode) {
+  if (!list.length) return;
+  Object.assign(booth, { list, i: 0, mode, take: null, state: "idle" });
+  $("booth").hidden = false;
+  document.body.style.overflow = "hidden";
+  showStep();
+  setMsg("");
+  try { booth.wake = await navigator.wakeLock.request("screen"); } catch (e) { booth.wake = null; }
+  if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || pickMime() === null) {
+    setMsg("This browser can't record here. Use Upload a file instead, or open the page in Chrome, Safari or Firefox (the address must start with https).", "bad");
+    $("recBtn").disabled = true;
+    return;
+  }
+  try {
+    booth.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false, channelCount: 1 } });
+  } catch (e) {
+    const why = e && e.name === "NotFoundError" ? "No microphone was found." :
+      "The microphone is blocked. Allow the microphone for this site (the lock or settings icon next to the address), then close this and try again.";
+    setMsg(why, "bad");
+    $("recBtn").disabled = true;
+    return;
+  }
+  $("recBtn").disabled = false;
+  const ctx = audioCtx();
+  const src = ctx.createMediaStreamSource(booth.stream);
+  booth.analyser = ctx.createAnalyser();
+  booth.analyser.fftSize = 1024;
+  src.connect(booth.analyser);
+  meterLoop();
+}
+
+function closeBooth() {
+  if (booth.state === "recording") stopRec(true);
+  if (booth.state === "saving") return;
+  cancelAnimationFrame(booth.raf);
+  if (booth.stream) booth.stream.getTracks().forEach((t) => t.stop());
+  booth.stream = null;
+  if (booth.wake) booth.wake.release().catch(() => {});
+  if (player) player.pause();
+  $("booth").hidden = true;
+  document.body.style.overflow = "";
+  const l = booth.list[booth.i];
+  if (l) { const el = $("L-" + l.file); if (el) el.scrollIntoView({ block: "center" }); }
+}
+
+function showStep() {
+  const l = booth.list[booth.i];
+  booth.take = null; booth.state = "idle";
+  if (!l) {
+    $("boothWhere").textContent = "Done";
+    $("boothFile").textContent = "";
+    $("boothSay").textContent = "That's every line on the list. Thank you!";
+    $("boothNote").textContent = "Close this to see your lines. Anything you skipped is still marked To do.";
+    $("recBtn").hidden = true; $("reviewRow").hidden = true; $("stepRow").hidden = true; $("boothHint").hidden = true;
+    return;
+  }
+  $("boothWhere").textContent = booth.mode === "session" ? `${state.actor.name} · line ${booth.i + 1} of ${booth.list.length}` : `${state.actor.name} · ${l.group}`;
+  $("boothFile").textContent = l.file;
+  $("boothSay").textContent = "“" + l.say + "”";
+  $("boothNote").textContent = l.note || "";
+  $("time").textContent = "0.0";
+  $("recBtn").hidden = false; $("recBtn").classList.remove("on"); $("recBtn").setAttribute("aria-label", "Record");
+  $("reviewRow").hidden = true; $("boothHint").hidden = false;
+  $("stepRow").hidden = booth.mode !== "session";
+  $("back").disabled = booth.i === 0;
+  setMsg(state.takes.has(l.file) ? "This line already has a saved take. Keeping a new one replaces it." : "");
+}
+
+function setMsg(text, kind) { const m = $("boothMsg"); m.textContent = text; m.className = "msg " + (kind || ""); }
+
+function meterLoop() {
+  const a = booth.analyser, data = new Float32Array(a.fftSize);
+  const tick = () => {
+    a.getFloatTimeDomainData(data);
+    let p = 0;
+    for (let i = 0; i < data.length; i++) { const v = Math.abs(data[i]); if (v > p) p = v; }
+    if (booth.state === "recording") {
+      booth.max = Math.max(booth.max, p);
+      $("time").textContent = ((performance.now() - booth.t0) / 1000).toFixed(1);
+    }
+    const db = p > 0 ? 20 * Math.log10(p) : -60; // -60 dB .. 0 dB across the bar
+    const w = Math.max(0, Math.min(1, (db + 60) / 60));
+    const i = $("lvl");
+    i.style.width = (w * 100) + "%";
+    i.classList.toggle("hot", p >= 0.98);
+    booth.raf = requestAnimationFrame(tick);
+  };
+  booth.raf = requestAnimationFrame(tick);
+}
+
+function startRec() {
+  if (!booth.stream) return;
+  if (player) player.pause();
+  audioCtx().resume();
+  const mime = pickMime();
+  booth.rec = mime ? new MediaRecorder(booth.stream, { mimeType: mime }) : new MediaRecorder(booth.stream);
+  booth.chunks = []; booth.max = 0;
+  booth.rec.ondataavailable = (e) => { if (e.data && e.data.size) booth.chunks.push(e.data); };
+  booth.rec.start();
+  booth.t0 = performance.now(); booth.state = "recording";
+  $("recBtn").classList.add("on"); $("recBtn").setAttribute("aria-label", "Stop");
+  $("reviewRow").hidden = true; $("stepRow").hidden = true;
+  setMsg("Recording…");
+}
+
+function stopRec(discard) {
+  const r = booth.rec;
+  booth.state = discard ? "idle" : "processing";
+  $("recBtn").classList.remove("on"); $("recBtn").setAttribute("aria-label", "Record");
+  r.onstop = async () => {
+    if (discard) return;
+    setMsg("Getting the take ready…");
+    try {
+      const raw = new Blob(booth.chunks, { type: r.mimeType || "audio/webm" });
+      booth.take = await toWav(await raw.arrayBuffer());
+      if (booth.takeUrl) URL.revokeObjectURL(booth.takeUrl);
+      booth.takeUrl = URL.createObjectURL(booth.take.blob);
+      booth.state = "review";
+      $("reviewRow").hidden = false; $("recBtn").hidden = true;
+      $("stepRow").hidden = booth.mode !== "session";
+      const w = levelWarning(booth.take);
+      setMsg(w || `${fmtS(booth.take.seconds)}. Play it back, then keep it or try again.`, w ? "warn" : "");
+      $("keep").disabled = !CONNECTED;
+      if (!CONNECTED) setMsg((w ? w + " " : "") + "Saving isn't switched on yet, so this take can't be kept.", "warn");
+      $("playTake").focus();
+    } catch (e) { booth.state = "idle"; setMsg(e.message, "bad"); }
+  };
+  r.stop();
+}
+
+async function keepTake() {
+  const l = booth.list[booth.i];
+  if (booth.state !== "review" || !booth.take) return;
+  booth.state = "saving";
+  $("keep").disabled = true; $("retry").disabled = true;
+  setMsg("Saving…");
+  try {
+    await storeWav(l, booth.take);
+    renderLine(l, "Saved.", "good");
+    applyFilter();
+    $("keep").disabled = false; $("retry").disabled = false;
+    if (booth.mode === "session") { booth.i++; showStep(); setMsg("Saved. Next line.", "good"); }
+    else { booth.state = "idle"; closeBooth(); }
+  } catch (e) {
+    booth.state = "review";
+    $("keep").disabled = false; $("retry").disabled = false;
+    setMsg(e.message, "bad");
+  }
+}
+
+$("recBtn").onclick = () => {
+  if (booth.state === "idle") startRec();
+  else if (booth.state === "recording") stopRec(false);
+};
+$("retry").onclick = () => { showStep(); };
+$("playTake").onclick = () => { if (booth.takeUrl) play(booth.takeUrl); };
+$("keep").onclick = keepTake;
+$("skip").onclick = () => { if (booth.state === "recording") stopRec(true); booth.i++; showStep(); };
+$("back").onclick = () => { if (booth.state === "recording") stopRec(true); if (booth.i > 0) { booth.i--; showStep(); } };
+$("boothClose").onclick = closeBooth;
+document.addEventListener("keydown", (e) => {
+  if ($("booth").hidden || e.target.closest("input, textarea")) return;
+  if (e.key === "Escape") { closeBooth(); return; }
+  if (e.code === "Space" && !e.repeat && (booth.state === "idle" || booth.state === "recording") && !$("recBtn").hidden && !$("recBtn").disabled) {
+    e.preventDefault(); $("recBtn").click();
+  } else if (e.key === "Enter" && booth.state === "review" && !$("keep").disabled) {
+    e.preventDefault(); keepTake();
+  }
+});
+window.addEventListener("beforeunload", (e) => {
+  if (booth.state === "review" || booth.state === "saving" || booth.state === "recording" || state.busy.size) { e.preventDefault(); e.returnValue = ""; }
+});
+
+route();
+</script>
+</body>
+</html>

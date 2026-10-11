@@ -1,0 +1,3011 @@
+// Made by docs/voice/upload_site.py from the recording scripts. Do not edit by hand.
+window.VOICE_LINES = [
+ {
+  "key": "boss",
+  "name": "The Big Boss",
+  "who": "The head of Brightside Staffing, face to face in his office. The intro scene.",
+  "folder": "Boss",
+  "lines": [
+   {
+    "file": "Boss_01",
+    "say": "Ah. Come in, come in. Close the door, please.",
+    "note": "The door opens",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_02",
+    "say": "Sit, sit. You're the new temp. Congratulations: you've been selected.",
+    "note": "Needed since 2026-10-11: the camera sits down on it (docs/BOSS_INTRO.md)",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_03",
+    "say": "Welcome to Brightside Staffing. We place people wherever people are needed.",
+    "note": "",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_04",
+    "say": "That's all we do. It keeps us very busy.",
+    "note": "Optional",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_05",
+    "say": "Your first placement is a diner. Customers come in, customers are served.",
+    "note": "Says \"a diner\": a recording cannot know the placement's name",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_06",
+    "say": "You and your crew take the orders, cook, plate and serve.",
+    "note": "",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_07",
+    "say": "Every few days, we review what you earned against a target.",
+    "note": "No numbers, so the line survives retuning",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_08",
+    "say": "Meet the target, and you stay. Miss it, and your file is updated.",
+    "note": "",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_09",
+    "say": "Don't mind the cameras. They're for your development.",
+    "note": "Optional",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_10",
+    "say": "Crews who finish their placements may be considered for a permanent position.",
+    "note": "The carrot",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_11",
+    "say": "Like mine.",
+    "note": "Optional. Pats his chair: the permanent position is his chair (docs/STORY.md)",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_12",
+    "say": "Now. Your contract. Sign at the bottom.",
+    "note": "Skipping the scene jumps here",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_13",
+    "say": "Wonderful. Welcome to the family.",
+    "note": "After the HIRED stamp",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_14",
+    "say": "Your shift starts now. Don't keep the customers waiting.",
+    "note": "Then the diner loads",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_Wait_01",
+    "say": "Take your time. We're timing it.",
+    "note": "No signature after a while",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_Wait_02",
+    "say": "The pen works. I checked.",
+    "note": "Still no signature",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_NotNow",
+    "say": "Of course. The offer stands. It always stands.",
+    "note": "The player picks \"Not now\"",
+    "group": "The intro scene"
+   },
+   {
+    "file": "Boss_Late",
+    "say": "Your crew has already clocked in. Let's be quick.",
+    "note": "New 2026-10-11, draft. A friend joining a shift that has started hears this instead of Boss_14 (every player sees the scene once, docs/BOSS_INTRO.md)",
+    "group": "The intro scene"
+   }
+  ]
+ },
+ {
+  "key": "diner-manager",
+  "name": "The Diner Manager",
+  "who": "The diner's manager, over the ceiling speaker, and in person on review evenings.",
+  "folder": "DinerManager",
+  "lines": [
+   {
+    "file": "Diner_Hello",
+    "say": "Hi, team! I'm your manager. You won't see me. I'll see you.",
+    "note": "Day 1, before the first greeting. Bright, proud of the joke.",
+    "group": "Hello"
+   },
+   {
+    "file": "Diner_Practice_Start",
+    "say": "This one's practice. Nothing counts. Well. Nothing counts yet.",
+    "note": "Day 0, the practice shift starts. A small pause before \"Well.\"",
+    "group": "Practice"
+   },
+   {
+    "file": "Diner_Practice_End",
+    "say": "Practice over. That was the easy version. Doors open soon.",
+    "note": "Day 0, the practice shift is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "Diner_Start_C1",
+    "say": "Good morning, team. Doors open. Smiling is mandatory and, fortunately, free.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_C2",
+    "say": "Your enthusiasm has been noted, and filed.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_C3",
+    "say": "Welcome back. The diner is glad to have you. So are we.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_K1",
+    "say": "Be on time. Thank you.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_K2",
+    "say": "Doors open. Please work quickly and quietly. Thank you.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_K3",
+    "say": "Good morning. Same targets as yesterday. Higher, actually.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_S1",
+    "say": "We can see you. We mean that kindly.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_S2",
+    "say": "Doors open. Please keep your eyes on the grill.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_Start_S3",
+    "say": "Good morning. Please clock in with a smile. Any smile.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_End_C1",
+    "say": "That's time, team. Thank you for a lovely day.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_C2",
+    "say": "Doors closed. Great energy. Please save some for tomorrow.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_C3",
+    "say": "And that is the day. Well done, everyone. Truly.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_K1",
+    "say": "Time. Please put down what you are holding.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_K2",
+    "say": "Doors closed. Your hours have been recorded.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_K3",
+    "say": "That is the day. Please do not go anywhere we cannot see.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_S1",
+    "say": "Time. Please stay where you are while we count you.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_S2",
+    "say": "Doors closed. Please leave quietly. Thank you for your quiet.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Diner_End_S3",
+    "say": "That is the day. Same time tomorrow. Same as always.",
+    "note": "Shortened for voice.",
+    "group": "End"
+   },
+   {
+    "file": "Diner_Remark_C1",
+    "say": "Reminder: the cameras are for your protection. Mostly ours.",
+    "note": "Cheerful.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_C2",
+    "say": "We're a family here. A family with targets.",
+    "note": "Cheerful.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_C3",
+    "say": "Smile! It's in your contract. Page fourteen.",
+    "note": "Cheerful.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_K1",
+    "say": "Reminder: this is your station. That is their station.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_K2",
+    "say": "Please do not hum. It is not on the list.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_K3",
+    "say": "Reminder: breaks are available. Please do not take them.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_S1",
+    "say": "You are not the first crew in this diner.",
+    "note": "Strained. Almost to themselves.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_S2",
+    "say": "Please keep working. We will tell you when to stop.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_Remark_S3",
+    "say": "Thank you for your hard work. It has been noted. All of it.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Diner_NewContract_01",
+    "say": "A new contract is live. The quota is on your screen.",
+    "note": "Screen shows the contract number, quota and deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "Diner_NewContract_02",
+    "say": "Your new contract is live. Previous results are archived.",
+    "note": "Shortened for voice.",
+    "group": "New contract"
+   },
+   {
+    "file": "Diner_NewContract_03",
+    "say": "A fresh contract. Please do not make us read the old one again.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Diner_NewReview_01",
+    "say": "A new review begins. The target is on your screen.",
+    "note": "Screen shows the review number, target and deadline.",
+    "group": "New review"
+   },
+   {
+    "file": "Diner_NewReview_02",
+    "say": "A new review period. Past success is not a guarantee of anything.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Diner_NewReview_03",
+    "say": "New review. The bar has been raised. You may not see the bar.",
+    "note": "Shortened for voice.",
+    "group": "New review"
+   },
+   {
+    "file": "Diner_ReviewDay_01",
+    "say": "Review day. Your numbers will be reviewed tonight. So will you.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Diner_ReviewDay_02",
+    "say": "Tonight is your review. The numbers are on your screen.",
+    "note": "Screen shows the target and what is on file.",
+    "group": "Review day"
+   },
+   {
+    "file": "Diner_ReviewDay_03",
+    "say": "Review day! Smile for the cameras. The cameras are always on.",
+    "note": "Shortened for voice.",
+    "group": "Review day"
+   },
+   {
+    "file": "Diner_LastDay_01",
+    "say": "Final day of the contract. Your future is exciting and undecided.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Diner_LastDay_02",
+    "say": "Today is the deadline. Please make it memorable for the right reasons.",
+    "note": "Shortened for voice.",
+    "group": "Last day"
+   },
+   {
+    "file": "Diner_LastDay_03",
+    "say": "Last day, team! We are all so relaxed. Look how relaxed we are.",
+    "note": "Clearly not relaxed.",
+    "group": "Last day"
+   },
+   {
+    "file": "Diner_LastDay_04",
+    "say": "The quota is due tonight. Do the math. We already did.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Diner_Behind_01",
+    "say": "Team, we are short of target. I'm not worried. I'm monitoring.",
+    "note": "A little worried.",
+    "group": "Behind"
+   },
+   {
+    "file": "Diner_Behind_02",
+    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Diner_Behind_03",
+    "say": "Per my last memo, the quota does not care how tired you are.",
+    "note": "Shortened for voice.",
+    "group": "Behind"
+   },
+   {
+    "file": "Diner_Behind_04",
+    "say": "We have noticed a gap between expectations and eggs. Please close it.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Diner_Behind_05",
+    "say": "Statistically, one of you is the problem. Let's not find out who.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Diner_NewThing_01",
+    "say": "New procedure, effective today. Details are in your memo.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Diner_NewThing_02",
+    "say": "Effective immediately: a new procedure. Questions may be submitted in writing.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Diner_NewThing_03",
+    "say": "A new memo. Please read it twice. Once is not policy.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Diner_EventToday_01",
+    "say": "Today's schedule includes a special event.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Diner_EventToday_02",
+    "say": "Calendar update. Attendance is mandatory.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Diner_EventToday_03",
+    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Diner_Inspector_In_01",
+    "say": "An agency inspector has entered the building. Act natural.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_In_02",
+    "say": "Inspector on the floor. Smile with your whole face.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_In_03",
+    "say": "Our inspector is here. They are not here to help.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Good_01",
+    "say": "The inspector was served promptly. Your file has been updated, favourably.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Good_02",
+    "say": "Inspection passed. The inspector almost smiled.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Good_03",
+    "say": "Prompt service noted. Do not let it go to your head.",
+    "note": "Shortened for voice.",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Bad_01",
+    "say": "The inspector waited. The inspector writes everything down.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Bad_02",
+    "say": "Inspection note: slow. That word will follow you.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_Inspector_Bad_03",
+    "say": "The inspector has left a comment. It is not a compliment.",
+    "note": "",
+    "group": "Inspector"
+   },
+   {
+    "file": "Diner_BadReview_01",
+    "say": "A one-star review. The ads promised them breakfast.",
+    "note": "Shortened for voice. Screen also shows the fine.",
+    "group": "Bad review"
+   },
+   {
+    "file": "Diner_BadReview_02",
+    "say": "New review: never got my food. The internet does not forget.",
+    "note": "Shortened for voice. Screen also shows the fine.",
+    "group": "Bad review"
+   },
+   {
+    "file": "Diner_BadReview_03",
+    "say": "Another unhappy customer, another review. Marketing is concerned.",
+    "note": "Shortened for voice. Screen also shows the fine.",
+    "group": "Bad review"
+   },
+   {
+    "file": "Diner_FreeMeal_01",
+    "say": "Late food is free food. The house is not pleased.",
+    "note": "Shortened for voice.",
+    "group": "Free meal"
+   },
+   {
+    "file": "Diner_FreeMeal_02",
+    "say": "Fast or free. That one was free.",
+    "note": "",
+    "group": "Free meal"
+   },
+   {
+    "file": "Diner_FreeMeal_03",
+    "say": "A customer ate for nothing. The promise was kept. The money was not.",
+    "note": "",
+    "group": "Free meal"
+   },
+   {
+    "file": "Diner_GoalStart_01",
+    "say": "Your goal is set. There is no deadline. There is, however, a clock.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Diner_GoalStart_02",
+    "say": "Welcome back. You know the job. Take as long as you dare.",
+    "note": "Shortened for voice.",
+    "group": "Goal start"
+   },
+   {
+    "file": "Diner_GoalStart_03",
+    "say": "Goal run open. Management will be counting the days. Out loud.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Diner_GoalReached_01",
+    "say": "Goal reached. Finish the day. Nobody leaves early.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Diner_GoalReached_02",
+    "say": "Target met. Please keep serving until closing, for appearances.",
+    "note": "Shortened for voice.",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Diner_GoalReached_03",
+    "say": "Target reached. The paperwork is ready. Your shift is not over.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Diner_Visit_1a",
+    "say": "Evening, team. Quick one. Review one is in.",
+    "note": "Visit 1 (after day 2). Cheerful, in person for the first time. A nod.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_1b",
+    "say": "Passed. Nice. Head office likes a clean start.",
+    "note": "Visit 1. Reading from a card.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_1c",
+    "say": "Keep it exactly like this. Exactly. Night.",
+    "note": "Visit 1. Leaving. The second \"Exactly\" a touch too firm.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_2a",
+    "say": "Review two. Good numbers. A few comments on pace.",
+    "note": "Visit 2 (after day 4). Clipped, tired.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_2b",
+    "say": "Nothing to action. Just keep moving.",
+    "note": "Visit 2. Flat.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_2c",
+    "say": "Right. I'll clock off then.",
+    "note": "Visit 2. Said on the way to the door; he then punches the time clock like a customer. Ordinary, as if nothing is odd.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_3a",
+    "say": "Review three. We're very pleased. Very.",
+    "note": "Visit 3 (after day 6). Strained. He is sitting in a booth, where a customer would sit.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_3b",
+    "say": "Some of you have been noticed upstairs. That's good.",
+    "note": "Visit 3. A small pause before \"That's good.\"",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_3c",
+    "say": "Two more days. Then we talk about the permanent position.",
+    "note": "Visit 3. The carrot. Almost kind. He then goes out holding the door bell still.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_4a",
+    "say": "Final review. Passed. Well done, team.",
+    "note": "Visit 4 (after day 8). Strained, slow. He came in from the back.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_4b",
+    "say": "Your reassignment letter is on its way. Don't unpack.",
+    "note": "Visit 4.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_4c",
+    "say": "Someone will be in to reset the room. Not your concern.",
+    "note": "Visit 4. Leaving. Flat, final.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_1a_Narrow",
+    "say": "Evening, team. Review one is in. You passed. Just.",
+    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Cheerful, with a wince on \"Just.\"",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_1b_Narrow",
+    "say": "Head office noticed the 'just'. Let's give them less to notice.",
+    "note": "Visit 1, narrow pass. Replaces 1b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_2a_Narrow",
+    "say": "Review two. You scraped it. Scraping counts, apparently.",
+    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_2b_Narrow",
+    "say": "There were comments. I've been asked not to share them.",
+    "note": "Visit 2, narrow pass. Replaces 2b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_3a_Narrow",
+    "say": "Review three. Passed. Upstairs used the word 'adequate'.",
+    "note": "Visit 3, narrow pass. Replaces 3a. Strained, sitting in the booth.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_3b_Narrow",
+    "say": "The permanent position is still possible. Possible is a strong word.",
+    "note": "Visit 3, narrow pass. Replaces 3b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_4a_Narrow",
+    "say": "Final review. Passed, narrowly. The letter says passed, so: passed.",
+    "note": "Visit 4, narrow pass. Replaces 4a. Strained, slow.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_4b_Narrow",
+    "say": "Your reassignment will proceed. Please don't ask where to.",
+    "note": "Visit 4, narrow pass. Replaces 4b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_F_a",
+    "say": "Evening. I'll keep this short. The review didn't pass.",
+    "note": "The failed review (any of the four): he lets the crew go in person, before the letter of separation. Quiet, not angry. Sorry for himself more than for them.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_F_b",
+    "say": "Your contract ends tonight. Please leave the ties. They're counted.",
+    "note": "Failed review.",
+    "group": "Visit"
+   },
+   {
+    "file": "Diner_Visit_F_c",
+    "say": "Someone will be in to reset the room. They always are.",
+    "note": "Failed review. Leaving. The same line as visit 4c with a different ending; said the same flat way.",
+    "group": "Visit"
+   }
+  ]
+ },
+ {
+  "key": "office-manager",
+  "name": "The Office Manager",
+  "who": "TaMorgan Group's manager, on the wall screen with the camera off.",
+  "folder": "OfficeManager",
+  "lines": [
+   {
+    "file": "Office_Hello",
+    "say": "Hi, team! Joining from another call. My camera's off. Yours aren't.",
+    "note": "Day 1, before the first greeting. Pleased with the joke.",
+    "group": "Hello"
+   },
+   {
+    "file": "Office_Practice_Start",
+    "say": "Quick practice project first. It doesn't count. Think of it as onboarding.",
+    "note": "Day 0, the practice job starts.",
+    "group": "Practice"
+   },
+   {
+    "file": "Office_Practice_End",
+    "say": "Great onboarding. The real client is on their way up.",
+    "note": "Day 0, the practice job is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "Office_Start_C1",
+    "say": "Good morning, team! Let's hit the ground running. Then keep running.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_C2",
+    "say": "Your inbox has been informed. It is very excited.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_C3",
+    "say": "Welcome back! The coffee is free. Your time is not.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_K1",
+    "say": "Morning. One client, one deadline. Let's action it.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_K2",
+    "say": "Good morning. Please keep your status set to available.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_K3",
+    "say": "Morning. I'll keep this brief. Unlike your day.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_S1",
+    "say": "Good morning. Everyone is visible today. Please stay visible.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_S2",
+    "say": "Please keep your cameras on today. We always do.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Start_S3",
+    "say": "Morning, team. Let's keep this short. It's being recorded.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Office_Client_In_01",
+    "say": "Our client has arrived. Please take the brief in the meeting room.",
+    "note": "The client sits down at the table a few seconds after clock-in.",
+    "group": "Client"
+   },
+   {
+    "file": "Office_Client_In_02",
+    "say": "Client in the building. Let's make a great first impression.",
+    "note": "",
+    "group": "Client"
+   },
+   {
+    "file": "Office_Client_In_03",
+    "say": "The client is here. Please only promise what you can deliver.",
+    "note": "A gentle warning, still smiling.",
+    "group": "Client"
+   },
+   {
+    "file": "Office_Brief_Email",
+    "say": "Nobody took the brief, so the client emailed it. Noted.",
+    "note": "Nobody went to the table in time. A small sigh before \"Noted\".",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Change_01",
+    "say": "The client has changed their mind. Please check the board.",
+    "note": "Midway through the day the client changes one part.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_02",
+    "say": "A small update from the client. It's not small. Please redo it.",
+    "note": "",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_03",
+    "say": "Client feedback is in. It's mostly the word \"actually\".",
+    "note": "Dry. Lean on \"actually\".",
+    "group": "Change"
+   },
+   {
+    "file": "Office_End_C1",
+    "say": "That's time, team! Let's go wow the client.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_C2",
+    "say": "Pencils down! Pitch time. Big smiles, bigger numbers.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_C3",
+    "say": "And that's the deadline. Let's show the client what we built.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_K1",
+    "say": "Time. Please stop typing and go to the meeting room.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_K2",
+    "say": "Deadline reached. Whatever is not finished is not finished.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_K3",
+    "say": "Time is up. The client is waiting. So are we.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_S1",
+    "say": "Time. Please step away from your desks. Leave everything where it is.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_S2",
+    "say": "That's the deadline. Please gather in the meeting room. All of you.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_End_S3",
+    "say": "Time is up. Please don't keep the client waiting. They don't like it.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Office_Early_01",
+    "say": "Everything delivered early! The client is impressed. I'm a little suspicious.",
+    "note": "",
+    "group": "Early"
+   },
+   {
+    "file": "Office_Early_02",
+    "say": "Done early! Let's pitch now, while the client is still smiling.",
+    "note": "",
+    "group": "Early"
+   },
+   {
+    "file": "Office_Pitch_Good_01",
+    "say": "The client signed off. Great teamwork. Let's not get used to it.",
+    "note": "The screen shows the money.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Good_02",
+    "say": "Signed and approved. I'll be mentioning this in a meeting.",
+    "note": "",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Bad_01",
+    "say": "The client left without signing. That will need a follow-up.",
+    "note": "Disappointed, not angry.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Bad_02",
+    "say": "No sign-off today. Let's circle back on that. Tonight.",
+    "note": "A pause before \"Tonight.\"",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Remark_C1",
+    "say": "Your performance is being monitored for quality, training and amusement.",
+    "note": "Upbeat.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_C2",
+    "say": "We're a family here. A family with read receipts.",
+    "note": "Upbeat.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_C3",
+    "say": "Everyone is a stakeholder. Not everyone is paid like one.",
+    "note": "Upbeat.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_K1",
+    "say": "Reminder: please do not reply-all. Thank you. Thank you all.",
+    "note": "Clipped. Does not notice the joke.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_K2",
+    "say": "This announcement could have been an email. It is also an email.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_K3",
+    "say": "Reminder: lunch is available. Please take it at your desk.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_S1",
+    "say": "Everyone here gets reviewed. Everyone. That's what makes us fair.",
+    "note": "Strained. Almost to themselves.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_S2",
+    "say": "Please stay at your desks. We like to know where you are.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_Remark_S3",
+    "say": "Your feedback has been noted. So has everything else.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Office_NewContract_01",
+    "say": "A new contract is live. The details are on your screen.",
+    "note": "Shortened for voice. Screen shows the contract number, quota and deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "Office_NewContract_02",
+    "say": "Welcome to your new contract. Previous results are archived.",
+    "note": "Shortened for voice.",
+    "group": "New contract"
+   },
+   {
+    "file": "Office_NewContract_03",
+    "say": "A fresh contract. Please do not make us read the old one again.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Office_NewReview_01",
+    "say": "A new review begins. The target is on your screen.",
+    "note": "Shortened for voice. Screen shows the review number, target and deadline.",
+    "group": "New review"
+   },
+   {
+    "file": "Office_NewReview_02",
+    "say": "A new review period. Past success is not a guarantee of anything.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Office_NewReview_03",
+    "say": "New review. The bar has been raised. You may not see the bar.",
+    "note": "Shortened for voice.",
+    "group": "New review"
+   },
+   {
+    "file": "Office_ReviewDay_01",
+    "say": "Review day. Your numbers will be reviewed tonight. So will you.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Office_ReviewDay_02",
+    "say": "Tonight is your review. The numbers are on your screen.",
+    "note": "Shortened for voice. Screen shows the target and what is on file.",
+    "group": "Review day"
+   },
+   {
+    "file": "Office_ReviewDay_03",
+    "say": "Review day! Smile. The cameras are in the meeting room too.",
+    "note": "Shortened for voice.",
+    "group": "Review day"
+   },
+   {
+    "file": "Office_LastDay_01",
+    "say": "Final day of the contract. Please do not make it a learning experience.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Office_LastDay_02",
+    "say": "Today is the deadline. Let's all be proactive, retroactively.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Office_LastDay_03",
+    "say": "Last day, team! We are all very aligned. Look how aligned we are.",
+    "note": "Clearly not aligned.",
+    "group": "Last day"
+   },
+   {
+    "file": "Office_LastDay_04",
+    "say": "The quota is due tonight. A meeting about the gap is scheduled.",
+    "note": "Shortened for voice.",
+    "group": "Last day"
+   },
+   {
+    "file": "Office_Behind_01",
+    "say": "Team, we are short of target. I'm not worried. I'm monitoring.",
+    "note": "Shortened for voice. A little worried.",
+    "group": "Behind"
+   },
+   {
+    "file": "Office_Behind_02",
+    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Office_Behind_03",
+    "say": "Per my last email, the quota does not care about your inbox.",
+    "note": "Shortened for voice.",
+    "group": "Behind"
+   },
+   {
+    "file": "Office_Behind_04",
+    "say": "We have noticed a gap between expectations and deliverables. Please close it.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Office_Behind_05",
+    "say": "Statistically, one of you is the bottleneck. Let's not find out who.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Office_NewThing_01",
+    "say": "New procedure, effective today. Details are in your memo.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Office_NewThing_02",
+    "say": "Effective immediately: a new process. Questions may be submitted in writing.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Office_NewThing_03",
+    "say": "A new memo. Please read it twice. Once is not policy.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Office_EventToday_01",
+    "say": "Today's schedule includes a special event.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Office_EventToday_02",
+    "say": "Calendar update. Attendance is mandatory.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Office_EventToday_03",
+    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Office_ReplyAll",
+    "say": "Someone hit reply-all. Please do not reply to the reply-all.",
+    "note": "Eight emails land at once. Tired.",
+    "group": "Reply all"
+   },
+   {
+    "file": "Office_ClientVisit",
+    "say": "A surprise client visit! They brought one more request.",
+    "note": "Today's project gets one more part. Forced cheer.",
+    "group": "Client visit"
+   },
+   {
+    "file": "Office_AllHands",
+    "say": "All-hands in the meeting room, now. All hands. Yours too.",
+    "note": "Everyone is called to the meeting room for a short while.",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_GoalStart_01",
+    "say": "Your goal is set. There is no deadline. There is, however, a calendar.",
+    "note": "Shortened for voice.",
+    "group": "Goal start"
+   },
+   {
+    "file": "Office_GoalStart_02",
+    "say": "Welcome back. You know the job. Take as long as you dare.",
+    "note": "Shortened for voice.",
+    "group": "Goal start"
+   },
+   {
+    "file": "Office_GoalStart_03",
+    "say": "Goal run open. Management will be counting the days. In a meeting.",
+    "note": "Shortened for voice.",
+    "group": "Goal start"
+   },
+   {
+    "file": "Office_GoalReached_01",
+    "say": "Goal reached. Finish the day. Nobody logs off early.",
+    "note": "Shortened for voice.",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Office_GoalReached_02",
+    "say": "That is the target met. Please keep delivering until closing, for appearances.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Office_GoalReached_03",
+    "say": "Target reached. The paperwork is ready. Your shift is not over.",
+    "note": "Shortened for voice.",
+    "group": "Goal reached"
+   }
+  ]
+ },
+ {
+  "key": "security-manager",
+  "name": "The Security Manager",
+  "who": "Lockwell Security's handler, over the radio.",
+  "folder": "SecurityManager",
+  "lines": [
+   {
+    "file": "Security_Hello",
+    "say": "Radio check. This is your handler. I'll be watching. Professionally.",
+    "note": "Day 1, before the first greeting. Pleased with \"Professionally\".",
+    "group": "Hello"
+   },
+   {
+    "file": "Security_Practice_Start",
+    "say": "Practice run first. Getting caught is free today. Only today.",
+    "note": "Day 0, the practice break-in starts (a catch costs nothing in the practice).",
+    "group": "Practice"
+   },
+   {
+    "file": "Security_Practice_End",
+    "say": "Clean enough. From now on, getting caught costs a strike.",
+    "note": "Day 0, the practice is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "Security_Start_C1",
+    "say": "Morning, team. The brief is on the board. Read it twice.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_C2",
+    "say": "Good morning. Today we get in, get proof, get out.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_C3",
+    "say": "Morning, all. Covers are in the van. Pick one that fits.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_K1",
+    "say": "Morning. Brief's on the board. Same building, new problems.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_K2",
+    "say": "Morning. Radios on, heads down. Nobody needs to see your face.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_K3",
+    "say": "Morning. Keep it quiet today. The client is listening in.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_S1",
+    "say": "Good morning. Please stay on the radio today. All day.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_S2",
+    "say": "Morning. Quiet day, please. Nobody needs to be a hero.",
+    "note": "new",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Start_S3",
+    "say": "Morning, team. Nobody goes quiet today. I need to hear everyone.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Security_Fixed_01",
+    "say": "The client fixed what you reported. That's the job working.",
+    "note": "Pleased, like a teacher.",
+    "group": "Fixed"
+   },
+   {
+    "file": "Security_Fixed_02",
+    "say": "Overnight fixes are on the board. Find a new way in.",
+    "note": "",
+    "group": "Fixed"
+   },
+   {
+    "file": "Security_Fixed_03",
+    "say": "They closed your way in. Good. That's what they paid for.",
+    "note": "",
+    "group": "Fixed"
+   },
+   {
+    "file": "Security_Strike_01",
+    "say": "A tester has been stopped. Show the letter. That's a strike.",
+    "note": "",
+    "group": "Strike"
+   },
+   {
+    "file": "Security_Strike_02",
+    "say": "Someone got caught. Walk out calmly. Smile at the guard.",
+    "note": "",
+    "group": "Strike"
+   },
+   {
+    "file": "Security_Strike_03",
+    "say": "Another one detained. Please stop meeting the guards.",
+    "note": "Never the day's first strike. Dry.",
+    "group": "Strike"
+   },
+   {
+    "file": "Security_Restart_01",
+    "say": "Last strike. The client has ended the test. We go again.",
+    "note": "The last strike: the day starts over. Tired.",
+    "group": "Restart"
+   },
+   {
+    "file": "Security_Restart_02",
+    "say": "That's the limit. From the top, team. Same building, different luck.",
+    "note": "The last strike, second version.",
+    "group": "Restart"
+   },
+   {
+    "file": "Security_Alert_01",
+    "say": "Site alert is up. Slow down. Look like you belong.",
+    "note": "",
+    "group": "Alert"
+   },
+   {
+    "file": "Security_Alert_02",
+    "say": "They're on alert. Walk, don't run. Running looks guilty.",
+    "note": "",
+    "group": "Alert"
+   },
+   {
+    "file": "Security_Lockdown_01",
+    "say": "Lockdown. The doors are shut. Nobody is a visitor now.",
+    "note": "",
+    "group": "Lockdown"
+   },
+   {
+    "file": "Security_Lockdown_02",
+    "say": "They've locked the site. Wait it out somewhere boring.",
+    "note": "",
+    "group": "Lockdown"
+   },
+   {
+    "file": "Security_End_C1",
+    "say": "That's time. Everyone back to the van. Bring the proof.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_C2",
+    "say": "Pens down, team. Debrief at the van. Walk out like staff.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_C3",
+    "say": "And that's the day. Let's see what the client thinks.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_K1",
+    "say": "Time. Leave the building. Whatever you didn't prove didn't happen.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_K2",
+    "say": "Day's over. Back to the van. The client is reading now.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_K3",
+    "say": "Time is up. Out the way you came in.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_S1",
+    "say": "Time. Please come back to the van. All of you.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_S2",
+    "say": "That's the day. Leave quietly. Leave everything where it is.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Security_End_S3",
+    "say": "Time is up. Please don't stay inside. Nobody stays inside.",
+    "note": "A small pause before the last sentence.",
+    "group": "End"
+   },
+   {
+    "file": "Security_Early_01",
+    "say": "Everything's back early. The client is impressed. And a little worried.",
+    "note": "",
+    "group": "Early"
+   },
+   {
+    "file": "Security_Early_02",
+    "say": "All the proof is in already. Let's debrief before they fix anything.",
+    "note": "",
+    "group": "Early"
+   },
+   {
+    "file": "Security_Debrief_Good_01",
+    "say": "Clean report. The client paid. They didn't look happy about it.",
+    "note": "The screen shows the money. Amused.",
+    "group": "Debrief"
+   },
+   {
+    "file": "Security_Debrief_Good_02",
+    "say": "Every finding in. Good work. Nobody saw a thing.",
+    "note": "",
+    "group": "Debrief"
+   },
+   {
+    "file": "Security_Debrief_Bad_01",
+    "say": "Findings missing. The client thinks their building is safe. It isn't.",
+    "note": "Disappointed, not angry.",
+    "group": "Debrief"
+   },
+   {
+    "file": "Security_Debrief_Bad_02",
+    "say": "A thin report. We'll go back in tomorrow. We always do.",
+    "note": "",
+    "group": "Debrief"
+   },
+   {
+    "file": "Security_Promise_Missed",
+    "say": "You promised a stretch and missed it. The client wrote that down.",
+    "note": "A promised stretch finding was not done.",
+    "group": "Promise"
+   },
+   {
+    "file": "Security_Remark_C1",
+    "say": "Reminder: we don't steal. We photograph, we tag, and we leave.",
+    "note": "Confident.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_C2",
+    "say": "Best part of the job? Everyone's a suspect. Except us.",
+    "note": "Confident.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_C3",
+    "say": "A good tester is never noticed. A great one is never remembered.",
+    "note": "Confident. Proud of it.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_K1",
+    "say": "Reminder: the radios are for work. Please stop narrating.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_K2",
+    "say": "Reminder: running looks guilty. So does walking too slowly.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_K3",
+    "say": "Keep your letter handy. Nobody reads it. Keep it handy anyway.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_K4",
+    "say": "Reminder: seated staff are out of scope. Please don't photograph them.",
+    "note": "Clipped, read off the clipboard like any other rule. The customer crumb (owner, 2026-10-11): never say who seated staff are.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_S1",
+    "say": "Everyone gets watched. Someone has to do the watching.",
+    "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_S2",
+    "say": "Please stay where I can see you. On the cameras, I mean.",
+    "note": "Strained. The correction comes a beat late.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_Remark_S3",
+    "say": "Reminder: all photos are company property. Including the ones of you.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Security_NewContract_01",
+    "say": "A new engagement is live. The terms are on your screen.",
+    "note": "Screen shows the contract number, quota and deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "Security_NewContract_02",
+    "say": "Welcome to your new engagement. Previous results are on file.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Security_NewContract_03",
+    "say": "A fresh contract. New client, new building, same agency.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Security_NewReview_01",
+    "say": "A new review begins. The target is on your screen.",
+    "note": "Screen shows the review number, target and deadline.",
+    "group": "New review"
+   },
+   {
+    "file": "Security_NewReview_02",
+    "say": "A new review period. The client has been told to expect you.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Security_NewReview_03",
+    "say": "New review. The bar is higher. So are the fences.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Security_ReviewDay_01",
+    "say": "Review day. Your report gets read tonight. So do you.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Security_ReviewDay_02",
+    "say": "Tonight is your review. The numbers are on your screen.",
+    "note": "Screen shows the target and what is on file.",
+    "group": "Review day"
+   },
+   {
+    "file": "Security_ReviewDay_03",
+    "say": "Review day. Smile for the cameras. Theirs and ours.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Security_LastDay_01",
+    "say": "Final day of the engagement. Let's make it a clean exit.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Security_LastDay_02",
+    "say": "Last day. The final test. Everything you've learned, all at once.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Security_LastDay_03",
+    "say": "Final day, team. Nice and calm. Nobody panics on the last day.",
+    "note": "Clearly not calm.",
+    "group": "Last day"
+   },
+   {
+    "file": "Security_LastDay_04",
+    "say": "The quota is due tonight. Please don't make me write that report.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Security_Behind_01",
+    "say": "Team, we're short of target. I'm not worried. I'm watching.",
+    "note": "A little worried.",
+    "group": "Behind"
+   },
+   {
+    "file": "Security_Behind_02",
+    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "note": "The same words every manager says.",
+    "group": "Behind"
+   },
+   {
+    "file": "Security_Behind_03",
+    "say": "We're behind. The building won't break into itself.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Security_Behind_04",
+    "say": "We've noticed a gap between findings and expectations. Please close it.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Security_Behind_05",
+    "say": "Statistically, one of you keeps getting caught. Let's not name names.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Security_NewThing_01",
+    "say": "New procedure, effective today. Details are in your memo.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Security_NewThing_02",
+    "say": "Effective immediately: a new procedure. The client insisted.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Security_NewThing_03",
+    "say": "A new memo. Please read it twice. Once is not policy.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Security_EventToday_01",
+    "say": "Today's schedule includes a special event.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Security_EventToday_02",
+    "say": "Heads up. The site has plans today. They didn't tell us.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Security_EventToday_03",
+    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Security_FireDrill",
+    "say": "Fire drill. Everyone outside. Stand with the staff and look bored.",
+    "note": "Everyone in the building walks to the car park for a short while.",
+    "group": "Fire drill"
+   },
+   {
+    "file": "Security_VipVisit",
+    "say": "A VIP is on site. The guards are all out front. Lovely.",
+    "note": "Every guard walks the front of the building for a while, so the back is unwatched.",
+    "group": "Vip visit"
+   },
+   {
+    "file": "Security_PowerCut",
+    "say": "Power cut. Cameras are down. So are the keypads. Move.",
+    "note": "Cameras and keypads are dead for a short while. Quick.",
+    "group": "Power cut"
+   },
+   {
+    "file": "Security_CallingCards",
+    "say": "Calling cards today. Leave them nicely. The guards will find them.",
+    "note": "Calling cards: findings pay more, each card raises the alert.",
+    "group": "Calling cards"
+   },
+   {
+    "file": "Security_NoNotice",
+    "say": "No-notice test. Fewer strikes, bigger cheque. Please don't get caught.",
+    "note": "No-notice test: one strike fewer.",
+    "group": "No notice"
+   },
+   {
+    "file": "Security_Rush",
+    "say": "Rush job. The client wants the report early. The pay is better.",
+    "note": "Rush engagement: the debrief comes early.",
+    "group": "Rush"
+   },
+   {
+    "file": "Security_GoalStart_01",
+    "say": "Your goal is set. There is no deadline. There is, however, a fence.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Security_GoalStart_02",
+    "say": "Welcome back. You know the building. It knows you too.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Security_GoalStart_03",
+    "say": "Goal run open. Management will be counting the days. Quietly.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Security_GoalReached_01",
+    "say": "Goal reached. Finish the day. Nobody leaves the site early.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Security_GoalReached_02",
+    "say": "Target met. Please keep testing until home time, for appearances.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Security_GoalReached_03",
+    "say": "Target reached. The paperwork is ready. Your shift is not over.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Security_Visit_1a",
+    "say": "Evening, team. Quick debrief from me. Review one is in.",
+    "note": "Visit 1 (evening of day 2). Confident, in person for the first time. You drove up, you lean on the van.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_1b",
+    "say": "Passed. Clean work. The client wants you back tomorrow.",
+    "note": "Visit 1. Reading from a card.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_1c",
+    "say": "Same building tomorrow. They'll have fixed a few things. Night.",
+    "note": "Visit 1. Leaving. A wave.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_2a",
+    "say": "Review two. Good numbers. A few notes on getting caught.",
+    "note": "Visit 2 (evening of day 4). Clipped, tired. You are already sitting in the van when the crew comes back; nobody saw you arrive.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_2b",
+    "say": "Nothing to action. Keep your letter on you.",
+    "note": "Visit 2. Flat.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_2c",
+    "say": "Right. I'll see myself out.",
+    "note": "Visit 2. Ordinary, as if nothing is odd; then you walk straight past the guard at the gate, who never looks at you.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_3a",
+    "say": "Final review. Passed. Well done, team. Very professional.",
+    "note": "Visit 3 (evening of day 6, the placement passed). Strained, slow. You come out of the depot's front door: you were inside all day.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_3b",
+    "say": "Your photos are going upstairs. Someone will review them.",
+    "note": "Visit 3. Calm. (The crew's last-day photos go to the office's trays: STORY.md rung 3.)",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_3c",
+    "say": "Your work here is done. I'll take the camera.",
+    "note": "Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk out of the gate with it.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_1a_Narrow",
+    "say": "Evening, team. Review one is in. Passed. Barely.",
+    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Confident, with a wince on \"Barely.\"",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_1b_Narrow",
+    "say": "Too many strikes. The client noticed. Clients aren't meant to notice.",
+    "note": "Visit 1, narrow pass. Replaces 1b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_2a_Narrow",
+    "say": "Review two. Passed, just. The guards are starting to know you.",
+    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_2b_Narrow",
+    "say": "There were notes. Mostly about the word 'detained'.",
+    "note": "Visit 2, narrow pass. Replaces 2b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_3a_Narrow",
+    "say": "Final review. Passed, narrowly. Upstairs rounded you up. They rarely do.",
+    "note": "Visit 3, narrow pass. Replaces 3a. Strained, slow.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_3b_Narrow",
+    "say": "Passed is passed. Your file has comments. Several.",
+    "note": "Visit 3, narrow pass. Replaces 3b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_F1a",
+    "say": "Evening. I'll keep this short. Review one didn't pass.",
+    "note": "Failed review 1: you let the crew go in person, before the letter of separation. Quiet, not angry.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_F2a",
+    "say": "Evening. Review two didn't pass. Too many strikes on the sheet.",
+    "note": "Failed review 2. Replaces F1a. Quiet, a little hurt.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_F3a",
+    "say": "Evening. The final review didn't pass. So close. That's the worst kind.",
+    "note": "Failed review 3. Replaces F1a. Quiet, genuinely sorry.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_F_b",
+    "say": "Your engagement ends tonight. Please hand in the covers. They're counted.",
+    "note": "Any failed review.",
+    "group": "Visit"
+   },
+   {
+    "file": "Security_Visit_F_c",
+    "say": "Don't take it hard. We'll keep your photo on file.",
+    "note": "Any failed review. Leaving. Kind, which is the creepy part. Nothing odd in this visit: a person doing an unpleasant job.",
+    "group": "Visit"
+   }
+  ]
+ },
+ {
+  "key": "graveyard-manager",
+  "name": "The Graveyard Manager",
+  "who": "The memorial park's night manager.",
+  "folder": "GraveyardManager",
+  "lines": [
+   {
+    "file": "Graveyard_Hello",
+    "say": "Evening, team. I'm your night manager. I keep the time out here.",
+    "note": "Night 1, before the first greeting. Proud of the job, like a stationmaster.",
+    "group": "Hello"
+   },
+   {
+    "file": "Graveyard_Practice_Start",
+    "say": "A practice night first. Just the one late arrival. Take your time.",
+    "note": "Night 0, the practice starts (one zombie: hit, carry, bury).",
+    "group": "Practice"
+   },
+   {
+    "file": "Graveyard_Practice_End",
+    "say": "Lovely. Back where it belongs. The real nights are busier.",
+    "note": "Night 0, the practice is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "Graveyard_Start_C1",
+    "say": "Good evening, team. The gates are locked. The clock is ready.",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_C2",
+    "say": "Welcome to the night shift. Lovely and quiet. For now.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_C3",
+    "say": "Evening, all. Coffee's on in the gatehouse. Defences out before dark.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_K1",
+    "say": "Evening. Tonight's roster is on the register. Please read it.",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_K2",
+    "say": "Dusk. Place your defences. Mind the paths. Thank you.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_K3",
+    "say": "Evening. Same sections as last night. More of them, actually.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_S1",
+    "say": "Good evening. Please stay together tonight. It helps the count.",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_S2",
+    "say": "Dusk. Please work in pairs tonight. Nobody goes out alone.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_S3",
+    "say": "Evening, team. Please be on time tonight. Everyone else will be.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Rise_01",
+    "say": "The first section is due. Please greet late arrivals firmly.",
+    "note": "",
+    "group": "Rise"
+   },
+   {
+    "file": "Graveyard_Rise_02",
+    "say": "Sections opening now. Nobody clocks in after hours. Nobody.",
+    "note": "",
+    "group": "Rise"
+   },
+   {
+    "file": "Graveyard_Rise_03",
+    "say": "Arrivals are starting. Please keep them away from the clock.",
+    "note": "",
+    "group": "Rise"
+   },
+   {
+    "file": "Graveyard_End_C1",
+    "say": "And that's dawn. Lovely work, team. Please put the shovels away.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_C2",
+    "say": "Dawn, everyone. The gates are open. Thank you for a quiet night.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_C3",
+    "say": "That's the shift. Well done. Please leave by the main gate.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_K1",
+    "say": "Dawn. Please stop digging. Your hours have been recorded.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_K2",
+    "say": "Shift over. The gates open now. Please stand aside.",
+    "note": "The gates open for the ones still standing to walk out.",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_K3",
+    "say": "That's dawn. Leave the tools where you found them.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_S1",
+    "say": "Dawn. Please stay still while the gate is open.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_S2",
+    "say": "That's the shift. Please let the morning staff leave first.",
+    "note": "Said as if \"morning staff\" were an ordinary phrase.",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_Dawn_Review",
+    "say": "That's dawn. Review results at the gatehouse, team. I'm on my way.",
+    "note": "Review mornings only (after nights 2, 4 and 6), in place of the dawn line. Calls the crew to the gatehouse for the visit. Tone follows the night.",
+    "group": "Dawn"
+   },
+   {
+    "file": "Graveyard_End_S3",
+    "say": "Dawn. Same time tonight. Same as always.",
+    "note": "The diner manager's last closing line, nearly word for word.",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_Remark_C1",
+    "say": "Reminder: the lamp posts have cameras. And speakers. And opinions.",
+    "note": "Warm.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_C2",
+    "say": "Reminder: hi-vis jackets are in the gatehouse. We like to see you.",
+    "note": "Warm.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_C3",
+    "say": "Fresh air, flexible hours, free coffee. Honestly, it's a lovely job.",
+    "note": "Warm.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_K1",
+    "say": "Reminder: every plot has a number. Please use the right one.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_K2",
+    "say": "Please do not chat with late arrivals. It encourages them.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_K3",
+    "say": "Breaks are available in the gatehouse. Please take them standing up.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_S1",
+    "say": "Everyone is on the roster eventually. That's what makes it fair.",
+    "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_S2",
+    "say": "Please keep working. We will tell you when you are complete.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_S3",
+    "say": "Thank you for your service. It has been noted. Permanently.",
+    "note": "Strained. A small pause before \"Permanently.\"",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Strike_01",
+    "say": "A late arrival has clocked in. That is a strike.",
+    "note": "The screen shows how many strikes are left.",
+    "group": "Strike"
+   },
+   {
+    "file": "Graveyard_Strike_02",
+    "say": "Someone clocked in after hours. We do not pay for that.",
+    "note": "",
+    "group": "Strike"
+   },
+   {
+    "file": "Graveyard_Strike_03",
+    "say": "Another one on the clock. Please keep them off it.",
+    "note": "Never the night's first strike.",
+    "group": "Strike"
+   },
+   {
+    "file": "Graveyard_Restart_01",
+    "say": "Too many on the clock. We'll run the night again. From dusk.",
+    "note": "The last strike: the night starts over (if the owner keeps the security rule). Tired.",
+    "group": "Restart"
+   },
+   {
+    "file": "Graveyard_Restart_02",
+    "say": "That's the limit. Back to dusk, team. They'll be back too.",
+    "note": "The last strike, second version.",
+    "group": "Restart"
+   },
+   {
+    "file": "Graveyard_SectionG",
+    "say": "Roster update: section G opens tonight. Same procedure as always.",
+    "note": "Night 6, at dusk, after the greeting. Say it like any other roster note: no weight on any word. (Section G is where the crew's own staff numbers rise; the line should only feel cold afterwards.)",
+    "group": "Section g"
+   },
+   {
+    "file": "Graveyard_NewContract_01",
+    "say": "A new contract is live. The quota is on your screen.",
+    "note": "Screen shows the contract number, quota and deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "Graveyard_NewContract_02",
+    "say": "Your new contract is live. Previous results are archived.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Graveyard_NewContract_03",
+    "say": "A fresh contract. The old one has been filed with the others.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "Graveyard_NewReview_01",
+    "say": "A new review begins. The target is on your screen.",
+    "note": "Screen shows the review number, target and deadline.",
+    "group": "New review"
+   },
+   {
+    "file": "Graveyard_NewReview_02",
+    "say": "A new review period. Past nights are no guarantee of anything.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Graveyard_NewReview_03",
+    "say": "New review. The bar has been raised. So has everything else.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Graveyard_ReviewDay_01",
+    "say": "Review night. Your numbers will be reviewed at dawn. So will you.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Graveyard_ReviewDay_02",
+    "say": "Tonight is your review. The numbers are on your screen.",
+    "note": "Screen shows the target and what is on file.",
+    "group": "Review day"
+   },
+   {
+    "file": "Graveyard_ReviewDay_03",
+    "say": "Review night! Smile for the lamp posts. They're always on.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Graveyard_LastDay_01",
+    "say": "Final night of the contract. Your future is exciting and undecided.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_LastDay_02",
+    "say": "Tonight is the deadline. Please don't make it a late night.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_LastDay_03",
+    "say": "Final night, team! We're all so calm. Look how calm we are.",
+    "note": "Clearly not calm.",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_LastDay_04",
+    "say": "The quota is due at dawn. Do the math. We already did.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_Behind_01",
+    "say": "Team, we are short of target. I'm not worried. I'm counting.",
+    "note": "A little worried.",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_Behind_02",
+    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_Behind_03",
+    "say": "Per my last memo, the quota does not sleep. Please follow its example.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_Behind_04",
+    "say": "We've noticed a gap between expectations and plots filled. Please close it.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_Behind_05",
+    "say": "Statistically, one of you is the problem. Let's not dig into who.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_NewThing_01",
+    "say": "New procedure, effective tonight. Details are in your memo.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Graveyard_NewThing_02",
+    "say": "Effective immediately: a new procedure. Questions may be submitted in writing.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Graveyard_NewThing_03",
+    "say": "A new memo. Please read it twice. Once is not policy.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Graveyard_EventToday_01",
+    "say": "Tonight's schedule includes a special event.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Graveyard_EventToday_02",
+    "say": "Weather update. Visibility is optional. Attendance is not.",
+    "note": "For the fog night (and rain, if it comes).",
+    "group": "Event today"
+   },
+   {
+    "file": "Graveyard_EventToday_03",
+    "say": "Heads up, team: something is happening tonight. Plan accordingly, or don't.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Graveyard_Overtime_01",
+    "say": "Overtime approved. The night will be longer. So will the queue.",
+    "note": "",
+    "group": "Overtime"
+   },
+   {
+    "file": "Graveyard_Overtime_02",
+    "say": "Overtime tonight. More pay, more hours, more arrivals. Lovely.",
+    "note": "",
+    "group": "Overtime"
+   },
+   {
+    "file": "Graveyard_GoalStart_01",
+    "say": "Your goal is set. There is no deadline. There is, however, a clock.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Graveyard_GoalStart_02",
+    "say": "Welcome back. You know the job. Take as many nights as you dare.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Graveyard_GoalStart_03",
+    "say": "Goal run open. Management will be counting the nights. Out loud.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "Graveyard_GoalReached_01",
+    "say": "Goal reached. Finish the night. Nobody leaves before dawn.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Graveyard_GoalReached_02",
+    "say": "Target met. Please keep digging until dawn, for appearances.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Graveyard_GoalReached_03",
+    "say": "Target reached. The paperwork is ready. Your shift is not over.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "Graveyard_Visit_1a",
+    "say": "Morning, team. Quick one before I clock off. Review one is in.",
+    "note": "Visit 1 (dawn after night 2). Warm, in person for the first time. A thermos in one hand. You walk in through the main gate while the ones still standing walk out past you; you never look at them.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_1b",
+    "say": "Passed. Lovely. Head office likes a quiet first review.",
+    "note": "Visit 1. Reading from a card.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_1c",
+    "say": "Same again tonight. Same plots, same order. Morning.",
+    "note": "Visit 1. Leaving by the main gate, the way you came.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_2a",
+    "say": "Review two. Numbers are fine. A few comments on digging pace.",
+    "note": "Visit 2 (dawn after night 4). Clipped, tired. You came up the path from among the stones, not from the gate.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_2b",
+    "say": "Nothing to action. Keep the clock clear.",
+    "note": "Visit 2. Flat.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_2c",
+    "say": "Right. I'll be off. Same time tonight.",
+    "note": "Visit 2. Ordinary, as if nothing is odd; then you walk back into the plots, not out of the gate.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_3a",
+    "say": "Final review. Passed. Well done, team. Truly.",
+    "note": "Visit 3 (dawn after night 6, the placement passed). Strained, slow. You were already in the line walking to the gate; you step out of it to speak.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_3b",
+    "say": "Your reassignment letter is on its way. Don't get comfortable.",
+    "note": "Visit 3.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_3c",
+    "say": "Your completion has been rescheduled. Please report to your next placement.",
+    "note": "Visit 3. The last line of the placement. Then you step back into the line and walk out of the gate with the others, in step.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_1a_Narrow",
+    "say": "Morning, team. Review one is in. You passed. Only just.",
+    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Warm, with a wince on \"Only just.\"",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_1b_Narrow",
+    "say": "Too many reached the clock. Head office counts every one.",
+    "note": "Visit 1, narrow pass. Replaces 1b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_2a_Narrow",
+    "say": "Review two. Passed. Barely. A lot of late arrivals got through.",
+    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_2b_Narrow",
+    "say": "There were comments. I've been asked to bury them.",
+    "note": "Visit 2, narrow pass. Replaces 2b. Do not play the pun; say it straight.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_3a_Narrow",
+    "say": "Final review. Passed, just. Head office rounded up. They rarely do.",
+    "note": "Visit 3, narrow pass. Replaces 3a. Strained, slow.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_3b_Narrow",
+    "say": "Your reassignment will go ahead. Your file has notes. Several.",
+    "note": "Visit 3, narrow pass. Replaces 3b.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_F1a",
+    "say": "Morning. I'll keep this short. Review one didn't pass.",
+    "note": "Failed review 1: you let the crew go in person, before the letter of separation. Quiet, not angry.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_F2a",
+    "say": "Morning. Review two didn't pass. I did warn you about the clock.",
+    "note": "Failed review 2. Replaces F1a. Quiet, a little hurt.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_F3a",
+    "say": "Morning. The final review didn't pass. So close. That's the worst kind.",
+    "note": "Failed review 3. Replaces F1a. Quiet, genuinely sorry.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_F_b",
+    "say": "Your contract ends this morning. Please leave the shovels. They're counted.",
+    "note": "Any failed review.",
+    "group": "Visit"
+   },
+   {
+    "file": "Graveyard_Visit_F_c",
+    "say": "Don't worry about the future. We always find room for people.",
+    "note": "Any failed review. Leaving. Kind, which is the creepy part.",
+    "group": "Visit"
+   }
+  ]
+ },
+ {
+  "key": "callcentre-manager",
+  "name": "The Call Centre Manager",
+  "who": "The call centre's team leader.",
+  "folder": "CallCentreManager",
+  "lines": [
+   {
+    "file": "CallCentre_Hello",
+    "say": "Hi, team! I'm your team leader. Every call is recorded. Including this one.",
+    "note": "Day 1, before the first greeting. Pleased with the joke.",
+    "group": "Hello"
+   },
+   {
+    "file": "CallCentre_Practice_Start",
+    "say": "Practice call first. The caller is one of ours. Be gentle.",
+    "note": "Day 0, the practice call starts.",
+    "group": "Practice"
+   },
+   {
+    "file": "CallCentre_Practice_End",
+    "say": "Practice over. The real lines open soon. They don't hang up gently.",
+    "note": "Day 0, the practice is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "CallCentre_Start_C1",
+    "say": "Good morning, team! Headsets on. Smiles on. Callers can hear a smile.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_C2",
+    "say": "Your call is important to us. So is your call volume.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_C3",
+    "say": "Welcome back! Same desks, same binders, same wonderful callers.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_K1",
+    "say": "Morning. Lines open. Answer fast, read carefully, hang up never.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_K2",
+    "say": "Good morning. Handle time matters. Please handle it.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_K3",
+    "say": "Morning. The queue is already waiting. It always is.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_S1",
+    "say": "Good morning. Please follow the binder. The binder knows best.",
+    "note": "The screen adds the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_S2",
+    "say": "Lines open. Please don't improvise. Improvising is how files get lost.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_Start_S3",
+    "say": "Morning, team. This call may be recorded. All of them are.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "CallCentre_End_C1",
+    "say": "That's the lines closed, team! Lovely work. Lovely voices.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_C2",
+    "say": "Headsets off! Thank you for calling. Sorry. For working.",
+    "note": "A habit: corrects himself with a laugh.",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_C3",
+    "say": "And that's the queue cleared. Or closed. Either way, well done.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_K1",
+    "say": "Lines closed. Please finish your sentence and hang up.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_K2",
+    "say": "Time. Missed calls have been logged. So has everyone.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_K3",
+    "say": "Lines closed. Please put the binders back exactly where they belong.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_S1",
+    "say": "Lines closed. Please stay at your desks until the floor is counted.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_S2",
+    "say": "That's time. Please take your headsets off. Slowly. Thank you.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_End_S3",
+    "say": "Lines closed. Thank you for calling. Please hold.",
+    "note": "The service voice, out of habit. A short silence after \"Please hold\".",
+    "group": "End"
+   },
+   {
+    "file": "CallCentre_Remark_C1",
+    "say": "Reminder: calls may be recorded. For training. And other purposes.",
+    "note": "Warm.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_C2",
+    "say": "We're a family here. A family with a call queue.",
+    "note": "Warm. The agency's running joke: every manager has a version.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_C3",
+    "say": "Smile while you talk. Callers can hear it. So can we.",
+    "note": "Warm.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_K1",
+    "say": "Reminder: the binder is always right. Please be right with it.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_K2",
+    "say": "Please do not put your team leader on hold.",
+    "note": "Clipped. Dry.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_K3",
+    "say": "Reminder: no personal calls. All calls belong to the agency.",
+    "note": "Clipped.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_S1",
+    "say": "Please don't use your own judgement. The binder has already used it.",
+    "note": "Strained. Almost to themselves. Policy, not a confession.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_S2",
+    "say": "Please stay on the line. Everyone stays on the line.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Remark_S3",
+    "say": "Every call is filed. Every single one. Thank you for calling.",
+    "note": "Strained.",
+    "group": "Remark"
+   },
+   {
+    "file": "CallCentre_Edition_01",
+    "say": "A new edition of the binder has arrived. Old copies are wrong now.",
+    "note": "Day 5, midday. The game shows which binder on screen.",
+    "group": "Edition"
+   },
+   {
+    "file": "CallCentre_Edition_02",
+    "say": "New edition on the shelf. The old rules stopped being true just now.",
+    "note": "Day 5, midday. Light, as if that is normal.",
+    "group": "Edition"
+   },
+   {
+    "file": "CallCentre_PowerCut",
+    "say": "We've lost the lines. Please stay at your desks. Don't touch anything.",
+    "note": "The power cut starts, the room goes dark. Calm, a bit too calm.",
+    "group": "Power cut"
+   },
+   {
+    "file": "CallCentre_PowerBack",
+    "say": "Lines are back. Thank you for waiting in the dark.",
+    "note": "The power cut ends.",
+    "group": "Power back"
+   },
+   {
+    "file": "CallCentre_Listening",
+    "say": "The supervisor is listening in. Please sound like the binder.",
+    "note": "\"Supervisor listening\" starts: a mistake costs double. Lowered voice.",
+    "group": "Listening"
+   },
+   {
+    "file": "CallCentre_SameCaller",
+    "say": "We have a repeat caller. On every line. Please be consistent.",
+    "note": "\"The same caller\" starts. Forced cheer.",
+    "group": "Same caller"
+   },
+   {
+    "file": "CallCentre_NewContract_01",
+    "say": "A new contract is live. The targets are on your screen.",
+    "note": "Screen shows the contract number, quota and deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "CallCentre_NewContract_02",
+    "say": "Your new contract is live. Previous calls are archived.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "CallCentre_NewContract_03",
+    "say": "A fresh contract. The old one is on file. Everything is on file.",
+    "note": "",
+    "group": "New contract"
+   },
+   {
+    "file": "CallCentre_NewReview_01",
+    "say": "A new review begins. The target is on your screen.",
+    "note": "Screen shows the review number, target and deadline.",
+    "group": "New review"
+   },
+   {
+    "file": "CallCentre_NewReview_02",
+    "say": "A new review period. Treat it like a call: brief and polite.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "CallCentre_NewReview_03",
+    "say": "New review. The bar has been raised. Please hold while it rises.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "CallCentre_ReviewDay_01",
+    "say": "Review day. Your calls will be reviewed tonight. So will you.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "CallCentre_ReviewDay_02",
+    "say": "Tonight is your review. The numbers are on your screen.",
+    "note": "Screen shows the target and what is on file.",
+    "group": "Review day"
+   },
+   {
+    "file": "CallCentre_ReviewDay_03",
+    "say": "Review day! Every call today is a sample call.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "CallCentre_LastDay_01",
+    "say": "Final day of the contract. Please end it on a good call.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "CallCentre_LastDay_02",
+    "say": "Today is the deadline. Please resolve it on the first call.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "CallCentre_LastDay_03",
+    "say": "Last day, team! We are all so calm. Listen to how calm.",
+    "note": "Clearly not calm.",
+    "group": "Last day"
+   },
+   {
+    "file": "CallCentre_LastDay_04",
+    "say": "The quota is due tonight. The binder already knows the answer.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "CallCentre_Behind_01",
+    "say": "Team, we're short of target. I'm not worried. I'm listening.",
+    "note": "A little worried.",
+    "group": "Behind"
+   },
+   {
+    "file": "CallCentre_Behind_02",
+    "say": "You are behind target. Please answer faster. Then faster than that.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "CallCentre_Behind_03",
+    "say": "Per the binder, the quota does not care how long the call was.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "CallCentre_Behind_04",
+    "say": "We've noticed a gap between calls rung and calls answered. Please close it.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "CallCentre_Behind_05",
+    "say": "Statistically, one of you keeps losing callers. Let's not find out who.",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "CallCentre_NewThing_01",
+    "say": "New procedure, effective today. It's in a binder. Everything is.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "CallCentre_NewThing_02",
+    "say": "Effective immediately: a new kind of call. Training is the first call.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "CallCentre_NewThing_03",
+    "say": "A new memo. Please read it aloud to whoever holds the binder.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "CallCentre_EventToday_01",
+    "say": "Today's schedule includes a special event.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "CallCentre_EventToday_02",
+    "say": "Heads up: something is scheduled today. Please stay on the line.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "CallCentre_EventToday_03",
+    "say": "A special event today. Nothing to worry about. It's been scripted.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "CallCentre_GoalStart_01",
+    "say": "Your goal is set. There is no deadline. There is, however, a queue.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "CallCentre_GoalStart_02",
+    "say": "Welcome back. You know the lines. Take as long as you dare.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "CallCentre_GoalStart_03",
+    "say": "Goal run open. Management will be counting the days. On hold.",
+    "note": "",
+    "group": "Goal start"
+   },
+   {
+    "file": "CallCentre_GoalReached_01",
+    "say": "Goal reached. Finish the day. Nobody hangs up early.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "CallCentre_GoalReached_02",
+    "say": "Target met. Please keep answering until close, for appearances.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "CallCentre_GoalReached_03",
+    "say": "Target reached. The paperwork is filed. Your shift is not over.",
+    "note": "",
+    "group": "Goal reached"
+   },
+   {
+    "file": "CallCentre_Review_1a",
+    "say": "Evening, team. Quick one. Your first review came through.",
+    "note": "Evening 1 (after day 2). Warm, the first time they see him.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_1b",
+    "say": "Passed. Lovely call handling. Head office listened to a few.",
+    "note": "Evening 1. Reading from the binder.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_1c",
+    "say": "Same again tomorrow. Same words, same order. Night.",
+    "note": "Evening 1. Leaving. Friendly.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_2a",
+    "say": "Review two. Passed. Your handle times were noted.",
+    "note": "Evening 2 (after day 4). Clipped, tired. Before each line he touches his headset and waits a beat, as if listening; leave a short silence before you speak.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_2b",
+    "say": "No complaints logged. Well. None about you.",
+    "note": "Evening 2. A small pause before \"Well.\"",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_2c",
+    "say": "Right. I'm off. Please don't call me.",
+    "note": "Evening 2. Leaving. Dry, half a joke. (After it, he stops at the binder shelf and checks a page before he goes.)",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3a",
+    "say": "Final review. Let me check the binder.",
+    "note": "Evening 3 (after day 6, the placement's last). Strained, slow. He has just stood up from a desk where he was taking calls. Pages turning.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3b",
+    "say": "Passed. The binder says: continue. Congratulations, team.",
+    "note": "Evening 3. Reads \"continue\" exactly as written. (Behind him a line starts ringing; he does not turn round.)",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3b_Alt",
+    "say": "Passed. The binder says: complete. Congratulations, team.",
+    "note": "Optional. Optional. Record it, but the owner picks it only once the ending is decided: \"complete\" is the memorial park's word for a buried temp, so this line would decide the crew's fate. Same delivery as 3b.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3c",
+    "say": "Your file goes upstairs tonight. Someone up there will read it. Probably.",
+    "note": "Evening 3. Leaving. A pause before \"Probably.\" Calm, as if nothing is ringing.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_1a_Narrow",
+    "say": "Evening, team. First review's in. You passed. Barely.",
+    "note": "Evening 1, close call. Replaces 1a. Warm, with a wince on \"Barely.\"",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_1b_Narrow",
+    "say": "A few callers asked for a manager. I was the manager.",
+    "note": "Evening 1, close call. Replaces 1b. Not amused.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_2a_Narrow",
+    "say": "Review two. Passed. Head office used the word 'acceptable'.",
+    "note": "Evening 2, close call. Replaces 2a. Clipped.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_2b_Narrow",
+    "say": "Some of your calls are now training material. Not the good kind.",
+    "note": "Evening 2, close call. Replaces 2b.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3a_Narrow",
+    "say": "Final review. Let me check the binder. ...Twice.",
+    "note": "Evening 3, close call. Replaces 3a. Turns back a page before \"Twice.\"",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_3b_Narrow",
+    "say": "Passed, narrowly. The binder says continue. It hesitated, but it says it.",
+    "note": "Evening 3, close call. Replaces 3b.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_F_a",
+    "say": "Evening. Short call, this one. The review didn't pass.",
+    "note": "Failed review. Quiet, not angry. A man doing an unpleasant job.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_F_b",
+    "say": "I checked the binder twice. It says the same thing both times.",
+    "note": "Failed review. Almost apologetic: it is not his decision.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_F_c",
+    "say": "Your contract ends tonight. Please leave the headsets. They're counted.",
+    "note": "Failed review. The same line the diner's manager says about the aprons.",
+    "group": "Review"
+   },
+   {
+    "file": "CallCentre_Review_F_d",
+    "say": "The lines open again tomorrow. Someone will answer them.",
+    "note": "Failed review. Leaving. Flat.",
+    "group": "Review"
+   }
+  ]
+ },
+ {
+  "key": "caller",
+  "name": "The Caller",
+  "who": "A former temp who phones the crew in the evening.",
+  "folder": "Caller",
+  "lines": [
+   {
+    "file": "Diner_Call1_01",
+    "say": "Hello? Is this the diner? The one on the corner?",
+    "note": "Someone picked up. Unsure he has the right number.",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_01M",
+    "say": "Pick up. ...Okay. Nobody's there. Fine. I'll keep it short.",
+    "note": "Nobody picked up: this plays on the answering machine instead of 01. A sigh before \"Okay\".",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_02",
+    "say": "You're the new crew. Don't say anything. I know you are.",
+    "note": "Quietly. He thinks the line might be listened to.",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_03",
+    "say": "I worked there. Before you. Same kitchen, same speaker.",
+    "note": "A small, tired laugh on \"same speaker\".",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_04",
+    "say": "Three days in. It still feels normal, right? Mostly normal?",
+    "note": "Light on the first question, careful on \"mostly\".",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_05",
+    "say": "Do me a favour tomorrow. Watch the customers when they leave.",
+    "note": "The important line. Slow and clear.",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_06",
+    "say": "Just watch. Don't say anything about it. Not out loud.",
+    "note": "Almost a whisper by the end.",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call1_07",
+    "say": "I'll call again. ...I have to go.",
+    "note": "Suddenly in a hurry. Then the line clicks off (the game adds the click).",
+    "group": "Call 1"
+   },
+   {
+    "file": "Diner_Call2_01",
+    "say": "It's me again. Don't talk. Just listen.",
+    "note": "Someone picked up. No greeting this time.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_01M",
+    "say": "It's me. You're not picking up. ...That's smart, actually.",
+    "note": "Nobody picked up: plays instead of 01. Relieved on the last part.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_02",
+    "say": "Today. Did they all stop? Did they all look at you?",
+    "note": "Already knows the answer.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_03",
+    "say": "Yeah. They did that to us too.",
+    "note": "Flat. A memory he does not like.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_04",
+    "say": "You're not imagining it. I need you to know that.",
+    "note": "Warm. The one kind thing he says.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_05",
+    "say": "Two days left. Finish the job. Don't give them a reason.",
+    "note": "Firm, like advice from an older brother.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_06",
+    "say": "When they offer you the next placement... take it. I did.",
+    "note": "A pause before \"take it\". \"I did\" almost to himself.",
+    "group": "Call 2"
+   },
+   {
+    "file": "Diner_Call2_07",
+    "say": "I thought the next one would be different. It's not, it's-",
+    "note": "Cut off mid-word, as if the line went dead. Do not finish the word.",
+    "group": "Call 2"
+   }
+  ]
+ }
+];
