@@ -360,44 +360,14 @@ window.VOICE_LINES = [
     "group": "Last day"
    },
    {
-    "file": "Diner_LastDay_02",
-    "say": "Today is the deadline. Please make it memorable for the right reasons.",
-    "note": "Shortened for voice.",
-    "group": "Last day"
-   },
-   {
-    "file": "Diner_LastDay_03",
-    "say": "Last day, team! We are all so relaxed. Look how relaxed we are.",
-    "note": "Clearly not relaxed.",
-    "group": "Last day"
-   },
-   {
     "file": "Diner_LastDay_04",
     "say": "The quota is due tonight. Do the math. We already did.",
     "note": "",
     "group": "Last day"
    },
    {
-    "file": "Diner_Behind_01",
-    "say": "Team, we are short of target. I'm not worried. I'm monitoring.",
-    "note": "A little worried.",
-    "group": "Behind"
-   },
-   {
     "file": "Diner_Behind_02",
     "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Diner_Behind_03",
-    "say": "Per my last memo, the quota does not care how tired you are.",
-    "note": "Shortened for voice.",
-    "group": "Behind"
-   },
-   {
-    "file": "Diner_Behind_04",
-    "say": "We have noticed a gap between expectations and eggs. Please close it.",
     "note": "",
     "group": "Behind"
    },
@@ -414,28 +384,10 @@ window.VOICE_LINES = [
     "group": "New thing"
    },
    {
-    "file": "Diner_NewThing_02",
-    "say": "Effective immediately: a new procedure. Questions may be submitted in writing.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
     "file": "Diner_NewThing_03",
     "say": "A new memo. Please read it twice. Once is not policy.",
     "note": "",
     "group": "New thing"
-   },
-   {
-    "file": "Diner_EventToday_01",
-    "say": "Today's schedule includes a special event.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Diner_EventToday_02",
-    "say": "Calendar update. Attendance is mandatory.",
-    "note": "",
-    "group": "Event today"
    },
    {
     "file": "Diner_EventToday_03",
@@ -450,50 +402,14 @@ window.VOICE_LINES = [
     "group": "Inspector"
    },
    {
-    "file": "Diner_Inspector_In_02",
-    "say": "Inspector on the floor. Smile with your whole face.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_In_03",
-    "say": "Our inspector is here. They are not here to help.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_Good_01",
-    "say": "The inspector was served promptly. Your file has been updated, favourably.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
     "file": "Diner_Inspector_Good_02",
     "say": "Inspection passed. The inspector almost smiled.",
     "note": "",
     "group": "Inspector"
    },
    {
-    "file": "Diner_Inspector_Good_03",
-    "say": "Prompt service noted. Do not let it go to your head.",
-    "note": "Shortened for voice.",
-    "group": "Inspector"
-   },
-   {
     "file": "Diner_Inspector_Bad_01",
     "say": "The inspector waited. The inspector writes everything down.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_Bad_02",
-    "say": "Inspection note: slow. That word will follow you.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_Bad_03",
-    "say": "The inspector has left a comment. It is not a compliment.",
     "note": "",
     "group": "Inspector"
    },
@@ -845,18 +761,6 @@ window.VOICE_LINES = [
     "group": "Review day"
    },
    {
-    "file": "Office_LastDay_01",
-    "say": "Final day of the contract. Please do not make it a learning experience.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
-    "file": "Office_LastDay_02",
-    "say": "Today is the deadline. Let's all be proactive, retroactively.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
     "file": "Office_LastDay_03",
     "say": "Last day, team! We are all very aligned. Look how aligned we are.",
     "note": "Clearly not aligned.",
@@ -869,26 +773,8 @@ window.VOICE_LINES = [
     "group": "Last day"
    },
    {
-    "file": "Office_Behind_01",
-    "say": "Team, we are short of target. I'm not worried. I'm monitoring.",
-    "note": "Shortened for voice. A little worried.",
-    "group": "Behind"
-   },
-   {
     "file": "Office_Behind_02",
     "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Office_Behind_03",
-    "say": "Per my last email, the quota does not care about your inbox.",
-    "note": "Shortened for voice.",
-    "group": "Behind"
-   },
-   {
-    "file": "Office_Behind_04",
-    "say": "We have noticed a gap between expectations and deliverables. Please close it.",
     "note": "",
     "group": "Behind"
    },
@@ -905,28 +791,10 @@ window.VOICE_LINES = [
     "group": "New thing"
    },
    {
-    "file": "Office_NewThing_02",
-    "say": "Effective immediately: a new process. Questions may be submitted in writing.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
     "file": "Office_NewThing_03",
     "say": "A new memo. Please read it twice. Once is not policy.",
     "note": "",
     "group": "New thing"
-   },
-   {
-    "file": "Office_EventToday_01",
-    "say": "Today's schedule includes a special event.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Office_EventToday_02",
-    "say": "Calendar update. Attendance is mandatory.",
-    "note": "",
-    "group": "Event today"
    },
    {
     "file": "Office_EventToday_03",
@@ -1261,21 +1129,9 @@ window.VOICE_LINES = [
     "group": "Review day"
    },
    {
-    "file": "Security_LastDay_01",
-    "say": "Final day of the engagement. Let's make it a clean exit.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
     "file": "Security_LastDay_02",
     "say": "Last day. The final test. Everything you've learned, all at once.",
     "note": "",
-    "group": "Last day"
-   },
-   {
-    "file": "Security_LastDay_03",
-    "say": "Final day, team. Nice and calm. Nobody panics on the last day.",
-    "note": "Clearly not calm.",
     "group": "Last day"
    },
    {
@@ -1285,27 +1141,9 @@ window.VOICE_LINES = [
     "group": "Last day"
    },
    {
-    "file": "Security_Behind_01",
-    "say": "Team, we're short of target. I'm not worried. I'm watching.",
-    "note": "A little worried.",
-    "group": "Behind"
-   },
-   {
     "file": "Security_Behind_02",
     "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
     "note": "The same words every manager says.",
-    "group": "Behind"
-   },
-   {
-    "file": "Security_Behind_03",
-    "say": "We're behind. The building won't break into itself.",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Security_Behind_04",
-    "say": "We've noticed a gap between findings and expectations. Please close it.",
-    "note": "",
     "group": "Behind"
    },
    {
@@ -1327,26 +1165,8 @@ window.VOICE_LINES = [
     "group": "New thing"
    },
    {
-    "file": "Security_NewThing_03",
-    "say": "A new memo. Please read it twice. Once is not policy.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
-    "file": "Security_EventToday_01",
-    "say": "Today's schedule includes a special event.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
     "file": "Security_EventToday_02",
     "say": "Heads up. The site has plans today. They didn't tell us.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Security_EventToday_03",
-    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
     "note": "",
     "group": "Event today"
    },
@@ -1659,18 +1479,6 @@ window.VOICE_LINES = [
     "group": "Review day"
    },
    {
-    "file": "Graveyard_LastDay_01",
-    "say": "Final night of the contract. Your future is exciting and undecided.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
-    "file": "Graveyard_LastDay_02",
-    "say": "Tonight is the deadline. Please don't make it a late night.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
     "file": "Graveyard_LastDay_03",
     "say": "Final night, team! We're all so calm. Look how calm we are.",
     "note": "Clearly not calm.",
@@ -1683,26 +1491,8 @@ window.VOICE_LINES = [
     "group": "Last day"
    },
    {
-    "file": "Graveyard_Behind_01",
-    "say": "Team, we are short of target. I'm not worried. I'm counting.",
-    "note": "A little worried.",
-    "group": "Behind"
-   },
-   {
     "file": "Graveyard_Behind_02",
     "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Graveyard_Behind_03",
-    "say": "Per my last memo, the quota does not sleep. Please follow its example.",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Graveyard_Behind_04",
-    "say": "We've noticed a gap between expectations and plots filled. Please close it.",
     "note": "",
     "group": "Behind"
    },
@@ -1719,28 +1509,10 @@ window.VOICE_LINES = [
     "group": "New thing"
    },
    {
-    "file": "Graveyard_NewThing_02",
-    "say": "Effective immediately: a new procedure. Questions may be submitted in writing.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
     "file": "Graveyard_NewThing_03",
     "say": "A new memo. Please read it twice. Once is not policy.",
     "note": "",
     "group": "New thing"
-   },
-   {
-    "file": "Graveyard_EventToday_01",
-    "say": "Tonight's schedule includes a special event.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Graveyard_EventToday_02",
-    "say": "Weather update. Visibility is optional. Attendance is not.",
-    "note": "For the fog night (and rain, if it comes).",
-    "group": "Event today"
    },
    {
     "file": "Graveyard_EventToday_03",
@@ -2023,18 +1795,6 @@ window.VOICE_LINES = [
     "group": "Review day"
    },
    {
-    "file": "CallCentre_LastDay_01",
-    "say": "Final day of the contract. Please end it on a good call.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
-    "file": "CallCentre_LastDay_02",
-    "say": "Today is the deadline. Please resolve it on the first call.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
     "file": "CallCentre_LastDay_03",
     "say": "Last day, team! We are all so calm. Listen to how calm.",
     "note": "Clearly not calm.",
@@ -2047,26 +1807,8 @@ window.VOICE_LINES = [
     "group": "Last day"
    },
    {
-    "file": "CallCentre_Behind_01",
-    "say": "Team, we're short of target. I'm not worried. I'm listening.",
-    "note": "A little worried.",
-    "group": "Behind"
-   },
-   {
     "file": "CallCentre_Behind_02",
     "say": "You are behind target. Please answer faster. Then faster than that.",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "CallCentre_Behind_03",
-    "say": "Per the binder, the quota does not care how long the call was.",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "CallCentre_Behind_04",
-    "say": "We've noticed a gap between calls rung and calls answered. Please close it.",
     "note": "",
     "group": "Behind"
    },
@@ -2083,28 +1825,10 @@ window.VOICE_LINES = [
     "group": "New thing"
    },
    {
-    "file": "CallCentre_NewThing_02",
-    "say": "Effective immediately: a new kind of call. Training is the first call.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
     "file": "CallCentre_NewThing_03",
     "say": "A new memo. Please read it aloud to whoever holds the binder.",
     "note": "",
     "group": "New thing"
-   },
-   {
-    "file": "CallCentre_EventToday_01",
-    "say": "Today's schedule includes a special event.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "CallCentre_EventToday_02",
-    "say": "Heads up: something is scheduled today. Please stay on the line.",
-    "note": "",
-    "group": "Event today"
    },
    {
     "file": "CallCentre_EventToday_03",
