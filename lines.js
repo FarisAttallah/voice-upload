@@ -835,9 +835,9 @@ window.VOICE_LINES = [
     "group": "Practice"
    },
    {
-    "file": "Security_Start_C2",
-    "say": "Good morning. Today we get in, get proof, get out.",
-    "note": "",
+    "file": "Security_Start_C1",
+    "say": "Morning, team. The brief is on the board. Read it twice.",
+    "note": "The screen adds the day number in front.",
     "group": "Start"
    },
    {
