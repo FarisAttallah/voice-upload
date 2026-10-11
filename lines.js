@@ -44,8 +44,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Boss_07",
-    "say": "Every few days, we review what you earned against a target.",
-    "note": "No numbers, so the line survives retuning",
+    "say": "Every few days, we'll review what you earned against a target.",
+    "note": "No numbers, so the line survives retuning. \"We'll\" as recorded (2026-10-11)",
     "group": "The intro scene"
    },
    {
@@ -74,8 +74,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Boss_12",
-    "say": "Now. Your contract. Sign at the bottom.",
-    "note": "Skipping the scene jumps here",
+    "say": "Now. Your contract. Just sign at the bottom.",
+    "note": "Skipping the scene jumps here. \"Just\" as recorded (2026-10-11)",
     "group": "The intro scene"
    },
    {
@@ -628,42 +628,6 @@ window.VOICE_LINES = [
     "say": "A customer ate for nothing. The promise was kept. The money was not.",
     "note": "",
     "group": "Free meal"
-   },
-   {
-    "file": "Diner_GoalStart_01",
-    "say": "Your goal is set. There is no deadline. There is, however, a clock.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Diner_GoalStart_02",
-    "say": "Welcome back. You know the job. Take as long as you dare.",
-    "note": "Shortened for voice.",
-    "group": "Goal start"
-   },
-   {
-    "file": "Diner_GoalStart_03",
-    "say": "Goal run open. Management will be counting the days. Out loud.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Diner_GoalReached_01",
-    "say": "Goal reached. Finish the day. Nobody leaves early.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Diner_GoalReached_02",
-    "say": "Target met. Please keep serving until closing, for appearances.",
-    "note": "Shortened for voice.",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Diner_GoalReached_03",
-    "say": "Target reached. The paperwork is ready. Your shift is not over.",
-    "note": "",
-    "group": "Goal reached"
    }
   ]
  },
@@ -1179,42 +1143,6 @@ window.VOICE_LINES = [
     "say": "All-hands in the meeting room, now. All hands. Yours too.",
     "note": "Everyone is called to the meeting room for a short while.",
     "group": "All hands"
-   },
-   {
-    "file": "Office_GoalStart_01",
-    "say": "Your goal is set. There is no deadline. There is, however, a calendar.",
-    "note": "Shortened for voice.",
-    "group": "Goal start"
-   },
-   {
-    "file": "Office_GoalStart_02",
-    "say": "Welcome back. You know the job. Take as long as you dare.",
-    "note": "Shortened for voice.",
-    "group": "Goal start"
-   },
-   {
-    "file": "Office_GoalStart_03",
-    "say": "Goal run open. Management will be counting the days. In a meeting.",
-    "note": "Shortened for voice.",
-    "group": "Goal start"
-   },
-   {
-    "file": "Office_GoalReached_01",
-    "say": "Goal reached. Finish the day. Nobody logs off early.",
-    "note": "Shortened for voice.",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Office_GoalReached_02",
-    "say": "That is the target met. Please keep delivering until closing, for appearances.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Office_GoalReached_03",
-    "say": "Target reached. The paperwork is ready. Your shift is not over.",
-    "note": "Shortened for voice.",
-    "group": "Goal reached"
    }
   ]
  },
@@ -1727,42 +1655,6 @@ window.VOICE_LINES = [
     "say": "Rush job. The client wants the report early. The pay is better.",
     "note": "Rush engagement: the debrief comes early.",
     "group": "Rush"
-   },
-   {
-    "file": "Security_GoalStart_01",
-    "say": "Your goal is set. There is no deadline. There is, however, a fence.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Security_GoalStart_02",
-    "say": "Welcome back. You know the building. It knows you too.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Security_GoalStart_03",
-    "say": "Goal run open. Management will be counting the days. Quietly.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Security_GoalReached_01",
-    "say": "Goal reached. Finish the day. Nobody leaves the site early.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Security_GoalReached_02",
-    "say": "Target met. Please keep testing until home time, for appearances.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Security_GoalReached_03",
-    "say": "Target reached. The paperwork is ready. Your shift is not over.",
-    "note": "",
-    "group": "Goal reached"
    }
   ]
  },
@@ -2209,42 +2101,6 @@ window.VOICE_LINES = [
     "say": "Overtime tonight. More pay, more hours, more arrivals. Lovely.",
     "note": "",
     "group": "Overtime"
-   },
-   {
-    "file": "Graveyard_GoalStart_01",
-    "say": "Your goal is set. There is no deadline. There is, however, a clock.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Graveyard_GoalStart_02",
-    "say": "Welcome back. You know the job. Take as many nights as you dare.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Graveyard_GoalStart_03",
-    "say": "Goal run open. Management will be counting the nights. Out loud.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "Graveyard_GoalReached_01",
-    "say": "Goal reached. Finish the night. Nobody leaves before dawn.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Graveyard_GoalReached_02",
-    "say": "Target met. Please keep digging until dawn, for appearances.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "Graveyard_GoalReached_03",
-    "say": "Target reached. The paperwork is ready. Your shift is not over.",
-    "note": "",
-    "group": "Goal reached"
    }
   ]
  },
@@ -2669,42 +2525,6 @@ window.VOICE_LINES = [
     "say": "A special event today. Nothing to worry about. It's been scripted.",
     "note": "",
     "group": "Event today"
-   },
-   {
-    "file": "CallCentre_GoalStart_01",
-    "say": "Your goal is set. There is no deadline. There is, however, a queue.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "CallCentre_GoalStart_02",
-    "say": "Welcome back. You know the lines. Take as long as you dare.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "CallCentre_GoalStart_03",
-    "say": "Goal run open. Management will be counting the days. On hold.",
-    "note": "",
-    "group": "Goal start"
-   },
-   {
-    "file": "CallCentre_GoalReached_01",
-    "say": "Goal reached. Finish the day. Nobody hangs up early.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "CallCentre_GoalReached_02",
-    "say": "Target met. Please keep answering until close, for appearances.",
-    "note": "",
-    "group": "Goal reached"
-   },
-   {
-    "file": "CallCentre_GoalReached_03",
-    "say": "Target reached. The paperwork is filed. Your shift is not over.",
-    "note": "",
-    "group": "Goal reached"
    }
   ]
  },
