@@ -153,12 +153,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Diner_Start_C3",
-    "say": "Welcome back. The diner is glad to have you. So are we.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Diner_Start_K1",
     "say": "Be on time. Thank you.",
     "note": "The screen adds the day number in front.",
@@ -203,12 +197,6 @@ window.VOICE_LINES = [
    {
     "file": "Diner_End_C2",
     "say": "Doors closed. Great energy. Please save some for tomorrow.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_C3",
-    "say": "And that is the day. Well done, everyone. Truly.",
     "note": "",
     "group": "End"
    },
@@ -645,54 +633,6 @@ window.VOICE_LINES = [
     "group": "Visit"
    },
    {
-    "file": "Diner_Visit_1a_Narrow",
-    "say": "Evening, team. Review one is in. You passed. Just.",
-    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Cheerful, with a wince on \"Just.\"",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_1b_Narrow",
-    "say": "Head office noticed the 'just'. Let's give them less to notice.",
-    "note": "Visit 1, narrow pass. Replaces 1b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_2a_Narrow",
-    "say": "Review two. You scraped it. Scraping counts, apparently.",
-    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_2b_Narrow",
-    "say": "There were comments. I've been asked not to share them.",
-    "note": "Visit 2, narrow pass. Replaces 2b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_3a_Narrow",
-    "say": "Review three. Passed. Upstairs used the word 'adequate'.",
-    "note": "Visit 3, narrow pass. Replaces 3a. Strained, sitting in the booth.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_3b_Narrow",
-    "say": "The permanent position is still possible. Possible is a strong word.",
-    "note": "Visit 3, narrow pass. Replaces 3b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_4a_Narrow",
-    "say": "Final review. Passed, narrowly. The letter says passed, so: passed.",
-    "note": "Visit 4, narrow pass. Replaces 4a. Strained, slow.",
-    "group": "Visit"
-   },
-   {
-    "file": "Diner_Visit_4b_Narrow",
-    "say": "Your reassignment will proceed. Please don't ask where to.",
-    "note": "Visit 4, narrow pass. Replaces 4b.",
-    "group": "Visit"
-   },
-   {
     "file": "Diner_Visit_F_a",
     "say": "Evening. I'll keep this short. The review didn't pass.",
     "note": "The failed review (any of the four): he lets the crew go in person, before the letter of separation. Quiet, not angry. Sorry for himself more than for them.",
@@ -746,12 +686,6 @@ window.VOICE_LINES = [
     "file": "Office_Start_C2",
     "say": "Your inbox has been informed. It is very excited.",
     "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Office_Start_C3",
-    "say": "Welcome back! The coffee is free. Your time is not.",
-    "note": "",
     "group": "Start"
    },
    {
@@ -845,12 +779,6 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Office_End_C3",
-    "say": "And that's the deadline. Let's show the client what we built.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Office_End_K1",
     "say": "Time. Please stop typing and go to the meeting room.",
     "note": "",
@@ -889,12 +817,6 @@ window.VOICE_LINES = [
    {
     "file": "Office_Early_01",
     "say": "Everything delivered early! The client is impressed. I'm a little suspicious.",
-    "note": "",
-    "group": "Early"
-   },
-   {
-    "file": "Office_Early_02",
-    "say": "Done early! Let's pitch now, while the client is still smiling.",
     "note": "",
     "group": "Early"
    },
@@ -1749,12 +1671,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Graveyard_Start_C3",
-    "say": "Evening, all. Coffee's on in the gatehouse. Defences out before dark.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Graveyard_Start_K1",
     "say": "Evening. Tonight's roster is on the register. Please read it.",
     "note": "The screen adds the night number in front.",
@@ -1767,12 +1683,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Graveyard_Start_K3",
-    "say": "Evening. Same sections as last night. More of them, actually.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Graveyard_Start_S1",
     "say": "Good evening. Please stay together tonight. It helps the count.",
     "note": "The screen adds the night number in front.",
@@ -1781,12 +1691,6 @@ window.VOICE_LINES = [
    {
     "file": "Graveyard_Start_S2",
     "say": "Dusk. Please work in pairs tonight. Nobody goes out alone.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Graveyard_Start_S3",
-    "say": "Evening, team. Please be on time tonight. Everyone else will be.",
     "note": "",
     "group": "Start"
    },
@@ -1821,12 +1725,6 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Graveyard_End_C3",
-    "say": "That's the shift. Well done. Please leave by the main gate.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Graveyard_End_K1",
     "say": "Dawn. Please stop digging. Your hours have been recorded.",
     "note": "",
@@ -1836,12 +1734,6 @@ window.VOICE_LINES = [
     "file": "Graveyard_End_K2",
     "say": "Shift over. The gates open now. Please stand aside.",
     "note": "The gates open for the ones still standing to walk out.",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_End_K3",
-    "say": "That's dawn. Leave the tools where you found them.",
-    "note": "",
     "group": "End"
    },
    {
@@ -1861,12 +1753,6 @@ window.VOICE_LINES = [
     "say": "That's dawn. Review results at the gatehouse, team. I'm on my way.",
     "note": "Review mornings only (after nights 2, 4 and 6), in place of the dawn line. Calls the crew to the gatehouse for the visit. Tone follows the night.",
     "group": "Dawn"
-   },
-   {
-    "file": "Graveyard_End_S3",
-    "say": "Dawn. Same time tonight. Same as always.",
-    "note": "The diner manager's last closing line, nearly word for word.",
-    "group": "End"
    },
    {
     "file": "Graveyard_Remark_C1",
@@ -1944,12 +1830,6 @@ window.VOICE_LINES = [
     "file": "Graveyard_Restart_01",
     "say": "Too many on the clock. We'll run the night again. From dusk.",
     "note": "The last strike: the night starts over (if the owner keeps the security rule). Tired.",
-    "group": "Restart"
-   },
-   {
-    "file": "Graveyard_Restart_02",
-    "say": "That's the limit. Back to dusk, team. They'll be back too.",
-    "note": "The last strike, second version.",
     "group": "Restart"
    },
    {
@@ -2205,57 +2085,9 @@ window.VOICE_LINES = [
     "group": "Visit"
    },
    {
-    "file": "Graveyard_Visit_1a_Narrow",
-    "say": "Morning, team. Review one is in. You passed. Only just.",
-    "note": "Visit 1 when the review was passed narrowly (under 1.2x the target). Replaces 1a. Warm, with a wince on \"Only just.\"",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_1b_Narrow",
-    "say": "Too many reached the clock. Head office counts every one.",
-    "note": "Visit 1, narrow pass. Replaces 1b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_2a_Narrow",
-    "say": "Review two. Passed. Barely. A lot of late arrivals got through.",
-    "note": "Visit 2, narrow pass. Replaces 2a. Clipped.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_2b_Narrow",
-    "say": "There were comments. I've been asked to bury them.",
-    "note": "Visit 2, narrow pass. Replaces 2b. Do not play the pun; say it straight.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_3a_Narrow",
-    "say": "Final review. Passed, just. Head office rounded up. They rarely do.",
-    "note": "Visit 3, narrow pass. Replaces 3a. Strained, slow.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_3b_Narrow",
-    "say": "Your reassignment will go ahead. Your file has notes. Several.",
-    "note": "Visit 3, narrow pass. Replaces 3b.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_F1a",
-    "say": "Morning. I'll keep this short. Review one didn't pass.",
-    "note": "Failed review 1: you let the crew go in person, before the letter of separation. Quiet, not angry.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_F2a",
-    "say": "Morning. Review two didn't pass. I did warn you about the clock.",
-    "note": "Failed review 2. Replaces F1a. Quiet, a little hurt.",
-    "group": "Visit"
-   },
-   {
-    "file": "Graveyard_Visit_F3a",
-    "say": "Morning. The final review didn't pass. So close. That's the worst kind.",
-    "note": "Failed review 3. Replaces F1a. Quiet, genuinely sorry.",
+    "file": "Graveyard_Visit_F_a",
+    "say": "Morning. I'll keep this short. The review didn't pass.",
+    "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
     "group": "Visit"
    },
    {
@@ -2309,12 +2141,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "CallCentre_Start_C3",
-    "say": "Welcome back! Same desks, same binders, same wonderful callers.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "CallCentre_Start_K1",
     "say": "Morning. Lines open. Answer fast, read carefully, hang up never.",
     "note": "The screen adds the day number in front.",
@@ -2323,12 +2149,6 @@ window.VOICE_LINES = [
    {
     "file": "CallCentre_Start_K2",
     "say": "Good morning. Handle time matters. Please handle it.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "CallCentre_Start_K3",
-    "say": "Morning. The queue is already waiting. It always is.",
     "note": "",
     "group": "Start"
    },
@@ -2345,12 +2165,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "CallCentre_Start_S3",
-    "say": "Morning, team. This call may be recorded. All of them are.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "CallCentre_End_C1",
     "say": "That's the lines closed, team! Lovely work. Lovely voices.",
     "note": "",
@@ -2360,12 +2174,6 @@ window.VOICE_LINES = [
     "file": "CallCentre_End_C2",
     "say": "Headsets off! Thank you for calling. Sorry. For working.",
     "note": "A habit: corrects himself with a laugh.",
-    "group": "End"
-   },
-   {
-    "file": "CallCentre_End_C3",
-    "say": "And that's the queue cleared. Or closed. Either way, well done.",
-    "note": "",
     "group": "End"
    },
    {
@@ -2381,12 +2189,6 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "CallCentre_End_K3",
-    "say": "Lines closed. Please put the binders back exactly where they belong.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "CallCentre_End_S1",
     "say": "Lines closed. Please stay at your desks until the floor is counted.",
     "note": "",
@@ -2396,12 +2198,6 @@ window.VOICE_LINES = [
     "file": "CallCentre_End_S2",
     "say": "That's time. Please take your headsets off. Slowly. Thank you.",
     "note": "",
-    "group": "End"
-   },
-   {
-    "file": "CallCentre_End_S3",
-    "say": "Lines closed. Thank you for calling. Please hold.",
-    "note": "The service voice, out of habit. A short silence after \"Please hold\".",
     "group": "End"
    },
    {
@@ -2462,12 +2258,6 @@ window.VOICE_LINES = [
     "file": "CallCentre_Edition_01",
     "say": "A new edition of the binder has arrived. Old copies are wrong now.",
     "note": "Day 5, midday. The game shows which binder on screen.",
-    "group": "Edition"
-   },
-   {
-    "file": "CallCentre_Edition_02",
-    "say": "New edition on the shelf. The old rules stopped being true just now.",
-    "note": "Day 5, midday. Light, as if that is normal.",
     "group": "Edition"
    },
    {
@@ -2732,42 +2522,6 @@ window.VOICE_LINES = [
     "file": "CallCentre_Review_3c",
     "say": "Your file goes upstairs tonight. Someone up there will read it. Probably.",
     "note": "Evening 3. Leaving. A pause before \"Probably.\" Calm, as if nothing is ringing.",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_1a_Narrow",
-    "say": "Evening, team. First review's in. You passed. Barely.",
-    "note": "Evening 1, close call. Replaces 1a. Warm, with a wince on \"Barely.\"",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_1b_Narrow",
-    "say": "A few callers asked for a manager. I was the manager.",
-    "note": "Evening 1, close call. Replaces 1b. Not amused.",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_2a_Narrow",
-    "say": "Review two. Passed. Head office used the word 'acceptable'.",
-    "note": "Evening 2, close call. Replaces 2a. Clipped.",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_2b_Narrow",
-    "say": "Some of your calls are now training material. Not the good kind.",
-    "note": "Evening 2, close call. Replaces 2b.",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_3a_Narrow",
-    "say": "Final review. Let me check the binder. ...Twice.",
-    "note": "Evening 3, close call. Replaces 3a. Turns back a page before \"Twice.\"",
-    "group": "Review"
-   },
-   {
-    "file": "CallCentre_Review_3b_Narrow",
-    "say": "Passed, narrowly. The binder says continue. It hesitated, but it says it.",
-    "note": "Evening 3, close call. Replaces 3b.",
     "group": "Review"
    },
    {
