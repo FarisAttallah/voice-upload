@@ -569,12 +569,6 @@ window.VOICE_LINES = [
     "group": "Client"
    },
    {
-    "file": "Office_Client_In_02",
-    "say": "Client in the building. Let's make a great first impression.",
-    "note": "",
-    "group": "Client"
-   },
-   {
     "file": "Office_Client_In_03",
     "say": "The client is here. Please only promise what you can deliver.",
     "note": "A gentle warning, still smiling.",
@@ -590,12 +584,6 @@ window.VOICE_LINES = [
     "file": "Office_Change_01",
     "say": "The client has changed their mind. Please check the board.",
     "note": "Midway through the day the client changes one part.",
-    "group": "Change"
-   },
-   {
-    "file": "Office_Change_02",
-    "say": "A small update from the client. It's not small. Please redo it.",
-    "note": "",
     "group": "Change"
    },
    {
@@ -635,21 +623,9 @@ window.VOICE_LINES = [
     "group": "Pitch"
    },
    {
-    "file": "Office_Pitch_Good_02",
-    "say": "Signed and approved. I'll be mentioning this in a meeting.",
-    "note": "",
-    "group": "Pitch"
-   },
-   {
     "file": "Office_Pitch_Bad_01",
     "say": "The client left without signing. That will need a follow-up.",
     "note": "Disappointed, not angry.",
-    "group": "Pitch"
-   },
-   {
-    "file": "Office_Pitch_Bad_02",
-    "say": "No sign-off today. Let's circle back on that. Tonight.",
-    "note": "A pause before \"Tonight.\"",
     "group": "Pitch"
    },
    {
