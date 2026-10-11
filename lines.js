@@ -865,12 +865,6 @@ window.VOICE_LINES = [
     "group": "Fixed"
    },
    {
-    "file": "Security_Fixed_03",
-    "say": "They closed your way in. Good. That's what they paid for.",
-    "note": "",
-    "group": "Fixed"
-   },
-   {
     "file": "Security_Strike_01",
     "say": "A tester has been stopped. Show the letter. That's a strike.",
     "note": "",
@@ -880,12 +874,6 @@ window.VOICE_LINES = [
     "file": "Security_Strike_02",
     "say": "Someone got caught. Walk out calmly. Smile at the guard.",
     "note": "",
-    "group": "Strike"
-   },
-   {
-    "file": "Security_Strike_03",
-    "say": "Another one detained. Please stop meeting the guards.",
-    "note": "Never the day's first strike. Dry.",
     "group": "Strike"
    },
    {
@@ -937,21 +925,9 @@ window.VOICE_LINES = [
     "group": "Debrief"
    },
    {
-    "file": "Security_Debrief_Good_02",
-    "say": "Every finding in. Good work. Nobody saw a thing.",
-    "note": "",
-    "group": "Debrief"
-   },
-   {
     "file": "Security_Debrief_Bad_01",
     "say": "Findings missing. The client thinks their building is safe. It isn't.",
     "note": "Disappointed, not angry.",
-    "group": "Debrief"
-   },
-   {
-    "file": "Security_Debrief_Bad_02",
-    "say": "A thin report. We'll go back in tomorrow. We always do.",
-    "note": "",
     "group": "Debrief"
    },
    {
