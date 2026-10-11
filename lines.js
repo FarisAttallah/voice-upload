@@ -1185,12 +1185,6 @@ window.VOICE_LINES = [
     "group": "Rise"
    },
    {
-    "file": "Graveyard_Rise_02",
-    "say": "Sections opening now. Nobody clocks in after hours. Nobody.",
-    "note": "",
-    "group": "Rise"
-   },
-   {
     "file": "Graveyard_Rise_03",
     "say": "Arrivals are starting. Please keep them away from the clock.",
     "note": "",
@@ -1242,12 +1236,6 @@ window.VOICE_LINES = [
     "file": "Graveyard_Strike_01",
     "say": "A late arrival has clocked in. That is a strike.",
     "note": "The screen shows how many strikes are left.",
-    "group": "Strike"
-   },
-   {
-    "file": "Graveyard_Strike_02",
-    "say": "Someone clocked in after hours. We do not pay for that.",
-    "note": "",
     "group": "Strike"
    },
    {
