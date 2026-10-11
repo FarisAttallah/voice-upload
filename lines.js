@@ -252,24 +252,6 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Diner_Start_C2",
-    "say": "Your enthusiasm has been noted, and filed.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Diner_Start_K1",
-    "say": "Be on time. Thank you.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Diner_Start_K2",
-    "say": "Doors open. Please work quickly and quietly. Thank you.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Diner_Start_K3",
     "say": "Good morning. Same targets as yesterday. Higher, actually.",
     "note": "",
@@ -282,38 +264,8 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Diner_Start_S2",
-    "say": "Doors open. Please keep your eyes on the grill.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Diner_Start_S3",
-    "say": "Good morning. Please clock in with a smile. Any smile.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Diner_End_C1",
     "say": "That's time, team. Thank you for a lovely day.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_C2",
-    "say": "Doors closed. Great energy. Please save some for tomorrow.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_K1",
-    "say": "Time. Please put down what you are holding.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_K2",
-    "say": "Doors closed. Your hours have been recorded.",
     "note": "",
     "group": "End"
    },
@@ -330,45 +282,9 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Diner_End_S2",
-    "say": "Doors closed. Please leave quietly. Thank you for your quiet.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_S3",
-    "say": "That is the day. Same time tomorrow. Same as always.",
-    "note": "Shortened for voice.",
-    "group": "End"
-   },
-   {
-    "file": "Diner_Remark_C1",
-    "say": "Reminder: the cameras are for your protection. Mostly ours.",
-    "note": "Cheerful.",
-    "group": "Remark"
-   },
-   {
     "file": "Diner_Remark_C2",
     "say": "We're a family here. A family with targets.",
     "note": "Cheerful.",
-    "group": "Remark"
-   },
-   {
-    "file": "Diner_Remark_C3",
-    "say": "Smile! It's in your contract. Page fourteen.",
-    "note": "Cheerful.",
-    "group": "Remark"
-   },
-   {
-    "file": "Diner_Remark_K1",
-    "say": "Reminder: this is your station. That is their station.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
-    "file": "Diner_Remark_K2",
-    "say": "Please do not hum. It is not on the list.",
-    "note": "Clipped.",
     "group": "Remark"
    },
    {
@@ -381,18 +297,6 @@ window.VOICE_LINES = [
     "file": "Diner_Remark_S1",
     "say": "You are not the first crew in this diner.",
     "note": "Strained. Almost to themselves.",
-    "group": "Remark"
-   },
-   {
-    "file": "Diner_Remark_S2",
-    "say": "Please keep working. We will tell you when to stop.",
-    "note": "Strained.",
-    "group": "Remark"
-   },
-   {
-    "file": "Diner_Remark_S3",
-    "say": "Thank you for your hard work. It has been noted. All of it.",
-    "note": "Strained.",
     "group": "Remark"
    },
    {
@@ -767,44 +671,14 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Office_Start_C2",
-    "say": "Your inbox has been informed. It is very excited.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
     "file": "Office_Start_K1",
     "say": "Morning. One client, one deadline. Let's action it.",
     "note": "The screen adds the day number in front.",
     "group": "Start"
    },
    {
-    "file": "Office_Start_K2",
-    "say": "Good morning. Please keep your status set to available.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Office_Start_K3",
-    "say": "Morning. I'll keep this brief. Unlike your day.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Office_Start_S1",
-    "say": "Good morning. Everyone is visible today. Please stay visible.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
     "file": "Office_Start_S2",
     "say": "Please keep your cameras on today. We always do.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Office_Start_S3",
-    "say": "Morning, team. Let's keep this short. It's being recorded.",
     "note": "",
     "group": "Start"
    },
@@ -857,44 +731,14 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Office_End_C2",
-    "say": "Pencils down! Pitch time. Big smiles, bigger numbers.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Office_End_K1",
     "say": "Time. Please stop typing and go to the meeting room.",
     "note": "",
     "group": "End"
    },
    {
-    "file": "Office_End_K2",
-    "say": "Deadline reached. Whatever is not finished is not finished.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Office_End_K3",
-    "say": "Time is up. The client is waiting. So are we.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Office_End_S1",
-    "say": "Time. Please step away from your desks. Leave everything where it is.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Office_End_S2",
     "say": "That's the deadline. Please gather in the meeting room. All of you.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Office_End_S3",
-    "say": "Time is up. Please don't keep the client waiting. They don't like it.",
     "note": "",
     "group": "End"
    },
@@ -929,27 +773,9 @@ window.VOICE_LINES = [
     "group": "Pitch"
    },
    {
-    "file": "Office_Remark_C1",
-    "say": "Your performance is being monitored for quality, training and amusement.",
-    "note": "Upbeat.",
-    "group": "Remark"
-   },
-   {
     "file": "Office_Remark_C2",
     "say": "We're a family here. A family with read receipts.",
     "note": "Upbeat.",
-    "group": "Remark"
-   },
-   {
-    "file": "Office_Remark_C3",
-    "say": "Everyone is a stakeholder. Not everyone is paid like one.",
-    "note": "Upbeat.",
-    "group": "Remark"
-   },
-   {
-    "file": "Office_Remark_K1",
-    "say": "Reminder: please do not reply-all. Thank you. Thank you all.",
-    "note": "Clipped. Does not notice the joke.",
     "group": "Remark"
    },
    {
@@ -959,27 +785,9 @@ window.VOICE_LINES = [
     "group": "Remark"
    },
    {
-    "file": "Office_Remark_K3",
-    "say": "Reminder: lunch is available. Please take it at your desk.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
     "file": "Office_Remark_S1",
     "say": "Everyone here gets reviewed. Everyone. That's what makes us fair.",
     "note": "Strained. Almost to themselves.",
-    "group": "Remark"
-   },
-   {
-    "file": "Office_Remark_S2",
-    "say": "Please stay at your desks. We like to know where you are.",
-    "note": "Strained.",
-    "group": "Remark"
-   },
-   {
-    "file": "Office_Remark_S3",
-    "say": "Your feedback has been noted. So has everything else.",
-    "note": "Strained.",
     "group": "Remark"
    },
    {
@@ -1255,12 +1063,6 @@ window.VOICE_LINES = [
     "group": "Practice"
    },
    {
-    "file": "Security_Start_C1",
-    "say": "Morning, team. The brief is on the board. Read it twice.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
     "file": "Security_Start_C2",
     "say": "Good morning. Today we get in, get proof, get out.",
     "note": "",
@@ -1273,21 +1075,9 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Security_Start_K2",
-    "say": "Morning. Radios on, heads down. Nobody needs to see your face.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Security_Start_S1",
     "say": "Good morning. Please stay on the radio today. All day.",
     "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Security_Start_S2",
-    "say": "Morning. Quiet day, please. Nobody needs to be a hero.",
-    "note": "new",
     "group": "Start"
    },
    {
@@ -1351,32 +1141,14 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Security_End_C2",
-    "say": "Pens down, team. Debrief at the van. Walk out like staff.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Security_End_K1",
     "say": "Time. Leave the building. Whatever you didn't prove didn't happen.",
     "note": "",
     "group": "End"
    },
    {
-    "file": "Security_End_K2",
-    "say": "Day's over. Back to the van. The client is reading now.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Security_End_S1",
     "say": "Time. Please come back to the van. All of you.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Security_End_S2",
-    "say": "That's the day. Leave quietly. Leave everything where it is.",
     "note": "",
     "group": "End"
    },
@@ -1423,36 +1195,6 @@ window.VOICE_LINES = [
     "group": "Remark"
    },
    {
-    "file": "Security_Remark_C2",
-    "say": "Best part of the job? Everyone's a suspect. Except us.",
-    "note": "Confident.",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_C3",
-    "say": "A good tester is never noticed. A great one is never remembered.",
-    "note": "Confident. Proud of it.",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_K1",
-    "say": "Reminder: the radios are for work. Please stop narrating.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_K2",
-    "say": "Reminder: running looks guilty. So does walking too slowly.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_K3",
-    "say": "Keep your letter handy. Nobody reads it. Keep it handy anyway.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
     "file": "Security_Remark_K4",
     "say": "Reminder: seated staff are out of scope. Please don't photograph them.",
     "note": "Clipped, read off the clipboard like any other rule. The customer crumb (owner, 2026-10-11): never say who seated staff are.",
@@ -1462,18 +1204,6 @@ window.VOICE_LINES = [
     "file": "Security_Remark_S1",
     "say": "Everyone gets watched. Someone has to do the watching.",
     "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_S2",
-    "say": "Please stay where I can see you. On the cameras, I mean.",
-    "note": "Strained. The correction comes a beat late.",
-    "group": "Remark"
-   },
-   {
-    "file": "Security_Remark_S3",
-    "say": "Reminder: all photos are company property. Including the ones of you.",
-    "note": "Strained.",
     "group": "Remark"
    },
    {
@@ -1773,33 +1503,15 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "Graveyard_Start_C2",
-    "say": "Welcome to the night shift. Lovely and quiet. For now.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Graveyard_Start_K1",
     "say": "Evening. Tonight's roster is on the register. Please read it.",
     "note": "The screen adds the night number in front.",
     "group": "Start"
    },
    {
-    "file": "Graveyard_Start_K2",
-    "say": "Dusk. Place your defences. Mind the paths. Thank you.",
-    "note": "",
-    "group": "Start"
-   },
-   {
     "file": "Graveyard_Start_S1",
     "say": "Good evening. Please stay together tonight. It helps the count.",
     "note": "The screen adds the night number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Graveyard_Start_S2",
-    "say": "Dusk. Please work in pairs tonight. Nobody goes out alone.",
-    "note": "",
     "group": "Start"
    },
    {
@@ -1827,27 +1539,9 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "Graveyard_End_C2",
-    "say": "Dawn, everyone. The gates are open. Thank you for a quiet night.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_End_K1",
-    "say": "Dawn. Please stop digging. Your hours have been recorded.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "Graveyard_End_K2",
     "say": "Shift over. The gates open now. Please stand aside.",
     "note": "The gates open for the ones still standing to walk out.",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_End_S1",
-    "say": "Dawn. Please stay still while the gate is open.",
-    "note": "",
     "group": "End"
    },
    {
@@ -1869,32 +1563,8 @@ window.VOICE_LINES = [
     "group": "Remark"
    },
    {
-    "file": "Graveyard_Remark_C2",
-    "say": "Reminder: hi-vis jackets are in the gatehouse. We like to see you.",
-    "note": "Warm.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_C3",
-    "say": "Fresh air, flexible hours, free coffee. Honestly, it's a lovely job.",
-    "note": "Warm.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_K1",
-    "say": "Reminder: every plot has a number. Please use the right one.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
     "file": "Graveyard_Remark_K2",
     "say": "Please do not chat with late arrivals. It encourages them.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_K3",
-    "say": "Breaks are available in the gatehouse. Please take them standing up.",
     "note": "Clipped.",
     "group": "Remark"
    },
@@ -1902,18 +1572,6 @@ window.VOICE_LINES = [
     "file": "Graveyard_Remark_S1",
     "say": "Everyone is on the roster eventually. That's what makes it fair.",
     "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_S2",
-    "say": "Please keep working. We will tell you when you are complete.",
-    "note": "Strained.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_S3",
-    "say": "Thank you for your service. It has been noted. Permanently.",
-    "note": "Strained. A small pause before \"Permanently.\"",
     "group": "Remark"
    },
    {
@@ -2233,21 +1891,9 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "CallCentre_Start_C2",
-    "say": "Your call is important to us. So is your call volume.",
-    "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
     "file": "CallCentre_Start_K1",
     "say": "Morning. Lines open. Answer fast, read carefully, hang up never.",
     "note": "The screen adds the day number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "CallCentre_Start_K2",
-    "say": "Good morning. Handle time matters. Please handle it.",
-    "note": "",
     "group": "Start"
    },
    {
@@ -2257,27 +1903,9 @@ window.VOICE_LINES = [
     "group": "Start"
    },
    {
-    "file": "CallCentre_Start_S2",
-    "say": "Lines open. Please don't improvise. Improvising is how files get lost.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "CallCentre_End_C1",
-    "say": "That's the lines closed, team! Lovely work. Lovely voices.",
-    "note": "",
-    "group": "End"
-   },
-   {
     "file": "CallCentre_End_C2",
     "say": "Headsets off! Thank you for calling. Sorry. For working.",
     "note": "A habit: corrects himself with a laugh.",
-    "group": "End"
-   },
-   {
-    "file": "CallCentre_End_K1",
-    "say": "Lines closed. Please finish your sentence and hang up.",
-    "note": "",
     "group": "End"
    },
    {
@@ -2293,27 +1921,9 @@ window.VOICE_LINES = [
     "group": "End"
    },
    {
-    "file": "CallCentre_End_S2",
-    "say": "That's time. Please take your headsets off. Slowly. Thank you.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "CallCentre_Remark_C1",
-    "say": "Reminder: calls may be recorded. For training. And other purposes.",
-    "note": "Warm.",
-    "group": "Remark"
-   },
-   {
     "file": "CallCentre_Remark_C2",
     "say": "We're a family here. A family with a call queue.",
     "note": "Warm. The agency's running joke: every manager has a version.",
-    "group": "Remark"
-   },
-   {
-    "file": "CallCentre_Remark_C3",
-    "say": "Smile while you talk. Callers can hear it. So can we.",
-    "note": "Warm.",
     "group": "Remark"
    },
    {
@@ -2323,33 +1933,9 @@ window.VOICE_LINES = [
     "group": "Remark"
    },
    {
-    "file": "CallCentre_Remark_K2",
-    "say": "Please do not put your team leader on hold.",
-    "note": "Clipped. Dry.",
-    "group": "Remark"
-   },
-   {
-    "file": "CallCentre_Remark_K3",
-    "say": "Reminder: no personal calls. All calls belong to the agency.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
     "file": "CallCentre_Remark_S1",
     "say": "Please don't use your own judgement. The binder has already used it.",
     "note": "Strained. Almost to themselves. Policy, not a confession.",
-    "group": "Remark"
-   },
-   {
-    "file": "CallCentre_Remark_S2",
-    "say": "Please stay on the line. Everyone stays on the line.",
-    "note": "Strained.",
-    "group": "Remark"
-   },
-   {
-    "file": "CallCentre_Remark_S3",
-    "say": "Every call is filed. Every single one. Thank you for calling.",
-    "note": "Strained.",
     "group": "Remark"
    },
    {
