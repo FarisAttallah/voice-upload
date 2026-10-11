@@ -306,51 +306,15 @@ window.VOICE_LINES = [
     "group": "New contract"
    },
    {
-    "file": "Diner_NewContract_02",
-    "say": "Your new contract is live. Previous results are archived.",
-    "note": "Shortened for voice.",
-    "group": "New contract"
-   },
-   {
-    "file": "Diner_NewContract_03",
-    "say": "A fresh contract. Please do not make us read the old one again.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
     "file": "Diner_NewReview_01",
     "say": "A new review begins. The target is on your screen.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
-    "file": "Diner_NewReview_02",
-    "say": "A new review period. Past success is not a guarantee of anything.",
-    "note": "",
-    "group": "New review"
-   },
-   {
-    "file": "Diner_NewReview_03",
-    "say": "New review. The bar has been raised. You may not see the bar.",
-    "note": "Shortened for voice.",
-    "group": "New review"
-   },
-   {
     "file": "Diner_ReviewDay_01",
     "say": "Review day. Your numbers will be reviewed tonight. So will you.",
     "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "Diner_ReviewDay_02",
-    "say": "Tonight is your review. The numbers are on your screen.",
-    "note": "Screen shows the target and what is on file.",
-    "group": "Review day"
-   },
-   {
-    "file": "Diner_ReviewDay_03",
-    "say": "Review day! Smile for the cameras. The cameras are always on.",
-    "note": "Shortened for voice.",
     "group": "Review day"
    },
    {
@@ -713,51 +677,15 @@ window.VOICE_LINES = [
     "group": "New contract"
    },
    {
-    "file": "Office_NewContract_02",
-    "say": "Welcome to your new contract. Previous results are archived.",
-    "note": "Shortened for voice.",
-    "group": "New contract"
-   },
-   {
-    "file": "Office_NewContract_03",
-    "say": "A fresh contract. Please do not make us read the old one again.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
     "file": "Office_NewReview_01",
     "say": "A new review begins. The target is on your screen.",
     "note": "Shortened for voice. Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
-    "file": "Office_NewReview_02",
-    "say": "A new review period. Past success is not a guarantee of anything.",
-    "note": "",
-    "group": "New review"
-   },
-   {
-    "file": "Office_NewReview_03",
-    "say": "New review. The bar has been raised. You may not see the bar.",
-    "note": "Shortened for voice.",
-    "group": "New review"
-   },
-   {
     "file": "Office_ReviewDay_01",
     "say": "Review day. Your numbers will be reviewed tonight. So will you.",
     "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "Office_ReviewDay_02",
-    "say": "Tonight is your review. The numbers are on your screen.",
-    "note": "Shortened for voice. Screen shows the target and what is on file.",
-    "group": "Review day"
-   },
-   {
-    "file": "Office_ReviewDay_03",
-    "say": "Review day! Smile. The cameras are in the meeting room too.",
-    "note": "Shortened for voice.",
     "group": "Review day"
    },
    {
@@ -1081,50 +1009,14 @@ window.VOICE_LINES = [
     "group": "New contract"
    },
    {
-    "file": "Security_NewContract_02",
-    "say": "Welcome to your new engagement. Previous results are on file.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
-    "file": "Security_NewContract_03",
-    "say": "A fresh contract. New client, new building, same agency.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
     "file": "Security_NewReview_01",
     "say": "A new review begins. The target is on your screen.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
-    "file": "Security_NewReview_02",
-    "say": "A new review period. The client has been told to expect you.",
-    "note": "",
-    "group": "New review"
-   },
-   {
-    "file": "Security_NewReview_03",
-    "say": "New review. The bar is higher. So are the fences.",
-    "note": "",
-    "group": "New review"
-   },
-   {
     "file": "Security_ReviewDay_01",
     "say": "Review day. Your report gets read tonight. So do you.",
-    "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "Security_ReviewDay_02",
-    "say": "Tonight is your review. The numbers are on your screen.",
-    "note": "Screen shows the target and what is on file.",
-    "group": "Review day"
-   },
-   {
-    "file": "Security_ReviewDay_03",
-    "say": "Review day. Smile for the cameras. Theirs and ours.",
     "note": "",
     "group": "Review day"
    },
@@ -1431,50 +1323,14 @@ window.VOICE_LINES = [
     "group": "New contract"
    },
    {
-    "file": "Graveyard_NewContract_02",
-    "say": "Your new contract is live. Previous results are archived.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
-    "file": "Graveyard_NewContract_03",
-    "say": "A fresh contract. The old one has been filed with the others.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
     "file": "Graveyard_NewReview_01",
     "say": "A new review begins. The target is on your screen.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
-    "file": "Graveyard_NewReview_02",
-    "say": "A new review period. Past nights are no guarantee of anything.",
-    "note": "",
-    "group": "New review"
-   },
-   {
-    "file": "Graveyard_NewReview_03",
-    "say": "New review. The bar has been raised. So has everything else.",
-    "note": "",
-    "group": "New review"
-   },
-   {
     "file": "Graveyard_ReviewDay_01",
     "say": "Review night. Your numbers will be reviewed at dawn. So will you.",
-    "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "Graveyard_ReviewDay_02",
-    "say": "Tonight is your review. The numbers are on your screen.",
-    "note": "Screen shows the target and what is on file.",
-    "group": "Review day"
-   },
-   {
-    "file": "Graveyard_ReviewDay_03",
-    "say": "Review night! Smile for the lamp posts. They're always on.",
     "note": "",
     "group": "Review day"
    },
@@ -1747,50 +1603,14 @@ window.VOICE_LINES = [
     "group": "New contract"
    },
    {
-    "file": "CallCentre_NewContract_02",
-    "say": "Your new contract is live. Previous calls are archived.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
-    "file": "CallCentre_NewContract_03",
-    "say": "A fresh contract. The old one is on file. Everything is on file.",
-    "note": "",
-    "group": "New contract"
-   },
-   {
     "file": "CallCentre_NewReview_01",
     "say": "A new review begins. The target is on your screen.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
-    "file": "CallCentre_NewReview_02",
-    "say": "A new review period. Treat it like a call: brief and polite.",
-    "note": "",
-    "group": "New review"
-   },
-   {
-    "file": "CallCentre_NewReview_03",
-    "say": "New review. The bar has been raised. Please hold while it rises.",
-    "note": "",
-    "group": "New review"
-   },
-   {
     "file": "CallCentre_ReviewDay_01",
     "say": "Review day. Your calls will be reviewed tonight. So will you.",
-    "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "CallCentre_ReviewDay_02",
-    "say": "Tonight is your review. The numbers are on your screen.",
-    "note": "Screen shows the target and what is on file.",
-    "group": "Review day"
-   },
-   {
-    "file": "CallCentre_ReviewDay_03",
-    "say": "Review day! Every call today is a sample call.",
     "note": "",
     "group": "Review day"
    },
