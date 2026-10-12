@@ -1351,6 +1351,13 @@ window.VOICE_LINES = [
   "folder": "CallCentreManager",
   "lines": [
    {
+    "file": "CallCentre_Visit_Gather",
+    "say": "Headsets down, team. This won't take long.",
+    "note": "Every review evening, failed included, as he reaches his spot under the call board: one take, played every time, word for word. Polite, a little rehearsed. New 2026-10-12 (Phase 76).",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
     "file": "CallCentre_Review_1a",
     "say": "Evening, team. Quick one. Your first review came through.",
     "note": "Evening 1 (after day 2). Warm, the first time they see him.",
