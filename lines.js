@@ -123,8 +123,15 @@ window.VOICE_LINES = [
   "folder": "DinerManager",
   "lines": [
    {
+    "file": "Diner_Visit_Gather",
+    "say": "Gather round, team. This won't take long.",
+    "note": "Every visit, failed included, said as he reaches his spot. One recording played every time, word for word (the sameness is the point). Ordinary, a little tired.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
     "file": "Diner_Visit_1a",
-    "say": "Evening, team. Quick one. Review one is in.",
+    "say": "Good evening, team. This is gonna be quick. Review one is in.",
     "note": "Visit 1 (after day 2). Cheerful, in person for the first time. A nod.",
     "group": "Review scenes",
     "cutscene": true
@@ -138,28 +145,28 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Visit_1c",
-    "say": "Keep it exactly like this. Exactly. Night.",
+    "say": "Keep it exactly like this. Exactly. Good night.",
     "note": "Visit 1. Leaving. The second \"Exactly\" a touch too firm.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Diner_Visit_2a",
-    "say": "Review two. Good numbers. A few comments on pace.",
+    "say": "Review number two. Good numbers. A few comments on pace, though.",
     "note": "Visit 2 (after day 4). Clipped, tired.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Diner_Visit_2b",
-    "say": "Nothing to action. Just keep moving.",
+    "say": "Nothing to action. Just keep it moving.",
     "note": "Visit 2. Flat.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Diner_Visit_2c",
-    "say": "Right. I'll clock off then.",
+    "say": "Right. Time to clock out.",
     "note": "Visit 2. Said on the way to the door; he then punches the time clock like a customer. Ordinary, as if nothing is odd.",
     "group": "Review scenes",
     "cutscene": true
@@ -180,7 +187,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Visit_3c",
-    "say": "Two more days. Then we talk about the permanent position.",
+    "say": "Two more days, huh? Then we talk about the permanent position.",
     "note": "Visit 3. The carrot. Almost kind. He then goes out holding the door bell still.",
     "group": "Review scenes",
     "cutscene": true
@@ -194,7 +201,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Visit_4b",
-    "say": "Your reassignment letter is on its way. Don't unpack.",
+    "say": "Your reassignment letter is on its way. Do not unpack.",
     "note": "Visit 4.",
     "group": "Review scenes",
     "cutscene": true
@@ -208,7 +215,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Visit_F_a",
-    "say": "Evening. I'll keep this short. The review didn't pass.",
+    "say": "Evening. I'll keep this short. The review did not pass.",
     "note": "The failed review (any of the four): he lets the crew go in person, before the letter of separation. Quiet, not angry. Sorry for himself more than for them.",
     "group": "Review scenes",
     "cutscene": true
@@ -229,7 +236,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Hello",
-    "say": "Hi, team! I'm your manager. I see you.",
+    "say": "Hello, team. I'm your manager. Full disclosure: I can see you.",
     "note": "Day 1, before the first greeting. Bright and warm, a friendly hello.",
     "group": "Hello"
    },
@@ -241,13 +248,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Practice_End",
-    "say": "Practice over. That was the easy version. Doors open soon.",
+    "say": "Practice over. That was the easy version. Let's see what you got.",
     "note": "Day 0, the practice shift is done.",
     "group": "Practice"
    },
    {
     "file": "Diner_Start_C1",
-    "say": "Good morning, team. Doors open. Smiling is mandatory and, fortunately, free.",
+    "say": "Good morning, team. Door is open. Smiling is contractually mandatory. Unfortunately, free.",
     "note": "",
     "group": "Start"
    },
@@ -259,7 +266,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Start_S1",
-    "say": "We can see you. We mean that kindly.",
+    "say": "We can still see you. We mean that kindly.",
     "note": "The screen adds the day number in front.",
     "group": "Start"
    },
@@ -271,7 +278,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_End_K3",
-    "say": "That is the day. Please do not go anywhere we cannot see.",
+    "say": "That's it for the day. Please do not go anywhere we cannot see.",
     "note": "",
     "group": "End"
    },
@@ -289,7 +296,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Remark_K3",
-    "say": "Reminder: breaks are available. Please do not take them.",
+    "say": "Friendly reminder: breaks are available. Please do not take them.",
     "note": "Clipped.",
     "group": "Remark"
    },
@@ -307,19 +314,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_NewReview_01",
-    "say": "A new review begins. The target is on your screen.",
+    "say": "A new review begins. The target is on your screen, where you can always see them.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "Diner_ReviewDay_01",
-    "say": "Review day. Your numbers will be reviewed tonight. So will you.",
+    "say": "Review day. Your numbers will be reviewed tonight, and so will you.",
     "note": "",
     "group": "Review day"
    },
    {
     "file": "Diner_LastDay_01",
-    "say": "Final day of the contract. Your future is exciting and undecided.",
+    "say": "Final day of your contract. Your future is mysterious and yet to be decided.",
     "note": "",
     "group": "Last day"
    },
@@ -331,19 +338,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Behind_02",
-    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "say": "You are behind schedule. Please be well ahead of schedule. Thanks!",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Diner_Behind_05",
-    "say": "Statistically, one of you is the problem. Let's not find out who.",
+    "say": "I do not recommend pointing fingers, but statistically, one of you is the problem.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Diner_NewThing_01",
-    "say": "New procedure, effective today. Details are in your memo.",
+    "say": "New procedure, effective today. Details are in your memo. You know you should read them, right?",
     "note": "",
     "group": "New thing"
    },
@@ -361,19 +368,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Inspector_In_01",
-    "say": "An agency inspector has entered the building. Act natural.",
+    "say": "An agency inspector has entered the building. Act natural and do everything as you always do.",
     "note": "",
     "group": "Inspector"
    },
    {
     "file": "Diner_Inspector_Good_02",
-    "say": "Inspection passed. The inspector almost smiled.",
+    "say": "Inspection passed. The inspector smiled. Well, almost smiled.",
     "note": "",
     "group": "Inspector"
    },
    {
     "file": "Diner_Inspector_Bad_01",
-    "say": "The inspector waited. The inspector writes everything down.",
+    "say": "The inspector waited, and the inspector writes everything down.",
     "note": "",
     "group": "Inspector"
    },
@@ -385,13 +392,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_BadReview_02",
-    "say": "New review: never got my food. The internet does not forget.",
+    "say": "New review: never got my food. The internet never forgets.",
     "note": "Shortened for voice. Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_BadReview_03",
-    "say": "Another unhappy customer, another review. Marketing is concerned.",
+    "say": "Another unhappy customer, another review. This is an understatement, but marketing is concerned.",
     "note": "Shortened for voice. Screen also shows the fine.",
     "group": "Bad review"
    },
@@ -403,13 +410,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_FreeMeal_02",
-    "say": "Fast or free. That one was free.",
+    "say": "We claim fast or free, and that one was free.",
     "note": "",
     "group": "Free meal"
    },
    {
     "file": "Diner_FreeMeal_03",
-    "say": "A customer ate for nothing. That comes out of the till.",
+    "say": "A customer ate for free. You know someone's gonna pay for that, right?",
     "note": "",
     "group": "Free meal"
    }
