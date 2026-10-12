@@ -422,6 +422,13 @@ window.VOICE_LINES = [
   "folder": "OfficeManager",
   "lines": [
    {
+    "file": "Office_Visit_Gather",
+    "say": "Review call, team. Meeting room, please. Cameras on.",
+    "note": "Every review call and the failed one (owner, 2026-10-12): the same take every time, from the office's wall screens as the call opens, so nobody misses it. Brisk, a little too cheerful.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
     "file": "Office_Visit_1a",
     "say": "Evening, team. Quick review call. Review one is in.",
     "note": "Call 1 (evening of day 2). Upbeat, pleased to have the team together. Camera off, as always.",
@@ -466,7 +473,7 @@ window.VOICE_LINES = [
    {
     "file": "Office_Visit_3a",
     "say": "Review three. Passed. We're very aligned on that.",
-    "note": "Call 3 (evening of day 6). Strained. For the first time your camera is on, but it only shows an empty chair in a meeting room like theirs.",
+    "note": "Call 3 (evening of day 6). Strained. For the first time your camera is on: it shows the crew's own meeting room from a corner of its ceiling, the chair at the head of the table empty (owner, 2026-10-12).",
     "group": "Review scenes",
     "cutscene": true
    },
@@ -733,16 +740,23 @@ window.VOICE_LINES = [
   "folder": "SecurityManager",
   "lines": [
    {
+    "file": "Security_Visit_Gather",
+    "say": "Everyone to the van, please. This won't take long.",
+    "note": "Every visit, word for word (one recording, used each time): as you reach your spot. New 2026-10-12 (built in Phase 57), like the diner's gather line.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
     "file": "Security_Visit_1a",
     "say": "Evening, team. Quick debrief from me. Review one is in.",
-    "note": "Visit 1 (evening of day 2). Confident, in person for the first time. You drove up, you lean on the van.",
+    "note": "Visit 1 (evening of day 2). Confident, in person for the first time. You got out of your car and lean on the crew's van.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_1b",
     "say": "Passed. Clean work. The client wants you back tomorrow.",
-    "note": "Visit 1. Reading from a card.",
+    "note": "Visit 1. Reading it off your phone.",
     "group": "Review scenes",
     "cutscene": true
    },
@@ -756,7 +770,7 @@ window.VOICE_LINES = [
    {
     "file": "Security_Visit_2a",
     "say": "Review two. Good numbers. A few notes on getting caught.",
-    "note": "Visit 2 (evening of day 4). Clipped, tired. You are already sitting in the van when the crew comes back; nobody saw you arrive.",
+    "note": "Visit 2 (evening of day 4). Clipped, tired, reading off your phone. You are already sitting in the open back of the crew's van when they come back; nobody saw you arrive.",
     "group": "Review scenes",
     "cutscene": true
    },
@@ -770,7 +784,7 @@ window.VOICE_LINES = [
    {
     "file": "Security_Visit_2c",
     "say": "Right. I'll see myself out.",
-    "note": "Visit 2. Ordinary, as if nothing is odd; then you walk straight past the guard at the gate, who never looks at you.",
+    "note": "Visit 2. Ordinary, as if nothing is odd; you shut the van's doors, then walk off reading your phone, past the guard at the gate (who never looks at you) and into the client's building.",
     "group": "Review scenes",
     "cutscene": true
    },
@@ -791,7 +805,7 @@ window.VOICE_LINES = [
    {
     "file": "Security_Visit_3c",
     "say": "Your work here is done. I'll take the camera.",
-    "note": "Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk out of the gate with it.",
+    "note": "Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk back into the building with it.",
     "group": "Review scenes",
     "cutscene": true
    },
