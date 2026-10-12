@@ -229,8 +229,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Hello",
-    "say": "Hi, team! I'm your manager. You won't see me. I'll see you.",
-    "note": "Day 1, before the first greeting. Bright, proud of the joke.",
+    "say": "Hi, team! I'm your manager. I see you.",
+    "note": "Day 1, before the first greeting. Bright and warm, a friendly hello.",
     "group": "Hello"
    },
    {
@@ -409,7 +409,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_FreeMeal_03",
-    "say": "A customer ate for nothing. The promise was kept. The money was not.",
+    "say": "A customer ate for nothing. That comes out of the till.",
     "note": "",
     "group": "Free meal"
    }
@@ -521,7 +521,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Visit_F_c",
-    "say": "Your logins expire at midnight. It's not personal. It's policy.",
+    "say": "Your logins expire at midnight. IT will handle the rest.",
     "note": "Failed review. Leaving the call. Kind, which is the creepy part.",
     "group": "Review scenes",
     "cutscene": true
@@ -926,7 +926,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Security_Debrief_Bad_01",
-    "say": "Findings missing. The client thinks their building is safe. It isn't.",
+    "say": "Findings missing. The client paid for half a report.",
     "note": "Disappointed, not angry.",
     "group": "Debrief"
    },
@@ -938,7 +938,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Security_Remark_C1",
-    "say": "Reminder: we don't steal. We photograph, we tag, and we leave.",
+    "say": "Reminder: photograph it, tag it, leave it where it was.",
     "note": "Confident.",
     "group": "Remark"
    },
@@ -1502,7 +1502,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Remark_S1",
-    "say": "Please don't use your own judgement. The binder has already used it.",
+    "say": "Please leave the judgement to the binder. It's had practice.",
     "note": "Strained. Almost to themselves. Policy, not a confession.",
     "group": "Remark"
    },
