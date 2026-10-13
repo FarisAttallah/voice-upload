@@ -3,7 +3,7 @@ window.VOICE_LINES = [
  {
   "key": "boss",
   "name": "The Big Boss",
-  "who": "The head of Brightside Staffing, face to face in his office. The intro scene.",
+  "who": "The head of Brightside Staffing, face to face in his office. The intro, and his scenes between placements.",
   "folder": "Boss",
   "lines": [
    {
@@ -113,6 +113,54 @@ window.VOICE_LINES = [
     "say": "Your crew has already clocked in. Let's be quick.",
     "note": "New 2026-10-11, draft. A friend joining a shift that has started hears this instead of Boss_14 (every player sees the scene once, docs/BOSS_INTRO.md)",
     "group": "The intro scene"
+   },
+   {
+    "file": "Boss_Next1_01",
+    "say": "Ah. Come in. Don't mind that. It's just the diner.",
+    "note": "He swivels round and switches off the screen. Light, a little caught out",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_02",
+    "say": "Every review passed. Head office is delighted.",
+    "note": "You sit. Pleased for you",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_03",
+    "say": "Everyone gets reviewed. It's how we look after people.",
+    "note": "New. Hands together, smiling. Kindly, like a reassurance",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_04",
+    "say": "Your next placement is an office. Lovely place. Nobody there has ever left.",
+    "note": "He slides the contract across. A big smile, as good news",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_05",
+    "say": "Your file's up to date. Lovely photo, by the way.",
+    "note": "New. Taps the crew's folder. Friendly, in passing",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_06",
+    "say": "Same terms as before. Sign, and off you go.",
+    "note": "You sign",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next1_07",
+    "say": "They're expecting you at half eight.",
+    "note": "New. Already back at his paperwork, not looking up",
+    "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_NextWait",
+    "say": "Your next placement isn't ready yet. We'll call you.",
+    "note": "Said instead of _04 when the next placement is not out yet. Polite, closing the meeting",
+    "group": "Scene 1: after the diner"
    }
   ]
  },
@@ -152,7 +200,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Visit_2a",
-    "say": "Review number two. Good numbers. A few comments on pace, though.",
+    "say": "Review numero dos. Good numbers. A few comments on pace, though.",
     "note": "Visit 2 (after day 4). Clipped, tired.",
     "group": "Review scenes",
     "cutscene": true
@@ -254,7 +302,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Start_C1",
-    "say": "Good morning, team. Door is open. Smiling is contractually mandatory. Unfortunately, free.",
+    "say": "Good morning, team. Door is open. Smiling is contractually mandatory. And fortunately, free.",
     "note": "",
     "group": "Start"
    },
@@ -1727,6 +1775,20 @@ window.VOICE_LINES = [
     "say": "I thought the next one would be different. It's not, it's-",
     "note": "Cut off mid-word, as if the line went dead. Do not finish the word.",
     "group": "Call 2"
+   }
+  ]
+ },
+ {
+  "key": "diner-crew",
+  "name": "The Diner's New Crew",
+  "who": "Whoever picks up the diner's phone when the crew calls it from the call centre.",
+  "folder": "DinerCrew",
+  "lines": [
+   {
+    "file": "Diner_Answer_01",
+    "say": "Hello? ...The diner?",
+    "note": "Picking up a phone nobody rings. A little unsure, friendly, a breakfast rush behind you. A pause after \"Hello?\".",
+    "group": "Answer"
    }
   ]
  }
