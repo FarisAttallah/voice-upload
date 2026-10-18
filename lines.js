@@ -996,8 +996,14 @@ window.VOICE_LINES = [
    {
     "file": "Security_Debrief_Bad_01",
     "say": "Findings missing. The client paid for half a report.",
-    "note": "Disappointed, not angry.",
+    "note": "Unused since Phase 86I2c (a short report now fails the day): skip it.",
     "group": "Debrief"
+   },
+   {
+    "file": "Security_TimeUp_Fail_01",
+    "say": "Time's up and the report is short. The client wants the day again.",
+    "note": "Phase 86I2c: after the debrief, a required item was not handed in, so the same day starts over. Tired, not angry.",
+    "group": "Time up"
    },
    {
     "file": "Security_Promise_Missed",
