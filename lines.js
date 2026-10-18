@@ -1791,5 +1791,37 @@ window.VOICE_LINES = [
     "group": "Answer"
    }
   ]
+ },
+ {
+  "key": "crew-radio",
+  "name": "The Crew Radio",
+  "who": "A teammate's voice over the crew's radio in the security depot, warning that a parked body is being watched.",
+  "folder": "CrewRadio",
+  "lines": [
+   {
+    "file": "Crew_Alert_Eye",
+    "say": "Eye, someone's watching you.",
+    "note": "A quick heads-up to a teammate. Calm, a little urgent.",
+    "group": "Alert"
+   },
+   {
+    "file": "Crew_Alert_Talker",
+    "say": "Talker, someone's watching you.",
+    "note": "The same, to the TALKER.",
+    "group": "Alert"
+   },
+   {
+    "file": "Crew_Alert_Tech",
+    "say": "Tech, someone's watching you.",
+    "note": "The same, to the TECH.",
+    "group": "Alert"
+   },
+   {
+    "file": "Crew_Alert_Runner",
+    "say": "Runner, someone's watching you.",
+    "note": "The same, to the RUNNER.",
+    "group": "Alert"
+   }
+  ]
  }
 ];
