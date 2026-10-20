@@ -478,7 +478,7 @@ window.VOICE_LINES = [
   "lines": [
    {
     "file": "Office_Visit_Gather",
-    "say": "Review call, team. Meeting room, please. Cameras on.",
+    "say": "Review call, team. Meeting room, please. Camera's on.",
     "note": "Every review call and the failed one (owner, 2026-10-12): the same take every time, from the office's wall screens as the call opens, so nobody misses it. Brisk, a little too cheerful.",
     "group": "Review scenes",
     "cutscene": true
@@ -784,6 +784,36 @@ window.VOICE_LINES = [
     "file": "Office_AllHands",
     "say": "All-hands in the meeting room, now. All hands. Yours too.",
     "note": "Everyone is called to the meeting room for a short while.",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_AllHands_Day6_Call",
+    "say": "All-hands, everyone. To the screen, please.",
+    "note": "The screen lights up. Bright on the surface.",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_AllHands_Day6_01",
+    "say": "Thank you for joining at short notice.",
+    "note": "The crew at the screen.",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_AllHands_Day6_02",
+    "say": "Head office asked me to share some numbers.",
+    "note": "Reading from a slide.",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_AllHands_Day6_03",
+    "say": "The numbers are good. Please keep them that way.",
+    "note": "A small pause before \"Please\".",
+    "group": "All hands"
+   },
+   {
+    "file": "Office_AllHands_Day6_04",
+    "say": "That's all. Back to work, everyone.",
+    "note": "The call ends.",
     "group": "All hands"
    }
   ]
@@ -1827,6 +1857,1436 @@ window.VOICE_LINES = [
     "say": "Runner, someone's watching you.",
     "note": "The same, to the RUNNER.",
     "group": "Alert"
+   }
+  ]
+ },
+ {
+  "key": "office-client-1",
+  "name": "Office Client, Day 1: Mr. Okafor",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Mr. Okafor is short on time, brisk, polite. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient1",
+  "lines": [
+   {
+    "file": "Office_Brief_Day1_01",
+    "say": "Morning. I'm short on time, so I'll keep this quick.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day1_02",
+    "say": "Two things today: the plan, and the build.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day1_03",
+    "say": "The plan goes on the wall over there. Print it when it's done.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day1_04",
+    "say": "The build starts rolling the moment you press start. I'll be watching.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day1_01",
+    "say": "First, a quick look at the numbers.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day1_02",
+    "say": "Are we on track for launch?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day1_03",
+    "say": "Our users want a clean dashboard.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day1_04",
+    "say": "Who signs off on the plan?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day1_05",
+    "say": "The budget stays where it is.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day1_06",
+    "say": "Any risks I should know about?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Crash_01",
+    "say": "Was that the pipeline?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Crash_02",
+    "say": "Did the build just fall over?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Clatter_01",
+    "say": "Did something just fall?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Clatter_02",
+    "say": "Is the plan coming together?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Pitch_Day1_01",
+    "say": "Right. Let's see what you've got.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Build_Done",
+    "say": "Straight to the server. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day1_End",
+    "say": "That's the day. Same time tomorrow.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-client-2",
+  "name": "Office Client, Day 2: Ms. Lindqvist",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Ms. Lindqvist is warm and quick. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient2",
+  "lines": [
+   {
+    "file": "Office_Brief_Day2_01",
+    "say": "Good morning. I'm Ms. Lindqvist. I've read your file.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day2_02",
+    "say": "Same as yesterday: a plan on the wall, and a build.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day2_03",
+    "say": "Print the plan when it's finished. I'll want a copy.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day2_04",
+    "say": "Press start when you're ready. I'll be in Room One.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day2_01",
+    "say": "Let's start with last quarter.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_02",
+    "say": "Did you read my email?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_03",
+    "say": "The launch date has not moved.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_04",
+    "say": "Who owns the timeline?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_05",
+    "say": "My team likes things simple.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_06",
+    "say": "Can you take that offline?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_CrashLie_01",
+    "say": "What was that noise?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_CrashLie_02",
+    "say": "Is the build still running?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_ClatterLie_01",
+    "say": "Did the plan just fall apart?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_ClatterLie_02",
+    "say": "How's the wall coming along?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Truth_01",
+    "say": "Tell me more about that.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Truth_02",
+    "say": "How long until it's fixed?",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_Truth_03",
+    "say": "I appreciate the honesty.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day2_LateLie",
+    "say": "Are you sure? Let's come back to that.",
+    "note": "In a meeting, after an answer that came too slowly to believe. A small pause after \"sure?\".",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Change_Solo_Day2_01",
+    "say": "Don't mind me. Just a quick change.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_Solo_Day2_02",
+    "say": "That goes there now.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_Solo_Day2_03",
+    "say": "There. That's the plan now.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Pitch_Day2_01",
+    "say": "Shall we? Show me the wall first.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Build_Done",
+    "say": "Straight to the hatch. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day2_End",
+    "say": "Thank you, everyone. A good day's work.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-client-3",
+  "name": "Office Client, Day 3: Dr. Varga",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Dr. Varga is dry and exact. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient3",
+  "lines": [
+   {
+    "file": "Office_Brief_Day3_01",
+    "say": "Morning. Dr. Varga. Let's not waste each other's time.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day3_02",
+    "say": "I need a full plan, printed, and a working build.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day3_03",
+    "say": "The build goes to the mail room hatch. Every time.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day3_04",
+    "say": "Start when you like. The clock starts with you.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day3_01",
+    "say": "I'll keep my notes short.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_02",
+    "say": "What's the one priority today?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_03",
+    "say": "I want it fast, and I want it right.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_04",
+    "say": "Are your people stretched?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_05",
+    "say": "Let's keep this between us.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_06",
+    "say": "Do you need more budget?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_CrashLie_01",
+    "say": "What was that noise?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_CrashLie_02",
+    "say": "Is the build still running?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_ClatterLie_01",
+    "say": "Did the plan just fall apart?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_ClatterLie_02",
+    "say": "How's the wall coming along?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Truth_01",
+    "say": "Tell me more about that.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Truth_02",
+    "say": "How long until it's fixed?",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_Truth_03",
+    "say": "I appreciate the honesty.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day3_LateLie",
+    "say": "Are you sure? Let's come back to that.",
+    "note": "In a meeting, after an answer that came too slowly to believe. A small pause after \"sure?\".",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Pitch_Day3_01",
+    "say": "Right. The wall, then the build.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Build_Done",
+    "say": "Straight to the hatch. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day3_End",
+    "say": "That will do. Thank you.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-client-4",
+  "name": "Office Client, Day 4: Ms. Haddad",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Ms. Haddad is bright and full of ideas. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient4",
+  "lines": [
+   {
+    "file": "Office_Brief_Day4_01",
+    "say": "Hello, everyone. Ms. Haddad. Lovely to finally meet you.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day4_02",
+    "say": "The plan on the wall. The build to the hatch.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day4_03",
+    "say": "I like to stay flexible. I'm sure you do too.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day4_04",
+    "say": "Whenever you're ready.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day4_01",
+    "say": "I've been thinking since this morning.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_02",
+    "say": "Is the scope locked?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_03",
+    "say": "My board wants the bigger picture.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_04",
+    "say": "Can we still move things around?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_05",
+    "say": "No promises. Just ideas.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_06",
+    "say": "How do you feel about change?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_CrashLie_01",
+    "say": "What was that noise?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_CrashLie_02",
+    "say": "Is the build still running?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_ClatterLie_01",
+    "say": "Did the plan just fall apart?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_ClatterLie_02",
+    "say": "How's the wall coming along?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Truth_01",
+    "say": "Tell me more about that.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Truth_02",
+    "say": "How long until it's fixed?",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_Truth_03",
+    "say": "I appreciate the honesty.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day4_LateLie",
+    "say": "Are you sure? Let's come back to that.",
+    "note": "In a meeting, after an answer that came too slowly to believe. A small pause after \"sure?\".",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Change_Day4_01",
+    "say": "Sorry, everyone. One small change.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_Day4_02",
+    "say": "This one moves here. And this one.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Change_Day4_03",
+    "say": "Much better. Carry on.",
+    "note": "Out on the office floor, moving cards on a wall while people work. Thinking aloud, cheerful.",
+    "group": "Change"
+   },
+   {
+    "file": "Office_Scope_Solo_Day4_01",
+    "say": "One more thing for the plan. It's printing now.",
+    "note": "On the office's wall screen, a quick call to the team. Cheerful, as if it is a small thing.",
+    "group": "Scope"
+   },
+   {
+    "file": "Office_Scope_Solo_Day4_02",
+    "say": "It has to fit on the wall. Thank you!",
+    "note": "On the office's wall screen, a quick call to the team. Cheerful, as if it is a small thing.",
+    "group": "Scope"
+   },
+   {
+    "file": "Office_Pitch_Day4_01",
+    "say": "Let's see if my changes made it.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Build_Done",
+    "say": "Straight to the hatch. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Solo_Day4_Card",
+    "say": "And my extra card. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Solo_Day4_NoCard",
+    "say": "I don't see my extra card.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day4_End",
+    "say": "Lovely. I'll have more ideas tomorrow.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-client-5",
+  "name": "Office Client, Day 5: Mr. Brandt",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Mr. Brandt is formal and polite. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient5",
+  "lines": [
+   {
+    "file": "Office_Brief_Day5_01",
+    "say": "Morning. Mr. Brandt. I'll be quick.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day5_02",
+    "say": "One plan on the wall, printed. One build, delivered.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day5_03",
+    "say": "I like to know exactly who I'm working with.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day5_04",
+    "say": "Go ahead and start.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Solo_Day5",
+    "say": "The contract is on the side table. Mark it before the pitch.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day5_01",
+    "say": "Thanks for coming.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_02",
+    "say": "What are you holding up out there?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_03",
+    "say": "I like one point of contact.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_04",
+    "say": "Is the team fine without you?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_05",
+    "say": "Let's go through the numbers slowly.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_06",
+    "say": "Will it be ready for the pitch?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_CrashLie_01",
+    "say": "What was that noise?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_CrashLie_02",
+    "say": "Is the build still running?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_ClatterLie_01",
+    "say": "Did the plan just fall apart?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_ClatterLie_02",
+    "say": "How's the wall coming along?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Truth_01",
+    "say": "Tell me more about that.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Truth_02",
+    "say": "How long until it's fixed?",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_Truth_03",
+    "say": "I appreciate the honesty.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day5_LateLie",
+    "say": "Are you sure? Let's come back to that.",
+    "note": "In a meeting, after an answer that came too slowly to believe. A small pause after \"sure?\".",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Pitch_Day5_01",
+    "say": "Walk me through it.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Build_Done",
+    "say": "Straight to the hatch. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Solo_Day5_Contract",
+    "say": "The contract's marked. Thank you.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Solo_Day5_NoContract",
+    "say": "The contract's still blank.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day5_End",
+    "say": "Thank you. Thank you all.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-client-6",
+  "name": "Office Client, Day 6: Ms. Castellano",
+  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Ms. Castellano is calm, a little too calm. A player's name is never said: where the game names someone, the line here leaves it out.",
+  "folder": "OfficeClient6",
+  "lines": [
+   {
+    "file": "Office_Brief_Day6_01",
+    "say": "Good morning. Ms. Castellano. Head office sent me.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day6_02",
+    "say": "You know the work by now. The plan, then the build.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day6_03",
+    "say": "There's an all-hands later. Please attend. Everyone does.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Brief_Day6_04",
+    "say": "Start when you're ready.",
+    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
+    "group": "Brief"
+   },
+   {
+    "file": "Office_Meeting_Day6_01",
+    "say": "Let's make this one count.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_02",
+    "say": "How's the floor looking?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_03",
+    "say": "I've heard good things about this team.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_04",
+    "say": "Is the delivery on its way?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_05",
+    "say": "Head office is following this one closely.",
+    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_06",
+    "say": "Can we sign today?",
+    "note": "In a meeting, a question to one person across the table. Expect an answer.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Slip_01",
+    "say": "Let's go over that again. Are we clear?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Slip_02",
+    "say": "Let me write that down.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Slip_03",
+    "say": "Can I count on you?",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Slip_04",
+    "say": "One more slide, then.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Slip_Reaction",
+    "say": "Let's add that to the agenda.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Good",
+    "say": "Good.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_End",
+    "say": "Great. That's everything.",
+    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_CrashLie_01",
+    "say": "What was that noise?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_CrashLie_02",
+    "say": "Is the build still running?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_ClatterLie_01",
+    "say": "Did the plan just fall apart?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_ClatterLie_02",
+    "say": "How's the wall coming along?",
+    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Truth_01",
+    "say": "Tell me more about that.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Truth_02",
+    "say": "How long until it's fixed?",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_Truth_03",
+    "say": "I appreciate the honesty.",
+    "note": "In a meeting, after an honest answer about a problem. Interested, wants to talk about it.",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Meeting_Day6_LateLie",
+    "say": "Are you sure? Let's come back to that.",
+    "note": "In a meeting, after an answer that came too slowly to believe. A small pause after \"sure?\".",
+    "group": "Meeting"
+   },
+   {
+    "file": "Office_Pitch_Day6_01",
+    "say": "Last one for me. Let's see it.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Wall_Done",
+    "say": "The whole plan, up on the wall. Good.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Wall_Half",
+    "say": "Half a plan. I'll pay for half.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Wall_Missing",
+    "say": "Where's the plan?",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Run",
+    "say": "Now the build. Show me it running.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Build_Done",
+    "say": "Straight to the hatch. Lovely.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Build_Crash",
+    "say": "Well. It got that far, at least.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Build_Short",
+    "say": "Still rolling. I'll pay for what I saw.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_Build_Missing",
+    "say": "It never left the start.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   },
+   {
+    "file": "Office_Pitch_Day6_End",
+    "say": "That's everything. Thank you for your time.",
+    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
+    "group": "Pitch"
+   }
+  ]
+ },
+ {
+  "key": "office-colleagues",
+  "name": "Office Colleagues",
+  "who": "TaMorgan's colleagues, who catch you in the corridor for a chat you don't have time for.",
+  "folder": "OfficeColleagues",
+  "lines": [
+   {
+    "file": "Office_Ambush_01",
+    "say": "Hey! Got a minute?",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_02",
+    "say": "Quick one. Did you get my email?",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_03",
+    "say": "Walk with me. It's about Friday.",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_04",
+    "say": "Did you sign the birthday card?",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_05",
+    "say": "Have you got a pen I can borrow?",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_06",
+    "say": "Is the printer working for you?",
+    "note": "Stepping out at a corridor corner and walking beside a colleague. Chatty, friendly, in no hurry.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_Bye_01",
+    "say": "No worries. Catch you later.",
+    "note": "Peeling away down the corridor. Friendly, a little put out.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_Bye_02",
+    "say": "Fine. I'll send you a calendar invite.",
+    "note": "Peeling away down the corridor. Friendly, a little put out.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_More_01",
+    "say": "Great. So, here's the thing.",
+    "note": "Still walking beside them, not taking the hint. Keen.",
+    "group": "Ambush"
+   },
+   {
+    "file": "Office_Ambush_More_02",
+    "say": "Oh, and one more thing.",
+    "note": "Still walking beside them, not taking the hint. Keen.",
+    "group": "Ambush"
    }
   ]
  }
