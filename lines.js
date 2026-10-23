@@ -171,302 +171,370 @@ window.VOICE_LINES = [
   "folder": "DinerManager",
   "lines": [
    {
-    "file": "Diner_Visit_Gather",
-    "say": "Gather round, team. This won't take long.",
-    "note": "Every visit, failed included, said as he reaches his spot. One recording played every time, word for word (the sameness is the point). Ordinary, a little tired.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_1a",
-    "say": "Good evening, team. This is gonna be quick. Review one is in.",
-    "note": "Visit 1 (after day 2). Cheerful, in person for the first time. A nod.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_1b",
-    "say": "Passed. Nice. Head office likes a clean start.",
-    "note": "Visit 1. Reading from a card.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_1c",
-    "say": "Keep it exactly like this. Exactly. Good night.",
-    "note": "Visit 1. Leaving. The second \"Exactly\" a touch too firm.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_2a",
-    "say": "Review numero dos. Good numbers. A few comments on pace, though.",
-    "note": "Visit 2 (after day 4). Clipped, tired.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_2b",
-    "say": "Nothing to action. Just keep it moving.",
-    "note": "Visit 2. Flat.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_2c",
-    "say": "Right. Time to clock out.",
-    "note": "Visit 2. Said on the way to the door; he then punches the time clock like a customer. Ordinary, as if nothing is odd.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_3a",
-    "say": "Review three. We're very pleased. Very.",
-    "note": "Visit 3 (after day 6). Strained. He is sitting in a booth, where a customer would sit.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_3b",
-    "say": "Some of you have been noticed upstairs. That's good.",
-    "note": "Visit 3. A small pause before \"That's good.\"",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_3c",
-    "say": "Two more days, huh? Then we talk about the permanent position.",
-    "note": "Visit 3. The carrot. Almost kind. He then goes out holding the door bell still.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_4a",
-    "say": "Final review. Passed. Well done, team.",
-    "note": "Visit 4 (after day 8). Strained, slow. He came in from the back.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_4b",
-    "say": "Your reassignment letter is on its way. Do not unpack.",
-    "note": "Visit 4.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_4c",
-    "say": "Someone will be in to reset the room. Not your concern.",
-    "note": "Visit 4. Leaving. Flat, final.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_F_a",
-    "say": "Evening. I'll keep this short. The review did not pass.",
-    "note": "The failed review (any of the four): he lets the crew go in person, before the letter of separation. Quiet, not angry. Sorry for himself more than for them.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_F_b",
-    "say": "Your contract ends tonight. Please leave the ties. They're counted.",
-    "note": "Failed review.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Diner_Visit_F_c",
-    "say": "Someone will be in to reset the room. They always are.",
-    "note": "Failed review. Leaving. The same line as visit 4c with a different ending; said the same flat way.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
     "file": "Diner_Hello",
-    "say": "Hello, team. I'm your manager. Full disclosure: I can see you.",
-    "note": "Day 1, before the first greeting. Bright and warm, a friendly hello.",
+    "say": "Hey, everyone, I'm your manager. Welcome aboard.",
+    "note": "Day 1, before the first greeting. Bright.",
     "group": "Hello"
    },
    {
     "file": "Diner_Practice_Start",
-    "say": "This one's practice. Nothing counts. Well. Nothing counts yet.",
-    "note": "Day 0, the practice shift starts. A small pause before \"Well.\"",
+    "say": "First shift's just practice. Take your time, find your feet.",
+    "note": "Day 0, the practice shift starts. Easygoing.",
     "group": "Practice"
    },
    {
     "file": "Diner_Practice_End",
-    "say": "Practice over. That was the easy version. Let's see what you got.",
-    "note": "Day 0, the practice shift is done.",
+    "say": "Not bad for a first go. Tomorrow the doors open for real.",
+    "note": "Day 0, the practice shift is done. Proud of them.",
     "group": "Practice"
    },
    {
     "file": "Diner_Start_C1",
-    "say": "Good morning, team. Door is open. Smiling is contractually mandatory. And fortunately, free.",
+    "say": "Morning, team! Grill's hot, coffee's on. Let's open up.",
     "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Diner_Start_K3",
-    "say": "Good morning. Same targets as yesterday. Higher, actually.",
-    "note": "",
-    "group": "Start"
-   },
-   {
-    "file": "Diner_Start_S1",
-    "say": "We can still see you. We mean that kindly.",
-    "note": "The screen adds the day number in front.",
     "group": "Start"
    },
    {
     "file": "Diner_End_C1",
-    "say": "That's time, team. Thank you for a lovely day.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_K3",
-    "say": "That's it for the day. Please do not go anywhere we cannot see.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Diner_End_S1",
-    "say": "Time. Please stay where you are while we count you.",
-    "note": "",
+    "say": "And that's closing. Good shift, everyone. Get some sleep.",
+    "note": "Warm, tired-happy.",
     "group": "End"
    },
    {
     "file": "Diner_Remark_C2",
-    "say": "We're a family here. A family with targets.",
-    "note": "Cheerful.",
+    "say": "Smells like a proper diner in here. Love it.",
+    "note": "To himself, a happy sigh.",
     "group": "Remark"
+   },
+   {
+    "file": "Diner_Start_K3",
+    "say": "Morning, team. Targets went up again, but we'll manage.",
+    "note": "",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_End_K3",
+    "say": "That's closing. Good shift today.",
+    "note": "",
+    "group": "End"
    },
    {
     "file": "Diner_Remark_K3",
-    "say": "Friendly reminder: breaks are available. Please do not take them.",
-    "note": "Clipped.",
+    "say": "Busy one today. You're holding up well.",
+    "note": "Once on a busy day.",
     "group": "Remark"
    },
    {
+    "file": "Diner_Start_S1",
+    "say": "Morning, team. Good to see all of you.",
+    "note": "He means every one of them. The screen may add the day number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Diner_End_S1",
+    "say": "That's closing. Get home safe.",
+    "note": "",
+    "group": "End"
+   },
+   {
     "file": "Diner_Remark_S1",
-    "say": "You are not the first crew in this diner.",
-    "note": "Strained. Almost to themselves.",
+    "say": "You're doing great. Just keep it going.",
+    "note": "Once on a busy day.",
     "group": "Remark"
    },
    {
     "file": "Diner_NewContract_01",
-    "say": "A new contract is live. The quota is on your screen.",
+    "say": "Got a new contract for you. The quota's on your screen.",
     "note": "Screen shows the contract number, quota and deadline.",
     "group": "New contract"
    },
    {
     "file": "Diner_NewReview_01",
-    "say": "A new review begins. The target is on your screen, where you can always see them.",
+    "say": "New review today. You'll see the target up there.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "Diner_ReviewDay_01",
-    "say": "Review day. Your numbers will be reviewed tonight, and so will you.",
+    "say": "It's review day, so... no pressure.",
     "note": "",
     "group": "Review day"
    },
    {
     "file": "Diner_LastDay_01",
-    "say": "Final day of your contract. Your future is mysterious and yet to be decided.",
+    "say": "Last day on this contract.",
     "note": "",
     "group": "Last day"
    },
    {
     "file": "Diner_LastDay_04",
-    "say": "The quota is due tonight. Do the math. We already did.",
+    "say": "Quota's due tonight, so keep at it.",
     "note": "",
     "group": "Last day"
    },
    {
     "file": "Diner_Behind_02",
-    "say": "You are behind schedule. Please be well ahead of schedule. Thanks!",
+    "say": "We're behind, guys.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Diner_Behind_05",
-    "say": "I do not recommend pointing fingers, but statistically, one of you is the problem.",
+    "say": "Someone's dragging. Sort it out between you.",
     "note": "",
     "group": "Behind"
    },
    {
-    "file": "Diner_NewThing_01",
-    "say": "New procedure, effective today. Details are in your memo. You know you should read them, right?",
-    "note": "",
-    "group": "New thing"
-   },
-   {
-    "file": "Diner_NewThing_03",
-    "say": "A new memo. Please read it twice. Once is not policy.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
-    "file": "Diner_EventToday_03",
-    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Diner_Inspector_In_01",
-    "say": "An agency inspector has entered the building. Act natural and do everything as you always do.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_Good_02",
-    "say": "Inspection passed. The inspector smiled. Well, almost smiled.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
-    "file": "Diner_Inspector_Bad_01",
-    "say": "The inspector waited, and the inspector writes everything down.",
-    "note": "",
-    "group": "Inspector"
-   },
-   {
     "file": "Diner_BadReview_01",
-    "say": "A one-star review. The ads promised them breakfast.",
-    "note": "Shortened for voice. Screen also shows the fine.",
+    "say": "Someone left us one star.",
+    "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_BadReview_02",
-    "say": "New review: never got my food. The internet never forgets.",
-    "note": "Shortened for voice. Screen also shows the fine.",
+    "say": "Somebody never got their food, and now it's online.",
+    "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_BadReview_03",
-    "say": "Another unhappy customer, another review. This is an understatement, but marketing is concerned.",
-    "note": "Shortened for voice. Screen also shows the fine.",
+    "say": "Another bad review. Come on.",
+    "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_FreeMeal_01",
-    "say": "Late food is free food. The house is not pleased.",
-    "note": "Shortened for voice.",
+    "say": "That one was late, so it's free.",
+    "note": "",
     "group": "Free meal"
    },
    {
     "file": "Diner_FreeMeal_02",
-    "say": "We claim fast or free, and that one was free.",
+    "say": "Another free meal. That's money, you know.",
     "note": "",
     "group": "Free meal"
    },
    {
     "file": "Diner_FreeMeal_03",
-    "say": "A customer ate for free. You know someone's gonna pay for that, right?",
+    "say": "The boss is going to see all these free meals.",
     "note": "",
     "group": "Free meal"
+   },
+   {
+    "file": "Diner_Meet_Follow",
+    "say": "Alright, team, review time. Follow me to the back.",
+    "note": "Every meeting, one take. Upbeat.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_Sit",
+    "say": "Grab a chair, everyone.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_SitNudge",
+    "say": "Come on, sit down. I don't bite.",
+    "note": "Only when the crew has not sat after a while. Lands differently after the first fail.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_1a",
+    "say": "So. Your first review. I've been looking forward to this.",
+    "note": "Review 1, tone 1.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_1b",
+    "say": "You passed! The boss is going to love this.",
+    "note": "Pleased, for the boss.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_1c",
+    "say": "Same again next time, yeah? See you in the morning.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_2a",
+    "say": "Okay. Review number two. Let's have a look.",
+    "note": "Review 2, tone 2.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_2b",
+    "say": "Oh great! You passed!",
+    "note": "Real relief, a little too big.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_2c",
+    "say": "Targets go up again tomorrow.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_3a",
+    "say": "Review three. Here we go.",
+    "note": "Review 3, tone 3. A breath first.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_3b",
+    "say": "You passed. Oh, thank goodness.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_3c",
+    "say": "Two more days and you're out of here.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_4a",
+    "say": "Last review. I didn't sleep much last night.",
+    "note": "Review 4, tone 3.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_4b",
+    "say": "You passed. All of you. You actually did it.",
+    "note": "Almost laughing.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_4c",
+    "say": "Your reassignment's coming. Take it, and don't come back.",
+    "note": "Kind, firm.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_a",
+    "say": "Ah. This one didn't pass.",
+    "note": "Fail at review 1, tone 1: routine policy to him. Mild, like a late delivery.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_b",
+    "say": "When a review fails, someone answers for it.",
+    "note": "Matter-of-fact.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_pick",
+    "say": "Let's see who he picked...",
+    "note": "Reading a card. \"He\" is the boss.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_you",
+    "say": "Ah, it's you. Come on, follow me. Don't look so worried.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_desk",
+    "say": "Hand flat on the desk. Try not to move, it's quicker.",
+    "note": "Helpful, like showing a new hire the fryer.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_done",
+    "say": "There we go. Wrap it up tight, it stops after a bit.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F1_retry",
+    "say": "Good news, the boss is giving you another go. Make him proud.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_a",
+    "say": "It didn't pass. I really thought you had it.",
+    "note": "Fail at review 2, tone 2: he no longer enjoys it.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_b",
+    "say": "Someone has to answer for it. That's how it works.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_pick",
+    "say": "Let's see who it is this time...",
+    "note": "Quieter than F1.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_you",
+    "say": "It's you. Come on. Let's get it over with.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_desk",
+    "say": "Hand on the desk. I'll be quick, I promise.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_done",
+    "say": "Done. Here, let me wrap that for you.",
+    "note": "He does the bandage himself.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F2_retry",
+    "say": "The boss is giving you another go. Please, make it count.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_a",
+    "say": "It didn't pass. I'm so sorry.",
+    "note": "Fail at reviews 3-4, tone 3: it hurts him, he still does it.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_b",
+    "say": "I told him you tried. He doesn't care.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_pick",
+    "say": "He's picked someone. I don't get a say.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_you",
+    "say": "It's you. I'm sorry. Come with me.",
+    "note": "Can't look at them.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_desk",
+    "say": "Hand on the desk. On three. One, two.",
+    "note": "The thunk lands on \"two\", to spare them the wait.",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_done",
+    "say": "It's over. Here, hold it up. I've got you.",
+    "note": "",
+    "group": "Meet"
+   },
+   {
+    "file": "Diner_Meet_F3_retry",
+    "say": "He's giving you another go. Please don't make me do that again.",
+    "note": "",
+    "group": "Meet"
    }
   ]
  },
