@@ -2000,6 +2000,90 @@ window.VOICE_LINES = [
     "say": "I thought the next one would be different. It's not, it's-",
     "note": "Cut off mid-word, as if the line went dead. Do not finish the word.",
     "group": "Call 2"
+   },
+   {
+    "file": "Office_Call3_01",
+    "say": "It's me. Don't say anything, the room's got a mic. Just listen.",
+    "note": "Someone is in the meeting room when the screen answers.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_01M",
+    "say": "Nobody in there? Doesn't matter. I'll talk anyway.",
+    "note": "Nobody is in the room: plays instead of 01.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_02",
+    "say": "You got through the diner. I knew you would, honestly.",
+    "note": "Warm, relieved.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_03",
+    "say": "Quick one, answer on the screen. Anyone gone up in the lift yet?",
+    "note": "The question. The screen shows YES and NO; then wait.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_Y1",
+    "say": "Right. Then you've seen it.",
+    "note": "They answered YES. Flat, a breath.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_Y2",
+    "say": "Don't treat them any different. It's still them in there. Okay?",
+    "note": "YES. His one kind thing.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_N1",
+    "say": "Good. Keep it that way. Every review, pass it, whatever it takes.",
+    "note": "They answered NO. Firm.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_N2",
+    "say": "Just pass them. Please.",
+    "note": "NO. Quiet.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_S",
+    "say": "Nothing? Fine. I'll say it anyway.",
+    "note": "Nobody answered. Then the NO lines.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_04",
+    "say": "Look, your manager at the diner rang me. He's never done that before.",
+    "note": "The diner manager. Puzzled by it.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_05",
+    "say": "He wants you out. Him. He's working on something.",
+    "note": "Slow.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_06",
+    "say": "I'll tell you more when I can. Not on this line.",
+    "note": "Careful.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_07",
+    "say": "They've given me a camera now, where I am. Weird, that.",
+    "note": "A small laugh.",
+    "group": "Call 3"
+   },
+   {
+    "file": "Office_Call3_08",
+    "say": "Van's back. I've got to go. Pass the next one, okay?",
+    "note": "Hurried. Then the line clicks off (the game adds the click).",
+    "group": "Call 3"
    }
   ]
  },
