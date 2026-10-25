@@ -546,323 +546,443 @@ window.VOICE_LINES = [
   "lines": [
    {
     "file": "Office_Visit_Gather",
-    "say": "Review call, team. Meeting room, please. Camera's on.",
-    "note": "Every review call and the failed one (owner, 2026-10-12): the same take every time, from the office's wall screens as the call opens, so nobody misses it. Brisk, a little too cheerful.",
+    "say": "Evening. Quick review call in Room 1, please. Camera's on.",
+    "note": "Every review call and every failed one: the same take every time, from the office's wall screens as the call opens. On day 6 you say it in person too.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_1a",
-    "say": "Evening, team. Quick review call. Review one is in.",
-    "note": "Call 1 (evening of day 2). Upbeat, pleased to have the team together. Camera off, as always.",
+    "say": "Evening, all. Won't be long. First review's in.",
+    "note": "Day 2. Camera off.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_1b",
-    "say": "Passed! Great numbers. Head office loves a strong start.",
-    "note": "Call 1. Reading from a slide.",
+    "say": "You passed. Good numbers, those. Head office were pleased.",
+    "note": "Day 2.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_1c",
-    "say": "Keep doing exactly this. I'll drop off now. Night!",
-    "note": "Call 1. Leaving the call. Cheerful.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Office_Visit_2a",
-    "say": "Review two. Passed. A few notes on response times.",
-    "note": "Call 2 (evening of day 4). Clipped, tired, typing on another call while you talk.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Office_Visit_2b",
-    "say": "Nothing to action. Let's keep this cadence.",
-    "note": "Call 2. Flat.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Office_Visit_2c",
-    "say": "Right. I'll leave the call open. Night.",
-    "note": "Call 2. Ordinary, as if nothing is odd. (The call stays open on the screen after you stop talking.)",
+    "say": "Keep that up. Night, all.",
+    "note": "Day 2. Leaving the call.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_3a",
-    "say": "Review three. Passed. We're very aligned on that.",
-    "note": "Call 3 (evening of day 6). Strained. For the first time your camera is on: it shows the crew's own meeting room from a corner of its ceiling, the chair at the head of the table empty (owner, 2026-10-12).",
+    "say": "Second one's in. Passed again. Lovely.",
+    "note": "Day 4. Your camera is on for the first time: it shows the crew's own meeting room from a corner of its ceiling, the chair at the head of the table empty.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_3b",
-    "say": "Some of you have been flagged upstairs. Positively. Mostly.",
-    "note": "Call 3. A small pause before \"Mostly.\"",
+    "say": "Head office have been asking about a couple of you. Good things.",
+    "note": "Day 4.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_3c",
-    "say": "Two more days. Then we discuss the permanent seat.",
-    "note": "Call 3. The carrot. Almost kind.",
+    "say": "Two more days, then we can talk about something permanent.",
+    "note": "Day 4. The carrot, the boss's \"permanent position\".",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_4a",
-    "say": "Final review. Passed. Well done, team. Genuinely.",
-    "note": "Call 4 (evening of day 8). Strained, slow. In person: you are already sitting at the head of the table when the crew comes in. Speak to people across a table, not to a microphone.",
+    "say": "That's your last one. Passed. Well done.",
+    "note": "Day 6. In person: you are already sitting at the head of the table when the crew comes in, and you do not move. Speak to people across a table.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_4b",
-    "say": "Your reassignment letter is in your inbox. Please don't reply.",
-    "note": "Call 4.",
+    "say": "Your next placement's in your inbox. Have a read tonight.",
+    "note": "Day 6.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_4c",
-    "say": "Someone will clear your desks tonight. Not your concern.",
-    "note": "Call 4. Leaving. Flat, final.",
+    "say": "Leave your desks as they are. Someone comes in for them tonight.",
+    "note": "Day 6. The last thing you say to them.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
-    "file": "Office_Visit_F_a",
-    "say": "Evening, team. Short call. The review didn't pass.",
-    "note": "Any failed review (one to four): you let the crew go on a plain call, camera off, before the letter of separation. Quiet, not angry. Nothing odd in this call: a person doing an unpleasant job.",
-    "group": "Review scenes",
+    "file": "Office_Fail_First_a",
+    "say": "Evening. I'll keep this short. That one didn't pass.",
+    "note": "The first fail of the run.",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
-    "file": "Office_Visit_F_b",
-    "say": "Your contract ends tonight. Please leave the lanyards. They're counted.",
-    "note": "Failed review. The same line the diner's manager says about the ties.",
-    "group": "Review scenes",
+    "file": "Office_Fail_First_b",
+    "say": "Not to worry. It's a correction, that's all, then you go again.",
+    "note": "",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
-    "file": "Office_Visit_F_c",
-    "say": "Your logins expire at midnight. IT will handle the rest.",
-    "note": "Failed review. Leaving the call. Kind, which is the creepy part.",
-    "group": "Review scenes",
+    "file": "Office_Fail_First_pick",
+    "say": "Head office have picked someone. I've put the name on your screen.",
+    "note": "The screen shows the chosen player's badge.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_First_lift",
+    "say": "The lift's coming down for you now. The rest of you, stay put.",
+    "note": "The chosen player walks to the lift.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_Again_a",
+    "say": "Evening. Didn't pass, I'm afraid.",
+    "note": "Any later fail.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_Again_b",
+    "say": "Same as before. A correction, then another go.",
+    "note": "",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_Again_pick",
+    "say": "Name's on your screen. Sorry.",
+    "note": "",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_Again_lift",
+    "say": "Lift's on its way. Off you go.",
+    "note": "",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Fail_Retry",
+    "say": "Right. Head office are giving you another go at that one. Lovely.",
+    "note": "On the screen once the chosen player is back on the floor; then the review is retried.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S1_in",
+    "say": "There you are. Come in, have a seat.",
+    "note": "Stage 1: the mouth. The lift doors open on you.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S1_what",
+    "say": "This is just the standard. Everyone client-facing has it done.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S1_hold",
+    "say": "Hold still for me. It's quick, I promise.",
+    "note": "Then the cut.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S1_done",
+    "say": "There. That's it. You look great, honestly.",
+    "note": "You mean it.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S1_out",
+    "say": "Back down you go. Tell them it's all fine.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S2_in",
+    "say": "Back again? Not to worry. Sit down.",
+    "note": "Stage 2: wider, the cheeks.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S2_what",
+    "say": "We'll bring it up a touch. Head office like it a bit wider.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S2_hold",
+    "say": "Still as you can.",
+    "note": "Then the cut.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S2_done",
+    "say": "Lovely. Much better.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S2_out",
+    "say": "Off you go.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S3_in",
+    "say": "Right. Sit down for me.",
+    "note": "Stage 3: the eyes open wide, the blinking stops.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S3_what",
+    "say": "Last one. This one's the eyes.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S3_hold",
+    "say": "Keep them open. Don't blink. Good.",
+    "note": "Then the cut.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S3_done",
+    "say": "There. Now you're done. Mine's the same, see?",
+    "note": "The only time you ever refer to your own face. As comfort.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_S3_out",
+    "say": "Down you go.",
+    "note": "",
+    "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
    },
    {
     "file": "Office_Hello",
-    "say": "Hi, team! Joining from another call. My camera's off. Yours aren't.",
-    "note": "Day 1, before the first greeting. Pleased with the joke.",
+    "say": "Morning, everyone. Sorry, I'm on another call, so no camera from me today.",
+    "note": "Day 1, before the first greeting. You say \"today\" every day.",
     "group": "Hello"
    },
    {
     "file": "Office_Practice_Start",
-    "say": "Quick practice project first. It doesn't count. Think of it as onboarding.",
+    "say": "We'll do a practice run first. Doesn't count for anything, so relax.",
     "note": "Day 0, the practice job starts.",
     "group": "Practice"
    },
    {
     "file": "Office_Practice_End",
-    "say": "Great onboarding. The real client is on their way up.",
+    "say": "Good. That's the practice done. The client's on their way up now.",
     "note": "Day 0, the practice job is done.",
     "group": "Practice"
    },
    {
     "file": "Office_Start_C1",
-    "say": "Good morning, team! Let's hit the ground running. Then keep running.",
+    "say": "Morning, all. Busy one today, so let's get straight into it.",
     "note": "",
     "group": "Start"
    },
    {
     "file": "Office_Start_K1",
-    "say": "Morning. One client, one deadline. Let's action it.",
+    "say": "Morning. Same as yesterday, one client, one deadline. Off you go.",
     "note": "The screen adds the day number in front.",
     "group": "Start"
    },
    {
     "file": "Office_Start_S2",
-    "say": "Please keep your cameras on today. We always do.",
-    "note": "",
+    "say": "Oh, and cameras on today, please, if you don't mind. Thanks.",
+    "note": "Said pleasantly. Yours is off.",
     "group": "Start"
    },
    {
     "file": "Office_Client_In_01",
-    "say": "Our client has arrived. Please take the brief in the meeting room.",
+    "say": "Right, the client's here. Someone grab the brief in Room 1, please.",
     "note": "The client sits down at the table a few seconds after clock-in.",
     "group": "Client"
    },
    {
     "file": "Office_Client_In_03",
-    "say": "The client is here. Please only promise what you can deliver.",
-    "note": "A gentle warning, still smiling.",
+    "say": "They're in. Don't promise them anything we can't do, alright?",
+    "note": "A gentle warning.",
     "group": "Client"
    },
    {
     "file": "Office_Brief_Email",
-    "say": "Nobody took the brief, so the client emailed it. Noted.",
-    "note": "Nobody went to the table in time. A small sigh before \"Noted\".",
+    "say": "Nobody took the brief, so they've emailed it over instead.",
+    "note": "Nobody went to the table in time.",
     "group": "Brief"
    },
    {
     "file": "Office_Change_01",
-    "say": "The client has changed their mind. Please check the board.",
+    "say": "Small change from the client. Have a look at the board.",
     "note": "Midway through the day the client changes one part.",
     "group": "Change"
    },
    {
     "file": "Office_Change_03",
-    "say": "Client feedback is in. It's mostly the word \"actually\".",
-    "note": "Dry. Lean on \"actually\".",
+    "say": "Client's moved some cards around, sorry. Board's updated.",
+    "note": "",
     "group": "Change"
    },
    {
     "file": "Office_End_C1",
-    "say": "That's time, team! Let's go wow the client.",
+    "say": "That's time. Everyone into Room 1, please.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Office_End_K1",
-    "say": "Time. Please stop typing and go to the meeting room.",
+    "say": "Time. Down tools.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Office_End_S2",
-    "say": "That's the deadline. Please gather in the meeting room. All of you.",
+    "say": "Right, that's five. Leave it where it is and head to Room 1.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Office_Early_01",
-    "say": "Everything delivered early! The client is impressed. I'm a little suspicious.",
+    "say": "All done early. Lovely. I'll let head office know.",
     "note": "",
     "group": "Early"
    },
    {
     "file": "Office_Pitch_Good_01",
-    "say": "The client signed off. Great teamwork. Let's not get used to it.",
+    "say": "They signed. Well done, all of you.",
     "note": "The screen shows the money.",
     "group": "Pitch"
    },
    {
     "file": "Office_Pitch_Bad_01",
-    "say": "The client left without signing. That will need a follow-up.",
-    "note": "Disappointed, not angry.",
+    "say": "They've gone without signing. I'll give them a ring in the morning.",
+    "note": "Not angry.",
     "group": "Pitch"
    },
    {
     "file": "Office_Remark_C2",
-    "say": "We're a family here. A family with read receipts.",
-    "note": "Upbeat.",
+    "say": "Quiet in here today. Lovely.",
+    "note": "",
     "group": "Remark"
    },
    {
     "file": "Office_Remark_K2",
-    "say": "This announcement could have been an email. It is also an email.",
-    "note": "Clipped.",
+    "say": "Still here, by the way. Just listening in.",
+    "note": "",
     "group": "Remark"
    },
    {
     "file": "Office_Remark_S1",
-    "say": "Everyone here gets reviewed. Everyone. That's what makes us fair.",
-    "note": "Strained. Almost to themselves.",
+    "say": "I had my review here too, years back. Fair system, honestly.",
+    "note": "His only self-disclosure. He means it as reassurance.",
     "group": "Remark"
    },
    {
     "file": "Office_NewContract_01",
-    "say": "A new contract is live. The details are on your screen.",
+    "say": "New contract's on your screens.",
     "note": "Shortened for voice. Screen shows the contract number, quota and deadline.",
     "group": "New contract"
    },
    {
     "file": "Office_NewReview_01",
-    "say": "A new review begins. The target is on your screen.",
+    "say": "New review from today. The target's on your screen, same as before.",
     "note": "Shortened for voice. Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "Office_ReviewDay_01",
-    "say": "Review day. Your numbers will be reviewed tonight. So will you.",
+    "say": "Review day today. I'll have your numbers by this evening.",
     "note": "",
     "group": "Review day"
    },
    {
     "file": "Office_LastDay_03",
-    "say": "Last day, team! We are all very aligned. Look how aligned we are.",
-    "note": "Clearly not aligned.",
+    "say": "Last day, everyone. Make it a good one.",
+    "note": "",
     "group": "Last day"
    },
    {
     "file": "Office_LastDay_04",
-    "say": "The quota is due tonight. A meeting about the gap is scheduled.",
+    "say": "Quota's due tonight. We're a bit short, so, you know. Push on.",
     "note": "Shortened for voice.",
     "group": "Last day"
    },
    {
     "file": "Office_Behind_02",
-    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
+    "say": "We're a bit behind. Can we pick it up a touch? Thanks.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Office_Behind_05",
-    "say": "Statistically, one of you is the bottleneck. Let's not find out who.",
+    "say": "Bit slow this morning, that. Head office does look at these.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Office_NewThing_01",
-    "say": "New procedure, effective today. Details are in your memo.",
+    "say": "There's a new procedure from today. It's in the memo. Have a read.",
     "note": "",
     "group": "New thing"
    },
    {
     "file": "Office_NewThing_03",
-    "say": "A new memo. Please read it twice. Once is not policy.",
+    "say": "Memo's gone out. Do read it, please, it's an important one.",
     "note": "",
     "group": "New thing"
    },
    {
     "file": "Office_EventToday_03",
-    "say": "Heads up, team: something is happening today. Plan accordingly, or don't.",
+    "say": "Oh, and there's something on today. Details on the screen.",
     "note": "",
     "group": "Event today"
    },
    {
     "file": "Office_ReplyAll",
-    "say": "Someone hit reply-all. Please do not reply to the reply-all.",
-    "note": "Eight emails land at once. Tired.",
+    "say": "Someone's hit reply all. Leave it, please, don't add to it.",
+    "note": "Eight emails land at once.",
     "group": "Reply all"
    },
    {
     "file": "Office_ClientVisit",
-    "say": "A surprise client visit! They brought one more request.",
-    "note": "Today's project gets one more part. Forced cheer.",
+    "say": "The client's popped back in. They've got one more thing for you.",
+    "note": "Today's project gets one more part.",
     "group": "Client visit"
    },
    {
-    "file": "Office_AllHands",
-    "say": "All-hands in the meeting room, now. All hands. Yours too.",
-    "note": "Everyone is called to the meeting room for a short while.",
-    "group": "All hands"
-   },
-   {
     "file": "Office_AllHands_Day6_Call",
-    "say": "All-hands, everyone. To the screen, please.",
-    "note": "The screen lights up. Bright on the surface.",
+    "say": "Quick all-hands, everyone. Over to the screen, please.",
+    "note": "The screen lights up.",
     "group": "All hands"
    },
    {
     "file": "Office_AllHands_Day6_01",
-    "say": "Thank you for joining at short notice.",
+    "say": "Thanks for coming over. Won't keep you long.",
     "note": "The crew at the screen.",
     "group": "All hands"
    },
@@ -874,13 +994,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_AllHands_Day6_03",
-    "say": "The numbers are good. Please keep them that way.",
-    "note": "A small pause before \"Please\".",
+    "say": "They're good, actually. Better than last month's lot.",
+    "note": "A compliment. \"Last month's lot\" is the office's crumb that the crew is not the first.",
     "group": "All hands"
    },
    {
     "file": "Office_AllHands_Day6_04",
-    "say": "That's all. Back to work, everyone.",
+    "say": "Right, that's it. Thanks, everyone.",
     "note": "The call ends.",
     "group": "All hands"
    }
@@ -892,6 +1012,13 @@ window.VOICE_LINES = [
   "who": "Lockwell Security's handler, over the radio.",
   "folder": "SecurityManager",
   "lines": [
+   {
+    "file": "Security_TimeUp_Fail_01",
+    "say": "Time's up and the report is short. The client wants the day again.",
+    "note": "Phase 86I2c: after the debrief, a required item was not handed in, so the same day starts over. Tired, not angry.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
    {
     "file": "Security_Visit_Gather",
     "say": "Everyone to the van, please. This won't take long.",
@@ -1096,12 +1223,6 @@ window.VOICE_LINES = [
     "say": "Findings missing. The client paid for half a report.",
     "note": "Unused since Phase 86I2c (a short report now fails the day): skip it.",
     "group": "Debrief"
-   },
-   {
-    "file": "Security_TimeUp_Fail_01",
-    "say": "Time's up and the report is short. The client wants the day again.",
-    "note": "Phase 86I2c: after the debrief, a required item was not handed in, so the same day starts over. Tired, not angry.",
-    "group": "Time up"
    },
    {
     "file": "Security_Promise_Missed",
