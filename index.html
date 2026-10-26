@@ -177,7 +177,7 @@ kbd { font: 600 12px/1 var(--display); border: 1px solid var(--rule); padding: 2
 </div>
 
 <script src="config.js?v=ff94e5d983"></script>
-<script src="lines.js?v=671e031e24"></script>
+<script src="lines.js?v=7be0420a62"></script>
 <script>
 "use strict";
 const ACTORS = window.VOICE_LINES || [];
@@ -219,8 +219,11 @@ async function listTakes(actorKey) {
   });
   if (!r.ok) throw await failure(r);
   const out = new Map();
+  const actor = (window.VOICE_LINES || []).find((x) => x.key === actorKey);
+  const fresh = actor && actor.freshFrom ? Date.parse(actor.freshFrom) : 0; // older takes are old words: record them again
   for (const o of await r.json()) {
     if (!o.id || !o.name.endsWith(".wav")) continue;
+    if (fresh && !(Date.parse(o.updated_at || o.created_at || "") >= fresh)) continue;
     out.set(o.name.slice(0, -4), { size: (o.metadata && o.metadata.size) || 0, updated: o.updated_at || o.created_at || "" });
   }
   return out;
