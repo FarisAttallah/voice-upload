@@ -243,12 +243,6 @@ window.VOICE_LINES = [
     "group": "Remark"
    },
    {
-    "file": "Diner_NewContract_01",
-    "say": "Got a new contract for you. The quota's on your screen.",
-    "note": "Screen shows the contract number, quota and deadline.",
-    "group": "New contract"
-   },
-   {
     "file": "Diner_NewReview_01",
     "say": "New review today. You'll see the target up there.",
     "note": "Screen shows the review number, target and deadline.",
