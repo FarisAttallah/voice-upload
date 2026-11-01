@@ -2078,7 +2078,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_Lost_2",
-    "say": "That's an error. Can we try that again?",
+    "say": "It's never working, man.",
     "note": "The screen shows an error. To the person beside him.",
     "group": "The demo errors"
    },
@@ -2222,12 +2222,6 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_ThroatClear_2",
-    "say": "(clears his throat, quietly)",
-    "note": "Another take.",
-    "group": "Before he looks round"
-   },
-   {
-    "file": "Office_Demo_ThroatClear_3",
     "say": "(clears his throat, quietly)",
     "note": "Another take.",
     "group": "Before he looks round"
