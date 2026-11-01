@@ -128,8 +128,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Boss_Next1_03",
-    "say": "Everyone gets reviewed. It's how we look after people.",
-    "note": "New. Hands together, smiling. Kindly, like a reassurance",
+    "say": "Everyone gets reviewed. It's just how we look after people.",
+    "note": "New. Hands together, smiling. Kindly, like a reassurance. As recorded 2026-10-13 (\"just\" is the take's; pulled 99C-S6)",
     "group": "Scene 1: after the diner"
    },
    {
@@ -1981,196 +1981,256 @@ window.VOICE_LINES = [
   ]
  },
  {
-  "key": "office-client-1",
-  "name": "Office Client, Day 1: Mr. Okafor",
-  "who": "The day's client at TaMorgan Group: gives the brief, runs the meeting, judges the pitch. Mr. Okafor is short on time, brisk, polite. A player's name is never said: where the game names someone, the line here leaves it out.",
-  "folder": "OfficeClient1",
+  "key": "office-client",
+  "name": "The Office Client: Mr. Malaeb",
+  "who": "The client at TaMorgan Group, in Room 1 for the demo on all six days. He clicks through the new platform while the crew fakes it out of sight. Busy and a little impatient, never rude.",
+  "folder": "OfficeClient",
   "lines": [
    {
-    "file": "Office_Brief_Day1_01",
-    "say": "Morning. I'm short on time, so I'll keep this quick.",
-    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
-    "group": "Brief"
+    "file": "Office_Demo_Greet",
+    "say": "Okay, let's see it. I've got another meeting at ten.",
+    "note": "Starting the demo, sitting down across the table. Busy, not rude.",
+    "group": "Starting the demo"
    },
    {
-    "file": "Office_Brief_Day1_02",
-    "say": "Two things today: the plan, and the build.",
-    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
-    "group": "Brief"
+    "file": "Office_Demo_Greet_2",
+    "say": "Morning. Can we start? I'm a bit pressed today.",
+    "note": "Starting the demo, another day.",
+    "group": "Starting the demo"
    },
    {
-    "file": "Office_Brief_Day1_03",
-    "say": "The plan goes on the wall over there. Print it when it's done.",
-    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
-    "group": "Brief"
+    "file": "Office_Demo_Greet_3",
+    "say": "Same as yesterday. Let's get going.",
+    "note": "Starting the demo, day 2 onward.",
+    "group": "Starting the demo"
    },
    {
-    "file": "Office_Brief_Day1_04",
-    "say": "The build starts rolling the moment you press start. I'll be watching.",
-    "note": "The brief, standing at the table before work starts. To the whole team. Unhurried.",
-    "group": "Brief"
+    "file": "Office_Demo_LogIn",
+    "say": "Let's log in.",
+    "note": "His first click of the day, half to himself, eyes on the screen.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_01",
-    "say": "First, a quick look at the numbers.",
-    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
-    "group": "Meeting"
+    "file": "Office_Demo_LogIn_2",
+    "say": "Okay, logging in.",
+    "note": "His first click of the day, another take.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_02",
-    "say": "Are we on track for launch?",
-    "note": "In a meeting, a question to one person across the table. Expect an answer.",
-    "group": "Meeting"
+    "file": "Office_Demo_LogIn_3",
+    "say": "Log in first, I suppose.",
+    "note": "His first click of the day, another take.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_03",
-    "say": "Our users want a clean dashboard.",
-    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
-    "group": "Meeting"
+    "file": "Office_Demo_Report",
+    "say": "And if I want a report?",
+    "note": "Asking the person sitting beside him.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_04",
-    "say": "Who signs off on the plan?",
-    "note": "In a meeting, a question to one person across the table. Expect an answer.",
-    "group": "Meeting"
+    "file": "Office_Demo_Report_2",
+    "say": "Show me a report.",
+    "note": "Asking the person sitting beside him.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_05",
-    "say": "The budget stays where it is.",
-    "note": "In a meeting, across a table to one person. A statement; leave a beat after it.",
-    "group": "Meeting"
+    "file": "Office_Demo_Report_3",
+    "say": "Where's the report, then?",
+    "note": "Asking the person sitting beside him.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Day1_06",
-    "say": "Any risks I should know about?",
-    "note": "In a meeting, a question to one person across the table. Expect an answer.",
-    "group": "Meeting"
+    "file": "Office_Demo_Sync",
+    "say": "And it syncs, does it?",
+    "note": "Trying the sync button, to the person beside him.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Slip_01",
-    "say": "Let's go over that again. Are we clear?",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Sync_2",
+    "say": "Let's try the sync.",
+    "note": "Trying the sync button, half to himself.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Slip_02",
-    "say": "Let me write that down.",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Delete",
+    "say": "How do I get rid of something?",
+    "note": "Looking for the delete button, to the person beside him.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Slip_03",
-    "say": "Can I count on you?",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Delete_2",
+    "say": "Where do I delete things?",
+    "note": "Looking for the delete button.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Slip_04",
-    "say": "One more slide, then.",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Diagnostic",
+    "say": "Last thing before I go, the full diagnostic.",
+    "note": "The last day only, near the end of the demo.",
+    "group": "His clicks"
    },
    {
-    "file": "Office_Meeting_Slip_Reaction",
-    "say": "Let's add that to the agenda.",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Lost",
+    "say": "Come on. Is it always this slow?",
+    "note": "The screen shows an error. Muttered at the screen.",
+    "group": "The demo errors"
    },
    {
-    "file": "Office_Meeting_Good",
-    "say": "Good.",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_Lost_2",
+    "say": "That's an error. Can we try that again?",
+    "note": "The screen shows an error. To the person beside him.",
+    "group": "The demo errors"
    },
    {
-    "file": "Office_Meeting_End",
-    "say": "Great. That's everything.",
-    "note": "In a meeting, after a wrong or late answer. Patient, a little tired.",
-    "group": "Meeting"
+    "file": "Office_Demo_CaughtSeat",
+    "say": "Hello? Did you pop out to get eggs and cheese?",
+    "note": "He looks round and the chair beside him is empty. Dry, a little fed up.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Meeting_Crash_01",
-    "say": "Was that the pipeline?",
-    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
-    "group": "Meeting"
+    "file": "Office_Demo_CaughtSeat_2",
+    "say": "Am I talking to myself here?",
+    "note": "He looks round and the chair beside him is empty.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Meeting_Crash_02",
-    "say": "Did the build just fall over?",
-    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
-    "group": "Meeting"
+    "file": "Office_Demo_CaughtSmoke",
+    "say": "Is that smoke from a leak?",
+    "note": "He looks out through the glass and sees smoke. Puzzled.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Meeting_Clatter_01",
-    "say": "Did something just fall?",
-    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
-    "group": "Meeting"
+    "file": "Office_Demo_CaughtSmoke_2",
+    "say": "Do you want me to call a plumber?",
+    "note": "He looks out through the glass and sees smoke. Trying to help.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Meeting_Clatter_02",
-    "say": "Is the plan coming together?",
-    "note": "In a meeting, just after a loud crash or clatter outside the glass. Curious, not alarmed.",
-    "group": "Meeting"
+    "file": "Office_Demo_CaughtColleagues",
+    "say": "What's everyone doing?",
+    "note": "He looks out through the glass and sees people on their feet.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_01",
-    "say": "Right. Let's see what you've got.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_CaughtColleagues_2",
+    "say": "Why is everyone standing up?",
+    "note": "He looks out through the glass and sees people on their feet.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_Wall_Done",
-    "say": "The whole plan, up on the wall. Good.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_CaughtPaper",
+    "say": "Somebody's dropped something.",
+    "note": "He looks out and sees paper all over the floor.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_Wall_Half",
-    "say": "Half a plan. I'll pay for half.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_CaughtPaper_2",
+    "say": "Is someone going to pick that up?",
+    "note": "He looks out and sees paper all over the floor.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_Wall_Missing",
-    "say": "Where's the plan?",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_CaughtQuestion",
+    "say": "Hm. I'll write that down.",
+    "note": "His question got no answer, or a wrong one. Cool, noting it.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_Run",
-    "say": "Now the build. Show me it running.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_CaughtQuestion_2",
+    "say": "Okay. Noted.",
+    "note": "His question got no answer, or a wrong one.",
+    "group": "Catching the crew"
    },
    {
-    "file": "Office_Pitch_Day1_Build_Done",
-    "say": "Straight to the server. Lovely.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_Q1",
+    "say": "Why does this say October 2024? What happened in October 2024?",
+    "note": "Reading the screen, a real question to the person beside him.",
+    "group": "His four questions"
    },
    {
-    "file": "Office_Pitch_Day1_Build_Crash",
-    "say": "Well. It got that far, at least.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_Q2",
+    "say": "Who's Tawwah?",
+    "note": "Reading a name on the screen, a real question.",
+    "group": "His four questions"
    },
    {
-    "file": "Office_Pitch_Day1_Build_Short",
-    "say": "Still rolling. I'll pay for what I saw.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_Q3",
+    "say": "These totals are the same as last year's.",
+    "note": "Reading the screen, suspicious. Expects an answer.",
+    "group": "His four questions"
    },
    {
-    "file": "Office_Pitch_Day1_Build_Missing",
-    "say": "It never left the start.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_Q4",
+    "say": "Why is this one stapled?",
+    "note": "Holding up a printout. Expects an answer.",
+    "group": "His four questions"
    },
    {
-    "file": "Office_Pitch_Day1_End",
-    "say": "That's the day. Same time tomorrow.",
-    "note": "The pitch: walking the team's work at the end of the day. Judging it out loud, fair.",
-    "group": "Pitch"
+    "file": "Office_Demo_Right",
+    "say": "Fine.",
+    "note": "A good answer to his question. Satisfied enough, moving on.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_Right_2",
+    "say": "Good. Next.",
+    "note": "A good answer to his question.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_Right_3",
+    "say": "Alright, fine.",
+    "note": "A good answer to his question.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_WalkOut",
+    "say": "Okay. I've seen enough, thank you.",
+    "note": "The third thing he caught. He stands up to leave. Polite, done.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_WalkOut_2",
+    "say": "I'm going to stop there.",
+    "note": "The third thing he caught. He stands up to leave.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_Done",
+    "say": "That's my list done.",
+    "note": "The demo went through. He stands up.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_Done_2",
+    "say": "Good. That's all I needed.",
+    "note": "The demo went through. He stands up.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Overtime_Six",
+    "say": "It's six. I'll take what you have.",
+    "note": "6 PM: he stands up from the table and ends the day.",
+    "group": "Endings"
+   },
+   {
+    "file": "Office_Demo_ThroatClear",
+    "say": "(clears his throat, quietly)",
+    "note": "One short clear, not a cough, just before he looks round.",
+    "group": "Before he looks round"
+   },
+   {
+    "file": "Office_Demo_ThroatClear_2",
+    "say": "(clears his throat, quietly)",
+    "note": "Another take.",
+    "group": "Before he looks round"
+   },
+   {
+    "file": "Office_Demo_ThroatClear_3",
+    "say": "(clears his throat, quietly)",
+    "note": "Another take.",
+    "group": "Before he looks round"
    }
   ]
  },
@@ -3407,6 +3467,20 @@ window.VOICE_LINES = [
     "say": "Oh, and one more thing.",
     "note": "Still walking beside them, not taking the hint. Keen.",
     "group": "Ambush"
+   }
+  ]
+ },
+ {
+  "key": "office-player",
+  "name": "The Player's Breath (Office)",
+  "who": "Your own breathing, close, on the ride up to the room on 11 and in the chair. No words.",
+  "folder": "OfficePlayer",
+  "lines": [
+   {
+    "file": "Office_Player_Breath",
+    "say": "(no words: breathe)",
+    "note": "Your own breathing through the nose, sitting very still, close to the mic (a hand's width). Held in a little, a bit shallow, like someone told to hold still who is trying not to move. Steady, no gasps, no sighs, no sniffs, nothing voiced. A minute or more; the game loops it.",
+    "group": "Player"
    }
   ]
  }
