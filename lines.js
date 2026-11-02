@@ -109,12 +109,6 @@ window.VOICE_LINES = [
     "group": "The intro scene"
    },
    {
-    "file": "Boss_Late",
-    "say": "Your crew has already clocked in. Let's be quick.",
-    "note": "New 2026-10-11, draft. A friend joining a shift that has started hears this instead of Boss_14 (every player sees the scene once, docs/BOSS_INTRO.md)",
-    "group": "The intro scene"
-   },
-   {
     "file": "Boss_Next1_01",
     "say": "Ah. Come in. Don't mind that. It's just the diner.",
     "note": "He swivels round and switches off the screen. Light, a little caught out",
@@ -861,335 +855,373 @@ window.VOICE_LINES = [
   "lines": [
    {
     "file": "Security_TimeUp_Fail_01",
-    "say": "Time's up and the report is short. The client wants the day again.",
-    "note": "Phase 86I2c: after the debrief, a required item was not handed in, so the same day starts over. Tired, not angry.",
+    "say": "Report's short, so the client wants the whole damn day again.",
+    "note": "Phase 86I2c: after the debrief, a required item was not handed in, so the same day starts over.",
     "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
     "file": "Security_Visit_Gather",
     "say": "Everyone to the van, please. This won't take long.",
-    "note": "Every visit, word for word (one recording, used each time): as you reach your spot. New 2026-10-12 (built in Phase 57), like the diner's gather line.",
+    "note": "As recorded (2026-11-02). Every visit, word for word (one recording, used each time): as you reach your spot.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_1a",
     "say": "Evening, team. Quick debrief from me. Review one is in.",
-    "note": "Visit 1 (evening of day 2). Confident, in person for the first time. You got out of your car and lean on the crew's van.",
+    "note": "As recorded (2026-11-02). Visit 1 (evening of day 2). You got out of your car and lean on the crew's van.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_1b",
-    "say": "Passed. Clean work. The client wants you back tomorrow.",
-    "note": "Visit 1. Reading it off your phone.",
+    "say": "You passed. Client wants you back tomorrow.",
+    "note": "Visit 1. Reading it off your phone. Your way.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_1c",
-    "say": "Same building tomorrow. They'll have fixed a few things. Night.",
+    "say": "Same place tomorrow, they'll have fixed some stuff. Night, guys.",
     "note": "Visit 1. Leaving. A wave.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_2a",
-    "say": "Review two. Good numbers. A few notes on getting caught.",
-    "note": "Visit 2 (evening of day 4). Clipped, tired, reading off your phone. You are already sitting in the open back of the crew's van when they come back; nobody saw you arrive.",
+    "say": "Review two. Numbers are fine, but you're getting caught way too much.",
+    "note": "Visit 2 (evening of day 4). Reading off your phone. You are already sitting in the open back of the crew's van when they come back; nobody saw you arrive.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_2b",
-    "say": "Nothing to action. Keep your letter on you.",
-    "note": "Visit 2. Flat.",
+    "say": "Keep your letter on you, okay?",
+    "note": "Visit 2.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_2c",
-    "say": "Right. I'll see myself out.",
-    "note": "Visit 2. Ordinary, as if nothing is odd; you shut the van's doors, then walk off reading your phone, past the guard at the gate (who never looks at you) and into the client's building.",
+    "say": "Right, I've got another meeting.",
+    "note": "Visit 2. You shut the van's doors, then walk off reading your phone, past the guard at the yard door, into the client's building.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_3a",
-    "say": "Final review. Passed. Well done, team. Very professional.",
-    "note": "Visit 3 (evening of day 6, the placement passed). Strained, slow. You come out of the depot's front door: you were inside all day.",
+    "say": "Final review. Passed. Goddamn well done. Everybody. Very professional.",
+    "note": "As recorded (2026-11-02). Visit 3 (evening of day 6, the placement passed). You come out of the depot's yard door: you were inside all day.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_3b",
-    "say": "Your photos are going upstairs. Someone will review them.",
-    "note": "Visit 3. Calm. (The crew's last-day photos go to the office's trays: STORY.md rung 3.)",
+    "say": "I'm sending these photos up.",
+    "note": "Visit 3. (The crew's last-day photos go to the office's trays: STORY.md rung 3.)",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_3c",
-    "say": "Your work here is done. I'll take the camera.",
-    "note": "Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk back into the building with it.",
+    "say": "Job well done. I'll get the camera.",
+    "note": "As recorded (2026-11-02). Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk back into the building with it.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_F_a",
-    "say": "Evening. I'll keep this short. The review didn't pass.",
-    "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
+    "say": "Yeah. The review didn't pass.",
+    "note": "After the gather line. Flat.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Visit_F_b",
-    "say": "Your engagement ends tonight. Please hand in the covers. They're counted.",
-    "note": "Any failed review.",
+    "say": "So one of you gets a lens. I don't make the rules.",
+    "note": "Tired.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
-    "file": "Security_Visit_F_c",
-    "say": "Don't take it hard. We'll keep your photo on file.",
-    "note": "Any failed review. Leaving. Kind, which is the creepy part. Nothing odd in this visit: a person doing an unpleasant job.",
+    "file": "Security_Visit_F_pick",
+    "say": "Phone says it's you. Come on, get in the van.",
+    "note": "Reading the phone, then opening the back doors.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Security_Visit_F_pick_again",
+    "say": "Phone says it's you again. You know the drill.",
+    "note": "A repeat pick (the second and third lens).",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Security_Visit_F_retry",
+    "say": "The client's letting you redo it. Go get some sleep.",
+    "note": "At the van, to everyone, once the chosen player is out.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Security_Hello",
     "say": "Radio check. This is your handler. I'll be watching. Professionally.",
-    "note": "Day 1, before the first greeting. Pleased with \"Professionally\".",
+    "note": "As recorded (2026-11-02). \"Radio check\" is the nearest real words (the transcribers disagree). Day 1, before the first greeting.",
     "group": "Hello"
    },
    {
     "file": "Security_Practice_Start",
     "say": "Practice run first. Getting caught is free today. Only today.",
-    "note": "Day 0, the practice break-in starts (a catch costs nothing in the practice).",
+    "note": "As recorded (2026-11-02). Day 0, the practice break-in starts (a catch costs nothing in the practice).",
     "group": "Practice"
    },
    {
     "file": "Security_Practice_End",
-    "say": "Clean enough. From now on, getting caught costs a strike.",
-    "note": "Day 0, the practice is done.",
+    "say": "Clean enough. From now on, getting caught costs a strike. Bitch.",
+    "note": "As recorded (2026-11-02). \"Clean enough\" is the nearest real words. Day 0, the practice is done.",
     "group": "Practice"
    },
    {
     "file": "Security_Start_C1",
-    "say": "Morning, team. The brief is on the board. Read it twice.",
-    "note": "The screen adds the day number in front.",
+    "say": "It's you guys again. Alright team, the brief is on the board. Read it twice, thrice, how many times... I'm just kidding, you goddamn idiots.",
+    "note": "As recorded (2026-11-02). Longer than the subtitle's 13 words, kept as said. The part after \"how many times\" (from about 8 s) is still to be checked by ear.",
     "group": "Start"
    },
    {
     "file": "Security_Start_K1",
-    "say": "Morning. Brief's on the board. Same building, new problems.",
-    "note": "The screen adds the day number in front.",
+    "say": "Morning. Brief on the board. Same building. New problems. I hate my job.",
+    "note": "As recorded (2026-11-02).",
     "group": "Start"
    },
    {
     "file": "Security_Start_S1",
-    "say": "Good morning. Please stay on the radio today. All day.",
-    "note": "The screen adds the day number in front.",
+    "say": "Morning. Radios on all day today, please.",
+    "note": "",
     "group": "Start"
    },
    {
     "file": "Security_Fixed_01",
     "say": "The client fixed what you reported. That's the job working.",
-    "note": "Pleased, like a teacher.",
+    "note": "As recorded (2026-11-02).",
     "group": "Fixed"
    },
    {
     "file": "Security_Fixed_02",
-    "say": "Overnight fixes are on the board. Find a new way in.",
+    "say": "They've patched a couple of your ways in. It's on the board.",
     "note": "",
     "group": "Fixed"
    },
    {
     "file": "Security_Strike_01",
     "say": "A tester has been stopped. Show the letter. That's a strike.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "Strike"
    },
    {
     "file": "Security_Strike_02",
-    "say": "Someone got caught. Walk out calmly. Smile at the guard.",
+    "say": "Ah, shit. Someone's been caught. Walk out slow, smile at the guard.",
     "note": "",
     "group": "Strike"
    },
    {
     "file": "Security_Restart_01",
     "say": "Last strike. The client has ended the test. We go again.",
-    "note": "The last strike: the day starts over. Tired.",
+    "note": "As recorded (2026-11-02). The last strike: the day starts over.",
     "group": "Restart"
    },
    {
     "file": "Security_Alert_01",
     "say": "Site alert is up. Slow down. Look like you belong.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "Alert"
    },
    {
     "file": "Security_Lockdown_01",
     "say": "Lockdown. The doors are shut. Nobody is a visitor now.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "Lockdown"
    },
    {
     "file": "Security_End_C1",
-    "say": "That's time. Everyone back to the van. Bring the proof.",
-    "note": "",
+    "say": "That's time. Everybody back to the van. Bring. The. Proof.",
+    "note": "As recorded (2026-11-02).",
     "group": "End"
    },
    {
     "file": "Security_End_K1",
-    "say": "Time. Leave the building. Whatever you didn't prove didn't happen.",
+    "say": "Time. Get out of there.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Security_End_S1",
-    "say": "Time. Please come back to the van. All of you.",
+    "say": "That's time. Come on back now, all of you.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Security_Early_01",
-    "say": "Everything's back early. The client is impressed. And a little worried.",
-    "note": "",
+    "say": "Huh. You're all back early. Okay.",
+    "note": "Your way.",
     "group": "Early"
    },
    {
     "file": "Security_Debrief_Good_01",
     "say": "Clean report. The client paid. They didn't look happy about it.",
-    "note": "The screen shows the money. Amused.",
-    "group": "Debrief"
-   },
-   {
-    "file": "Security_Debrief_Bad_01",
-    "say": "Findings missing. The client paid for half a report.",
-    "note": "Unused since Phase 86I2c (a short report now fails the day): skip it.",
+    "note": "As recorded (2026-11-02). \"Clean report\" is the nearest real words. The screen shows the money.",
     "group": "Debrief"
    },
    {
     "file": "Security_Promise_Missed",
-    "say": "You promised a stretch and missed it. The client wrote that down.",
-    "note": "A promised stretch finding was not done.",
+    "say": "You promised a stretch, and missed it. The client wrote that down. You dumb motherfucker.",
+    "note": "As recorded (2026-11-02). A promised stretch finding was not done.",
     "group": "Promise"
    },
    {
     "file": "Security_Remark_C1",
-    "say": "Reminder: photograph it, tag it, leave it where it was.",
-    "note": "Confident.",
+    "say": "How many times, you photograph it, you leave it there.",
+    "note": "Days 1-2.",
     "group": "Remark"
    },
    {
     "file": "Security_Remark_K4",
-    "say": "Reminder: seated staff are out of scope. Please don't photograph them.",
-    "note": "Clipped, read off the clipboard like any other rule. The customer crumb (owner, 2026-10-11): never say who seated staff are.",
+    "say": "Says here seated staff are out of scope. Don't photograph them.",
+    "note": "Days 3-4, read off the clipboard like any other rule. The customer crumb (owner, 2026-10-11): never say who seated staff are.",
     "group": "Remark"
    },
    {
     "file": "Security_Remark_S1",
     "say": "Everyone gets watched. Someone has to do the watching.",
-    "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
+    "note": "As recorded (2026-11-02). Days 5-6. Almost to yourself.",
     "group": "Remark"
    },
    {
-    "file": "Security_NewContract_01",
-    "say": "A new engagement is live. The terms are on your screen.",
-    "note": "Screen shows the contract number, quota and deadline.",
-    "group": "New contract"
-   },
-   {
     "file": "Security_NewReview_01",
-    "say": "A new review begins. The target is on your screen.",
+    "say": "New review from today.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "Security_ReviewDay_01",
     "say": "Review day. Your report gets read tonight. So do you.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "Review day"
    },
    {
     "file": "Security_LastDay_02",
-    "say": "Last day. The final test. Everything you've learned, all at once.",
-    "note": "",
+    "say": "Okay, last day on this site.",
+    "note": "Your way.",
     "group": "Last day"
    },
    {
     "file": "Security_LastDay_04",
     "say": "The quota is due tonight. Please don't make me write that report.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "Last day"
    },
    {
     "file": "Security_Behind_02",
-    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
-    "note": "The same words every manager says.",
+    "say": "You are behind schedule. Please be ahead of schedule. I'd sure appreciate that very much.",
+    "note": "As recorded (2026-11-02).",
     "group": "Behind"
    },
    {
     "file": "Security_Behind_05",
-    "say": "Statistically, one of you keeps getting caught. Let's not name names.",
+    "say": "One of you keeps getting caught. You know who you are.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Security_NewThing_01",
     "say": "New procedure, effective today. Details are in your memo.",
-    "note": "",
+    "note": "As recorded (2026-11-02).",
     "group": "New thing"
    },
    {
     "file": "Security_NewThing_02",
-    "say": "Effective immediately: a new procedure. The client insisted.",
+    "say": "The client's added another procedure. It's in the memo.",
     "note": "",
     "group": "New thing"
    },
    {
     "file": "Security_EventToday_02",
-    "say": "Heads up. The site has plans today. They didn't tell us.",
-    "note": "",
+    "say": "Heads up. The site has plans today. They didn't tell us. Them motherfuckers.",
+    "note": "As recorded (2026-11-02).",
     "group": "Event today"
    },
    {
     "file": "Security_FireDrill",
     "say": "Fire drill. Everyone outside. Stand with the staff and look bored.",
-    "note": "Everyone in the building walks to the car park for a short while.",
+    "note": "As recorded (2026-11-02). Everyone in the building walks to the car park for a short while.",
     "group": "Fire drill"
    },
    {
     "file": "Security_VipVisit",
-    "say": "A VIP is on site. The guards are all out front. Lovely.",
+    "say": "Some VIP's here, so the guards are all out front.",
     "note": "Every guard walks the front of the building for a while, so the back is unwatched.",
     "group": "Vip visit"
    },
    {
     "file": "Security_PowerCut",
-    "say": "Power cut. Cameras are down. So are the keypads. Move.",
-    "note": "Cameras and keypads are dead for a short while. Quick.",
+    "say": "God damn it. Power's down. Cameras are down. So are the fucking keypads. Move!",
+    "note": "As recorded (2026-11-02). Cameras and keypads are dead for a short while.",
     "group": "Power cut"
    },
    {
-    "file": "Security_CallingCards",
-    "say": "Calling cards today. Leave them nicely. The guards will find them.",
-    "note": "Calling cards: findings pay more, each card raises the alert.",
-    "group": "Calling cards"
+    "file": "Security_Lens_S1_in",
+    "say": "Sit there. Head back against the door.",
+    "note": "The first lens, in the van.",
+    "group": "Lens"
    },
    {
-    "file": "Security_NoNotice",
-    "say": "No-notice test. Fewer strikes, bigger cheque. Please don't get caught.",
-    "note": "No-notice test: one strike fewer.",
-    "group": "No notice"
+    "file": "Security_Lens_hold",
+    "say": "Hold still, god damn it. If you move, it goes in crooked.",
+    "note": "Then the click. Every lens reuses this take.",
+    "group": "Lens"
    },
    {
-    "file": "Security_Rush",
-    "say": "Rush job. The client wants the report early. The pay is better.",
-    "note": "Rush engagement: the debrief comes early.",
-    "group": "Rush"
+    "file": "Security_Lens_fight",
+    "say": "Quit fighting me. You're gonna cross-thread it.",
+    "note": "Only if the player pulls away during the hold.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_still",
+    "say": "Thank you.",
+    "note": "Only if the player keeps still for two seconds.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_done",
+    "say": "There. Press that on it till it stops.",
+    "note": "You hand them a napkin. Every lens.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_out",
+    "say": "Alright, get out. I've got to clean this.",
+    "note": "Every lens.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_S2_in",
+    "say": "Sit down. Other eye this time.",
+    "note": "The second lens.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_S3_in",
+    "say": "Sit. This time I'm switching it on.",
+    "note": "The third lens: its red light.",
+    "group": "Lens"
+   },
+   {
+    "file": "Security_Lens_S3_done",
+    "say": "It's recording now. Don't cover it.",
+    "note": "The third lens, after the done line.",
+    "group": "Lens"
    }
   ]
  },
