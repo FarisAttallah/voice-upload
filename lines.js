@@ -169,12 +169,6 @@ window.VOICE_LINES = [
     "group": "Scene 2: after the office"
    },
    {
-    "file": "Boss_Next2_02Photo",
-    "say": "You photograph very well. We've got quite a few of you now.",
-    "note": "Instead of _02, only after the diner's window photo. Fond, like a proud uncle",
-    "group": "Scene 2: after the office"
-   },
-   {
     "file": "Boss_Next2_03",
     "say": "Your next placement is a security firm. You'll be testing its doors.",
     "note": "He pushes a tray aside to clear the desk. Plain",
