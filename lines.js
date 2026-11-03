@@ -155,6 +155,48 @@ window.VOICE_LINES = [
     "say": "Your next placement isn't ready yet. We'll call you.",
     "note": "Said instead of _04 when the next placement is not out yet. Polite, closing the meeting",
     "group": "Scene 1: after the diner"
+   },
+   {
+    "file": "Boss_Next2_01",
+    "say": "Come in. Mind the trays, yours are near the top.",
+    "note": "Over his shoulder, before he turns round. Dry, unbothered; he has never opened one",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_02",
+    "say": "The office says you were very thorough. I watched some of it.",
+    "note": "You sit; he turns to you. Warm, meant as praise",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_02Photo",
+    "say": "You photograph very well. We've got quite a few of you now.",
+    "note": "Instead of _02, only after the diner's window photo. Fond, like a proud uncle",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_03",
+    "say": "Your next placement is a security firm. You'll be testing its doors.",
+    "note": "He pushes a tray aside to clear the desk. Plain",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_04",
+    "say": "Take your photos. Anything that isn't on the list stays shut.",
+    "note": "He slides the contract across. Friendly, but the last part is a rule",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_05",
+    "say": "Same terms. You know where to sign by now.",
+    "note": "Taps the line. Routine, a little bored",
+    "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next2_06",
+    "say": "They're expecting you at the gate at eight. They'll know you.",
+    "note": "After the stamp, already back at his paperwork, not looking up. Said as reassurance",
+    "group": "Scene 2: after the office"
    }
   ]
  },
