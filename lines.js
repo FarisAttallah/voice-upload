@@ -676,8 +676,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Fail_First_lift",
-    "say": "The lift is coming down for you. Everyone else, stay put.",
-    "note": "The chosen player walks to the lift.",
+    "say": "The lift is coming down for you. Everyone else, wait by the lift.",
+    "note": "The chosen player walks to the lift; the rest of the crew may go and wait at its doors.",
     "group": "A failed review (cutscene)",
     "cutscene": true
    },
@@ -705,7 +705,7 @@ window.VOICE_LINES = [
    {
     "file": "Office_Room_S1_hold",
     "say": "Hold still. It takes about four seconds.",
-    "note": "Then the cut. Stages 2 and 3 reuse this take.",
+    "note": "Then you lean in close and wait. Stages 2 and 3 reuse this take.",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
    },
@@ -761,7 +761,7 @@ window.VOICE_LINES = [
    {
     "file": "Office_Room_S3_hold",
     "say": "Keep them open. Don't blink until I say.",
-    "note": "Then the cut.",
+    "note": "Then the wait, close.",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
    },
@@ -769,6 +769,13 @@ window.VOICE_LINES = [
     "file": "Office_Room_S3_done",
     "say": "Done. Mine's the same, for reference.",
     "note": "The only time you ever mention your own face. A fact.",
+    "group": "Upstairs, in the room (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "Office_Room_Upkeep",
+    "say": "Noted. It's dropped at the corners, so we'll top it up.",
+    "note": "A fourth time up, past stage 3. You have looked over their grin for three seconds in silence, close; checking a job, not admiring it. Then a quicker click.",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
    },
