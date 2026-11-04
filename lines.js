@@ -191,6 +191,42 @@ window.VOICE_LINES = [
     "say": "They're expecting you at the gate at eight. They'll know you.",
     "note": "After the stamp, already back at his paperwork, not looking up. Said as reassurance",
     "group": "Scene 2: after the office"
+   },
+   {
+    "file": "Boss_Next3_01",
+    "say": "Come in. Your photos arrived. Lovely work.",
+    "note": "Holding one of the crew's prints of the diner. Pleased, like a proud teacher",
+    "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_Next3_02",
+    "say": "Most crews stop around here. The good ones take the next placement.",
+    "note": "You sit. Friendly advice",
+    "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_Next3_03",
+    "say": "Your next placement is the call centre. You'll be deciding things.",
+    "note": "He slides the prints aside. Plain, a little proud of it",
+    "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_Next3_04",
+    "say": "Follow the binder and you'll go far. I did.",
+    "note": "He slides the contract across. \"I did\" almost to himself",
+    "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_Next3_05",
+    "say": "Same terms. Initial here, and here.",
+    "note": "Taps two places on the contract. Routine",
+    "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_Next3_06",
+    "say": "They're expecting you on the floor at nine. Your headset's on the desk.",
+    "note": "After the stamp, already back at his paperwork, not looking up",
+    "group": "Scene 3: after the depot"
    }
   ]
  },
@@ -960,6 +996,13 @@ window.VOICE_LINES = [
     "cutscene": true
    },
    {
+    "file": "Security_Visit_3d",
+    "say": "Client's whining about a missing tablet. Like I give a shit.",
+    "note": "Visit 3, after the photos line. Flat. You don't care and you don't ask the crew anything.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
     "file": "Security_Visit_3c",
     "say": "Job well done. I'll get the camera.",
     "note": "As recorded (2026-11-02). Visit 3. The last line of the placement. You pick up the crew's camera from the van and walk back into the building with it.",
@@ -1132,6 +1175,18 @@ window.VOICE_LINES = [
     "say": "Everyone gets watched. Someone has to do the watching.",
     "note": "As recorded (2026-11-02). Days 5-6. Almost to yourself.",
     "group": "Remark"
+   },
+   {
+    "file": "Security_CutIn_Back",
+    "say": "...so I said, fix your own damn printer. Anyway. Keep moving.",
+    "note": "You come back on the radio mid-story, as if nothing happened (someone else was on your channel for a minute; you never knew). Start in the middle of a rant.",
+    "group": "Cut in"
+   },
+   {
+    "file": "Security_PhotoReminder",
+    "say": "I still don't have the diner photo. Read the goddamn list.",
+    "note": "Once, when time is running low and nobody has taken the photo of the diner across the alley.",
+    "group": "Photo reminder"
    },
    {
     "file": "Security_NewReview_01",
@@ -1824,181 +1879,259 @@ window.VOICE_LINES = [
     "file": "Diner_Call1_01",
     "say": "Hello? Is this the diner? The one on the corner?",
     "note": "Someone picked up. Unsure he has the right number.",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_01M",
     "say": "Pick up. ...Okay. Nobody's there. Fine. I'll keep it short.",
     "note": "Nobody picked up: this plays on the answering machine instead of 01. A sigh before \"Okay\".",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_02",
     "say": "You're the new crew. Don't say anything. I know you are.",
     "note": "Quietly. He thinks the line might be listened to.",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_03",
     "say": "I worked there. Before you. Same kitchen, same speaker.",
     "note": "A small, tired laugh on \"same speaker\".",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_04",
     "say": "Three days in. It still feels normal, right? Mostly normal?",
     "note": "Light on the first question, careful on \"mostly\".",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_05",
     "say": "Do me a favour tomorrow. Watch the customers when they leave.",
     "note": "The important line. Slow and clear.",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_06",
     "say": "Just watch. Don't say anything about it. Not out loud.",
     "note": "Almost a whisper by the end.",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call1_07",
     "say": "I'll call again. ...I have to go.",
     "note": "Suddenly in a hurry. Then the line clicks off (the game adds the click).",
-    "group": "Call 1"
+    "group": "Diner, call 1"
    },
    {
     "file": "Diner_Call2_01",
     "say": "It's me again. Don't talk. Just listen.",
     "note": "Someone picked up. No greeting this time.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_01M",
     "say": "It's me. You're not picking up. ...That's smart, actually.",
     "note": "Nobody picked up: plays instead of 01. Relieved on the last part.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_02",
     "say": "Today. Did they all stop? Did they all look at you?",
     "note": "Already knows the answer.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_03",
     "say": "Yeah. They did that to us too.",
     "note": "Flat. A memory he does not like.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_04",
     "say": "You're not imagining it. I need you to know that.",
     "note": "Warm. The one kind thing he says.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_05",
     "say": "Two days left. Finish the job. Don't give them a reason.",
     "note": "Firm, like advice from an older brother.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_06",
     "say": "When they offer you the next placement... take it. I did.",
     "note": "A pause before \"take it\". \"I did\" almost to himself.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Diner_Call2_07",
     "say": "I thought the next one would be different. It's not, it's-",
     "note": "Cut off mid-word, as if the line went dead. Do not finish the word.",
-    "group": "Call 2"
+    "group": "Diner, call 2"
    },
    {
     "file": "Office_Call3_01",
     "say": "It's me. Don't say anything, the room's got a mic. Just listen.",
     "note": "Someone is in the meeting room when the screen answers.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_01M",
     "say": "Nobody in there? Doesn't matter. I'll talk anyway.",
     "note": "Nobody is in the room: plays instead of 01.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_02",
     "say": "You got through the diner. I knew you would, honestly.",
     "note": "Warm, relieved.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_03",
     "say": "Quick one, answer on the screen. Anyone gone up in the lift yet?",
     "note": "The question. The screen shows YES and NO; then wait.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_Y1",
     "say": "Right. Then you've seen it.",
     "note": "They answered YES. Flat, a breath.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_Y2",
     "say": "Don't treat them any different. It's still them in there. Okay?",
     "note": "YES. His one kind thing.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_N1",
     "say": "Good. Keep it that way. Every review, pass it, whatever it takes.",
     "note": "They answered NO. Firm.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_N2",
     "say": "Just pass them. Please.",
     "note": "NO. Quiet.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_S",
     "say": "Nothing? Fine. I'll say it anyway.",
     "note": "Nobody answered. Then the NO lines.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_04",
     "say": "Look, your manager at the diner rang me. He's never done that before.",
     "note": "The diner manager. Puzzled by it.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_05",
     "say": "He wants you out. Him. He's working on something.",
     "note": "Slow.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_06",
     "say": "I'll tell you more when I can. Not on this line.",
     "note": "Careful.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_07",
     "say": "They've given me a camera now, where I am. Weird, that.",
     "note": "A small laugh.",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_08",
     "say": "Van's back. I've got to go. Pass the next one, okay?",
     "note": "Hurried. Then the line clicks off (the game adds the click).",
-    "group": "Call 3"
+    "group": "Office, the call on the screen"
+   },
+   {
+    "file": "Depot_Call3_01",
+    "say": "It's me. Sorry about the noise, everyone in here is on a call.",
+    "note": "Someone picked up. The floor is loud behind you.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_01M",
+    "say": "Machine. Okay, I'll be quick, they listen in on this floor.",
+    "note": "Nobody picked up: plays instead of 01. A glance over your shoulder.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_02",
+    "say": "Your manager at the diner, he's found a way to get you out.",
+    "note": "The news. You can hardly believe it yourself.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_03",
+    "say": "He needs the guards' camera tablet out of that depot.",
+    "note": "Plain. The ask.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_04",
+    "say": "Last day, I'll get on your radio and talk you through it.",
+    "note": "A promise.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_05",
+    "say": "When you're in the archive, look for who stood at your window.",
+    "note": "Slower. You know what they'll find.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_06",
+    "say": "You're doing fine, really.",
+    "note": "Your one kind line. Warm.",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Call3_07",
+    "say": "Someone's coming round with the binder. I've got to go.",
+    "note": "Hurried. Then the line clicks off (the game adds the click).",
+    "group": "Depot, the phone by the van"
+   },
+   {
+    "file": "Depot_Radio_01",
+    "say": "Can you hear me? This line's mine for a minute.",
+    "note": "Through radio static. Fast, low.",
+    "group": "Depot, day 6: on the crew's radio"
+   },
+   {
+    "file": "Depot_Radio_02",
+    "say": "The guards' tablet is on the desk in the security room.",
+    "note": "Clear: they must get this.",
+    "group": "Depot, day 6: on the crew's radio"
+   },
+   {
+    "file": "Depot_Radio_03",
+    "say": "Unplug it and put it in one of the out of scope crates.",
+    "note": "Clear.",
+    "group": "Depot, day 6: on the crew's radio"
+   },
+   {
+    "file": "Depot_Radio_04",
+    "say": "The cameras will go funny when it comes out, so be quick.",
+    "note": "A warning.",
+    "group": "Depot, day 6: on the crew's radio"
+   },
+   {
+    "file": "Depot_Radio_05",
+    "say": "That crate gets shipped to us. He's coming back-",
+    "note": "Cut off mid-word as the line drops. Do not finish the word.",
+    "group": "Depot, day 6: on the crew's radio"
    }
   ]
  },
