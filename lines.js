@@ -224,9 +224,15 @@ window.VOICE_LINES = [
    },
    {
     "file": "Boss_Next3_06",
-    "say": "They're expecting you on the floor at nine. Your headset's on the desk.",
+    "say": "They're expecting you downstairs at nine. Your headset's on the desk.",
     "note": "After the stamp, already back at his paperwork, not looking up",
     "group": "Scene 3: after the depot"
+   },
+   {
+    "file": "Boss_OutOfScope",
+    "say": "Out of scope.",
+    "note": "Through a car radio, after static and a dial tone. Dry, unhurried, a quiet room far away. Then the line hangs up",
+    "group": "Call centre, evening 5: on the car radio"
    }
   ]
  },
@@ -595,6 +601,84 @@ window.VOICE_LINES = [
     "say": "He's giving you another go. Please don't make me do that again.",
     "note": "",
     "group": "Meet"
+   },
+   {
+    "file": "CallCentre_Escape_Yard_01",
+    "say": "There you are. Get in, get in.",
+    "note": "The first player steps out of the yard hut. Relieved, hurried.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Yard_02",
+    "say": "Ziad said you'd sort the gate.",
+    "note": "A player is near the car and the gate is still shut.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Yard_03",
+    "say": "Hang on. Wrong key.",
+    "note": "Everyone is in. He tries the ignition and fumbles the keys; his hand shakes.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Yard_04",
+    "say": "There we go.",
+    "note": "The engine starts. A breath of relief.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_01",
+    "say": "Right. Seatbelts.",
+    "note": "The car moves off through the gate. Inside the car from here on.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_02",
+    "say": "Came straight from close. Still got my tie on.",
+    "note": "He touches his bow tie. Almost laughing at himself.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_03",
+    "say": "I told you to take the reassignment.",
+    "note": "Plain. He says what he did, never what it meant.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_04",
+    "say": "Same speech I gave Ziad's crew, word for word.",
+    "note": "Plain, once.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_05",
+    "say": "I still think about your hand.",
+    "note": "Only plays for a player in the car who lost the diner finger: said to them, looking at them in the mirror.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_06",
+    "say": "My sister's got a spare room. After that, no idea.",
+    "note": "Lighter. A plan, as far as it goes.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Drive_07",
+    "say": "What about you, then?",
+    "note": "A real question. Then he waits for their answer.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Tablet_01",
+    "say": "Is that thing supposed to do that?",
+    "note": "The tablet on the dashboard lights up by itself, showing their faces.",
+    "group": "The escape, call centre evening 5: in his car"
+   },
+   {
+    "file": "CallCentre_Escape_Stay_01",
+    "say": "Stay in the car, alright? This one's on me.",
+    "note": "Back in bay two. The car stops; he opens his door. Quiet, kind.",
+    "group": "The escape, call centre evening 5: in his car"
    }
   ]
  },
@@ -1603,283 +1687,300 @@ window.VOICE_LINES = [
  },
  {
   "key": "callcentre-manager",
-  "name": "The Call Centre Manager",
-  "who": "The call centre's team leader.",
+  "name": "The Call Centre Team Leader",
+  "who": "A promoted agent, now the call centre's team leader, up in his glass booth over the floor. Indian English, English words only.",
   "folder": "CallCentreManager",
   "lines": [
    {
     "file": "CallCentre_Visit_Gather",
-    "say": "Headsets down, team. This won't take long.",
-    "note": "Every review evening, failed included, as he reaches his spot under the call board: one take, played every time, word for word. Polite, a little rehearsed. New 2026-10-12 (Phase 76).",
+    "say": "Two minutes, everyone. Kindly take your headsets off.",
+    "note": "Every review evening, failed included: one take, played every time, word for word.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_1a",
-    "say": "Evening, team. Quick one. Your first review came through.",
-    "note": "Evening 1 (after day 2). Warm, the first time they see him.",
+    "say": "Okay, so. Your first review has come back.",
+    "note": "Evening 2.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_1b",
-    "say": "Passed. Lovely call handling. Head office listened to a few.",
-    "note": "Evening 1. Reading from the binder.",
+    "say": "You have passed. Head office listened to some of your calls. Very good.",
+    "note": "Evening 2.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_1c",
-    "say": "Same again tomorrow. Same words, same order. Night.",
-    "note": "Evening 1. Leaving. Friendly.",
+    "say": "Same way tomorrow, please. Anything else, tell me. ...No? Good night.",
+    "note": "Evening 2, leaving.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_2a",
-    "say": "Review two. Passed. Your handle times were noted.",
-    "note": "Evening 2 (after day 4). Clipped, tired. Before each line he touches his headset and waits a beat, as if listening; leave a short silence before you speak.",
+    "say": "Review two. ...Passed.",
+    "note": "Evening 4. He touches his headset first and waits a beat, as if listening; leave a short silence before you speak.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_2b",
-    "say": "No complaints logged. Well. None about you.",
-    "note": "Evening 2. A small pause before \"Well.\"",
+    "say": "Your handle times are fine. No complaints on file about this team.",
+    "note": "Evening 4.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_2c",
-    "say": "Right. I'm off. Please don't call me.",
-    "note": "Evening 2. Leaving. Dry, half a joke. (After it, he stops at the binder shelf and checks a page before he goes.)",
+    "say": "I will revert on the targets. Good night.",
+    "note": "Evening 4, leaving.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_3a",
-    "say": "Final review. Let me check the binder.",
-    "note": "Evening 3 (after day 6, the placement's last). Strained, slow. He has just stood up from a desk where he was taking calls. Pages turning.",
+    "say": "Final review. One minute, I have to check.",
+    "note": "Evening 6.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_3b",
-    "say": "Passed. The binder says: continue. Congratulations, team.",
-    "note": "Evening 3. Reads \"continue\" exactly as written. (Behind him a line starts ringing; he does not turn round.)",
+    "say": "Passed. The binder says continue. Congratulations, everyone.",
+    "note": "Evening 6. A line rings behind him; he does not turn round.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_3b_Alt",
-    "say": "Passed. The binder says: complete. Congratulations, team.",
-    "note": "Optional. Optional. Record it, but the owner picks it only once the ending is decided: \"complete\" is the memorial park's word for a buried temp, so this line would decide the crew's fate. Same delivery as 3b.",
+    "say": "Passed. The binder says complete. Congratulations, everyone.",
+    "note": "Optional. Spare, for the park. Record it; the owner picks it only once the ending is decided. Same delivery as 3b.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_3c",
-    "say": "Your file goes upstairs tonight. Someone up there will read it. Probably.",
-    "note": "Evening 3. Leaving. A pause before \"Probably.\" Calm, as if nothing is ringing.",
+    "say": "Your file goes upstairs tonight.",
+    "note": "Evening 6.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "CallCentre_Review_3d",
+    "say": "Anything else, tell me.",
+    "note": "Evening 6, at the mezzanine door. He leaves before anyone can answer.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_a",
-    "say": "Evening. Short call, this one. The review didn't pass.",
-    "note": "Failed review. Quiet, not angry. A man doing an unpleasant job.",
-    "group": "Review scenes",
+    "say": "The review has not passed. I checked the binder two times.",
+    "note": "Failed review, at the foot of the booth stair.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "CallCentre_Review_F_pick",
+    "say": "Come up to the booth, please.",
+    "note": "To the picked player, their screen amber.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "CallCentre_Review_F_pick_again",
+    "say": "Come up again, please.",
+    "note": "A repeat pick.",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_b",
-    "say": "I checked the binder twice. It says the same thing both times.",
-    "note": "Failed review. Almost apologetic: it is not his decision.",
-    "group": "Review scenes",
+    "say": "Kindly sit here. Head back against the glass, please.",
+    "note": "In the booth.",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
-    "file": "CallCentre_Review_F_c",
-    "say": "Your contract ends tonight. Please leave the headsets. They're counted.",
-    "note": "Failed review. The same line the diner's manager says about the aprons.",
-    "group": "Review scenes",
+    "file": "CallCentre_Fail_Tape",
+    "say": "Thank you for holding. Kindly stay on the line.",
+    "note": "In the headset: his younger recording. Flat, like a recorded phone message.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "CallCentre_Fail_Ext",
+    "say": "Extension assigned.",
+    "note": "In the headset, after the click: the same tape voice.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
+    "file": "CallCentre_Review_F_done",
+    "say": "Okay. You can go down now.",
+    "note": "Lifting the headset off.",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
     "file": "CallCentre_Review_F_d",
-    "say": "The lines open again tomorrow. Someone will answer them.",
-    "note": "Failed review. Leaving. Flat.",
-    "group": "Review scenes",
+    "say": "Tomorrow we will redo the review. See you at nine.",
+    "note": "Leaving.",
+    "group": "A failed review (cutscene)",
     "cutscene": true
    },
    {
     "file": "CallCentre_Hello",
-    "say": "Hi, team! I'm your team leader. Every call is recorded. Including this one.",
-    "note": "Day 1, before the first greeting. Pleased with the joke.",
+    "say": "Morning, everyone. I'm your team leader. Any doubt, I'm up in the booth.",
+    "note": "Day 1, first.",
     "group": "Hello"
    },
    {
     "file": "CallCentre_Practice_Start",
-    "say": "Practice call first. The caller is one of ours. Be gentle.",
-    "note": "Day 0, the practice call starts.",
+    "say": "First call is a practice. The caller is one of ours.",
+    "note": "Practice.",
     "group": "Practice"
    },
    {
     "file": "CallCentre_Practice_End",
-    "say": "Practice over. The real lines open soon. They don't hang up gently.",
-    "note": "Day 0, the practice is done.",
+    "say": "Okay, practice is done. The real lines open at nine.",
+    "note": "Practice.",
     "group": "Practice"
    },
    {
     "file": "CallCentre_Start_C1",
-    "say": "Good morning, team! Headsets on. Smiles on. Callers can hear a smile.",
-    "note": "",
+    "say": "Good morning. Kindly put your headsets on, lines open in one minute.",
+    "note": "Mornings, days 1-2.",
     "group": "Start"
    },
    {
     "file": "CallCentre_Start_K1",
-    "say": "Morning. Lines open. Answer fast, read carefully, hang up never.",
-    "note": "The screen adds the day number in front.",
+    "say": "Morning. Calls are already waiting, so headsets on, please.",
+    "note": "Mornings, days 3-4. The screen adds the day number in front.",
     "group": "Start"
    },
    {
     "file": "CallCentre_Start_S1",
-    "say": "Good morning. Please follow the binder. The binder knows best.",
-    "note": "The screen adds the day number in front.",
+    "say": "Good morning. Lines are open, please do the needful.",
+    "note": "Mornings, days 5-6. The screen adds the day number in front.",
     "group": "Start"
    },
    {
     "file": "CallCentre_End_C2",
-    "say": "Headsets off! Thank you for calling. Sorry. For working.",
-    "note": "A habit: corrects himself with a laugh.",
+    "say": "That's the lines closed. Thank you for calling... sorry. Thank you, everyone.",
+    "note": "Shift end, days 1-2. A habit: he thanks them like callers, then corrects himself.",
     "group": "End"
    },
    {
     "file": "CallCentre_End_K2",
-    "say": "Time. Missed calls have been logged. So has everyone.",
-    "note": "",
+    "say": "Time. Missed calls go in the log before you leave.",
+    "note": "Shift end, days 3-4.",
     "group": "End"
    },
    {
     "file": "CallCentre_End_S1",
     "say": "Lines closed. Please stay at your desks until the floor is counted.",
-    "note": "",
+    "note": "Shift end, days 5-6.",
     "group": "End"
    },
    {
     "file": "CallCentre_Remark_C2",
-    "say": "We're a family here. A family with a call queue.",
-    "note": "Warm. The agency's running joke: every manager has a version.",
+    "say": "The board is looking very good this morning. Thank you.",
+    "note": "Quiet moment, days 1-2.",
     "group": "Remark"
    },
    {
     "file": "CallCentre_Remark_K1",
-    "say": "Reminder: the binder is always right. Please be right with it.",
-    "note": "Clipped.",
+    "say": "When you finish with a binder, put it back on the island.",
+    "note": "Quiet moment, days 3-4.",
     "group": "Remark"
    },
    {
     "file": "CallCentre_Remark_S1",
-    "say": "Please leave the judgement to the binder. It's had practice.",
-    "note": "Strained. Almost to themselves. Policy, not a confession.",
+    "say": "Read the whole line before stamping, please. I have to sign each one.",
+    "note": "Quiet moment, days 5-6.",
     "group": "Remark"
    },
    {
-    "file": "CallCentre_Edition_01",
-    "say": "A new edition of the binder has arrived. Old copies are wrong now.",
-    "note": "Day 5, midday. The game shows which binder on screen.",
-    "group": "Edition"
-   },
-   {
-    "file": "CallCentre_PowerCut",
-    "say": "We've lost the lines. Please stay at your desks. Don't touch anything.",
-    "note": "The power cut starts, the room goes dark. Calm, a bit too calm.",
-    "group": "Power cut"
-   },
-   {
-    "file": "CallCentre_PowerBack",
-    "say": "Lines are back. Thank you for waiting in the dark.",
-    "note": "The power cut ends.",
-    "group": "Power back"
-   },
-   {
-    "file": "CallCentre_Listening",
-    "say": "The supervisor is listening in. Please sound like the binder.",
-    "note": "\"Supervisor listening\" starts: a mistake costs double. Lowered voice.",
-    "group": "Listening"
-   },
-   {
-    "file": "CallCentre_SameCaller",
-    "say": "We have a repeat caller. On every line. Please be consistent.",
-    "note": "\"The same caller\" starts. Forced cheer.",
-    "group": "Same caller"
-   },
-   {
-    "file": "CallCentre_NewContract_01",
-    "say": "A new contract is live. The targets are on your screen.",
-    "note": "Screen shows the contract number, quota and deadline.",
-    "group": "New contract"
-   },
-   {
     "file": "CallCentre_NewReview_01",
-    "say": "A new review begins. The target is on your screen.",
-    "note": "Screen shows the review number, target and deadline.",
+    "say": "A new review starts today. The target is up on the board.",
+    "note": "A review starts. The board shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "CallCentre_ReviewDay_01",
-    "say": "Review day. Your calls will be reviewed tonight. So will you.",
-    "note": "",
+    "say": "Today is review day. Head office will listen to some calls tonight.",
+    "note": "Review day.",
     "group": "Review day"
    },
    {
-    "file": "CallCentre_LastDay_03",
-    "say": "Last day, team! We are all so calm. Listen to how calm.",
-    "note": "Clearly not calm.",
-    "group": "Last day"
-   },
-   {
-    "file": "CallCentre_LastDay_04",
-    "say": "The quota is due tonight. The binder already knows the answer.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
     "file": "CallCentre_Behind_02",
-    "say": "You are behind target. Please answer faster. Then faster than that.",
-    "note": "",
+    "say": "We are a little behind. Pick up the ringing ones first, please.",
+    "note": "Behind target.",
     "group": "Behind"
    },
    {
     "file": "CallCentre_Behind_05",
-    "say": "Statistically, one of you keeps losing callers. Let's not find out who.",
-    "note": "",
+    "say": "Too many calls are ringing out. Answer first, then go for the binder.",
+    "note": "Behind target.",
     "group": "Behind"
    },
    {
+    "file": "CallCentre_LastDay_03",
+    "say": "Last day. All the files have to be done today itself.",
+    "note": "Day 6.",
+    "group": "Last day"
+   },
+   {
+    "file": "CallCentre_LastDay_04",
+    "say": "Files only today. Do the needful, and bring the COMPLETE ones to me.",
+    "note": "Day 6.",
+    "group": "Last day"
+   },
+   {
     "file": "CallCentre_NewThing_01",
-    "say": "New procedure, effective today. It's in a binder. Everything is.",
-    "note": "",
+    "say": "New calls from today. Their binder is on the island.",
+    "note": "A new kind of call.",
     "group": "New thing"
    },
    {
     "file": "CallCentre_NewThing_03",
-    "say": "A new memo. Please read it aloud to whoever holds the binder.",
-    "note": "",
+    "say": "Every binder has a new sheet this morning. Yesterday's codes won't work.",
+    "note": "The morning refresh.",
     "group": "New thing"
    },
    {
-    "file": "CallCentre_EventToday_03",
-    "say": "A special event today. Nothing to worry about. It's been scripted.",
-    "note": "",
-    "group": "Event today"
+    "file": "CallCentre_Edition_01",
+    "say": "Red files sheet has come. Old copies in the bin, please.",
+    "note": "Day 6, the midday refresh.",
+    "group": "Edition"
+   },
+   {
+    "file": "CallCentre_Doorway",
+    "say": "This way, please. Mind the step.",
+    "note": "Evening 5, the yard hut's doorway, to the diner manager.",
+    "group": "Doorway"
+   },
+   {
+    "file": "CallCentre_Whisper_01",
+    "say": "Caller waiting.",
+    "note": "Stage 3, at most once an evening, in quiet, never in a shift.",
+    "group": "Whisper"
+   },
+   {
+    "file": "CallCentre_Whisper_02",
+    "say": "Kindly hold.",
+    "note": "Stage 3, at most once an evening, in quiet, never in a shift.",
+    "group": "Whisper"
    }
   ]
  },
  {
   "key": "caller",
-  "name": "The Caller",
-  "who": "A former temp who phones the crew in the evening.",
+  "name": "The Caller (Ziad)",
+  "who": "Ziad, a former temp who rang the crew at every placement and now sits in their pod at the call centre.",
   "folder": "Caller",
   "lines": [
    {
@@ -2139,6 +2240,122 @@ window.VOICE_LINES = [
     "say": "That crate gets shipped to us. He's coming back-",
     "note": "Cut off mid-word as the line drops. Do not finish the word.",
     "group": "Depot, day 6: on the crew's radio"
+   },
+   {
+    "file": "CallCentre_Low3_01",
+    "say": "Don't look at me. Keep typing.",
+    "note": "Day 3, the first time. Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call.",
+    "group": "Call centre, day 3: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low3_02",
+    "say": "It's me. Ziad. I'm the one who rings you.",
+    "note": "Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call. The only time you say your name.",
+    "group": "Call centre, day 3: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low3_03",
+    "say": "The crate with the guards' tablet comes down the tunnel tonight.",
+    "note": "Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call. The news: they must get it.",
+    "group": "Call centre, day 3: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low3_04",
+    "say": "Get it after close.",
+    "note": "Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call.",
+    "group": "Call centre, day 3: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low4_01",
+    "say": "Your manager from the diner is coming to get you out.",
+    "note": "Day 4. Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call.",
+    "group": "Call centre, day 4: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low4_02",
+    "say": "Tomorrow, after the shift. The yard door, under the EXIT sign.",
+    "note": "Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call. Clear: they must remember it.",
+    "group": "Call centre, day 4: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low4_03",
+    "say": "He'll be in his car, in bay two.",
+    "note": "Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call.",
+    "group": "Call centre, day 4: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low4_04",
+    "say": "Nearly there.",
+    "note": "Last, your one kind line. Low and close, to the player at the next desk; eyes on your own screen, as if you are on your own call.",
+    "group": "Call centre, day 4: low, to the next desk"
+   },
+   {
+    "file": "CallCentre_Low6_01",
+    "say": "I'm sorry.",
+    "note": "Day 6, when the first player sits down beside you. Low, without looking up from your screen.",
+    "group": "Call centre, day 6: when they sit down"
+   },
+   {
+    "file": "CallCentre_Case_01",
+    "say": "Afternoon. I've got a staff file for review.",
+    "note": "Opening. Over the desk phone, an ordinary caller.",
+    "group": "Call centre, day 6: his own file"
+   },
+   {
+    "file": "CallCentre_Case_02",
+    "say": "It's under my number, nineteen.",
+    "note": "Plain.",
+    "group": "Call centre, day 6: his own file"
+   },
+   {
+    "file": "CallCentre_Case_03",
+    "say": "There's a lot of failed reviews on it. Skip to the bottom.",
+    "note": "You only want them to skip your fails.",
+    "group": "Call centre, day 6: his own file"
+   },
+   {
+    "file": "CallCentre_Case_04",
+    "say": "Just read what the binder says.",
+    "note": "Then wait while they look it up.",
+    "group": "Call centre, day 6: his own file"
+   },
+   {
+    "file": "CallCentre_Case_05",
+    "say": "...Right. Upstairs, then.",
+    "note": "The file is stamped PERMANENT POSITION. The pause is you finding out: you expected CONTINUE.",
+    "group": "Call centre, day 6: his own file"
+   },
+   {
+    "file": "CallCentre_Case_05B",
+    "say": "That's not what it says. ...Never mind.",
+    "note": "Any other stamp. Plays instead of 05.",
+    "group": "Call centre, day 6: his own file"
+   }
+  ]
+ },
+ {
+  "key": "diner-crew",
+  "name": "The Diner's New Crew",
+  "who": "One worker of the diner's newest crew, answering the diner's phone at the end of the call centre. On the phone filter.",
+  "folder": "DinerCrew",
+  "lines": [
+   {
+    "file": "Diner_Answer_01",
+    "say": "Hello? ...The diner?",
+    "note": "The line picks up, the diner's fryer and fridge humming behind you. Picking up a phone nobody rings: a little unsure, friendly. A pause after \"Hello?\".",
+    "group": "Answer"
+   },
+   {
+    "file": "Diner_Answer_02",
+    "say": "Sorry, our manager didn't come in today. Can I take a message?",
+    "note": "After a two-second beat. Polite, a bit unsettled: your manager vanished today and you do not know why.",
+    "group": "Answer"
+   },
+   {
+    "file": "Diner_Answer_03",
+    "say": "...Hang on. Who is this?",
+    "note": "Lower, closer to the phone, after the caller has said anything (or said nothing for four seconds). Then you wait for an answer.",
+    "group": "Answer"
    }
   ]
  },
