@@ -1408,6 +1408,303 @@ window.VOICE_LINES = [
   ]
  },
  {
+  "key": "graveyard-manager",
+  "name": "The Graveyard Manager",
+  "who": "The memorial park's night manager: a corporate bro, upbeat and a little dry. American.",
+  "folder": "GraveyardManager",
+  "lines": [
+   {
+    "file": "Graveyard_Visit_1a",
+    "say": "Morning, guys. Real quick before I head out. First review's in.",
+    "note": "Visit 1 (dawn after night 2). In person for the first time, coffee in one hand. You walk in through the main gate while the ones still standing walk out past you; you never look at them.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_1b",
+    "say": "You passed. Love that. Head office likes a quiet first one.",
+    "note": "Visit 1. Reading from a card.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_1c",
+    "say": "Same again tonight. Get some sleep, okay?",
+    "note": "Visit 1. Leaving by the main gate, the way you came.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_2a",
+    "say": "Second review. Numbers are fine. Couple of notes on the digging.",
+    "note": "Visit 2 (dawn after night 4). Tired. You came up the path from among the stones, not from the gate, and on the way you stopped at one stone and rubbed its number with your thumb.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_2b",
+    "say": "Nothing major. Just keep them off that clock.",
+    "note": "Visit 2. Flat.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_2c",
+    "say": "Alright, I'm out. Same time tonight.",
+    "note": "Visit 2. Then you walk back into the plots, not out of the gate.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_3a",
+    "say": "Final review. You passed. Honestly, that's a strong crew.",
+    "note": "Visit 3 (dawn after night 6). Forced cheer. You walk in through the main gate with the card.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_3b",
+    "say": "That was the last placement on your list, too.",
+    "note": "Visit 3. As good news.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_3c",
+    "say": "The boss wants you in his office this morning. All of you.",
+    "note": "Visit 3. The last line of the six nights. Then you leave by the main gate.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_F_a",
+    "say": "Morning. Not gonna sugarcoat it, guys. The review didn't pass.",
+    "note": "Any failed review. Quiet, not angry.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_F_b",
+    "say": "We run those two nights again. Same plots, from the top.",
+    "note": "Any failed review.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Visit_F_c",
+    "say": "Don't stress. There's always room out here for people.",
+    "note": "Any failed review. Leaving. Kind, which is the creepy part.",
+    "group": "Review scenes",
+    "cutscene": true
+   },
+   {
+    "file": "Graveyard_Hello",
+    "say": "What's up, team. I'm your night manager. I run the clock out here.",
+    "note": "Night 1, before the first greeting. Proud of the job, like a team captain on day one.",
+    "group": "Hello"
+   },
+   {
+    "file": "Graveyard_Practice_Start",
+    "say": "Warm-up round first. One late arrival, nice and easy.",
+    "note": "Night 0, the practice starts (one late arrival: knock down, carry, bury).",
+    "group": "Practice"
+   },
+   {
+    "file": "Graveyard_Practice_Revive",
+    "say": "Somebody's down. Go grab them and hold it till they're up.",
+    "note": "Night 0, the practice's revive step. Coaching, not worried.",
+    "group": "Practice"
+   },
+   {
+    "file": "Graveyard_Practice_End",
+    "say": "Love that. That's the job. Real nights get a lot busier.",
+    "note": "Night 0, the practice is done.",
+    "group": "Practice"
+   },
+   {
+    "file": "Graveyard_Start_C1",
+    "say": "Alright, team. Gates are locked and the clock's on. Let's get after it.",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_K1",
+    "say": "Hey, guys. Roster's on the register. Give it a look, okay?",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Start_S1",
+    "say": "Okay, team. Stick together tonight. I mean it, it really helps the numbers.",
+    "note": "The screen adds the night number in front.",
+    "group": "Start"
+   },
+   {
+    "file": "Graveyard_Rise_01",
+    "say": "First section's coming up. Greet the late arrivals nice and firm.",
+    "note": "",
+    "group": "Rise"
+   },
+   {
+    "file": "Graveyard_Rise_03",
+    "say": "Here they come. Keep them off the clock, that's the whole job.",
+    "note": "Dry.",
+    "group": "Rise"
+   },
+   {
+    "file": "Graveyard_Lull_01",
+    "say": "Quick breather. Anybody who's down, you're back up.",
+    "note": "Between waves, when someone was down: they get up now.",
+    "group": "Lull"
+   },
+   {
+    "file": "Graveyard_ClockIn_01",
+    "say": "Oof. One just clocked in. That's coming out of tonight's pay.",
+    "note": "The night's first one. The screen shows the pay going down.",
+    "group": "Clock in"
+   },
+   {
+    "file": "Graveyard_ClockIn_02",
+    "say": "Another one on the clock. We're bleeding pay here, guys.",
+    "note": "Never the night's first.",
+    "group": "Clock in"
+   },
+   {
+    "file": "Graveyard_AllDown_01",
+    "say": "Whole crew's on the ground. That's the night, guys.",
+    "note": "The whole crew is down at once: the night is failed. Deflated, not angry.",
+    "group": "All down"
+   },
+   {
+    "file": "Graveyard_Row",
+    "say": "Heads up, tonight a whole row comes up at once. Like a crew.",
+    "note": "Night 6, at dusk, after the greeting. Say \"Like a crew\" as a throwaway: no weight on it.",
+    "group": "Row"
+   },
+   {
+    "file": "Graveyard_End_C1",
+    "say": "And that's dawn. Love that, team. Shovels back on the rack.",
+    "note": "",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_K2",
+    "say": "That's the shift. Gates are opening, so give them some room.",
+    "note": "The gates open for the ones still standing to walk out.",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_End_S2",
+    "say": "Let the morning staff out first, guys. They're on breakfast.",
+    "note": "Said as if \"morning staff\" were an ordinary phrase.",
+    "group": "End"
+   },
+   {
+    "file": "Graveyard_Dawn_Review",
+    "say": "That's dawn. Review morning, so meet me at the gatehouse. On my way.",
+    "note": "Review mornings only (after nights 2, 4 and 6), in place of the dawn line. Tone follows the night.",
+    "group": "Dawn"
+   },
+   {
+    "file": "Graveyard_Remark_C1",
+    "say": "Shout-out to whoever's on the east path. Looking good on camera.",
+    "note": "Hyped. The night's joke.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_K2",
+    "say": "Don't chat with the late arrivals, guys. It only encourages them.",
+    "note": "Tired. Dry.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_Remark_S1",
+    "say": "Everybody ends up on the roster eventually. I've made my peace with it.",
+    "note": "Forced cheer. Almost to yourself.",
+    "group": "Remark"
+   },
+   {
+    "file": "Graveyard_NewContract_01",
+    "say": "New contract's live, team. The numbers are up on the register.",
+    "note": "The register shows the contract number, the target and the deadline.",
+    "group": "New contract"
+   },
+   {
+    "file": "Graveyard_NewReview_01",
+    "say": "New review starts tonight. Target's on the register at the gatehouse.",
+    "note": "",
+    "group": "New review"
+   },
+   {
+    "file": "Graveyard_ReviewDay_01",
+    "say": "Review night, guys. I'm reading your numbers at dawn, so lock in.",
+    "note": "",
+    "group": "Review day"
+   },
+   {
+    "file": "Graveyard_LastDay_03",
+    "say": "Last night of the review. Big one. I believe in this crew.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_LastDay_04",
+    "say": "Target's due at dawn and you're close. Let's actually get there.",
+    "note": "",
+    "group": "Last day"
+   },
+   {
+    "file": "Graveyard_Behind_02",
+    "say": "We're a little behind tonight, guys. Pick it up for me?",
+    "note": "",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_Behind_05",
+    "say": "Not calling anyone out. But someone's walking that shovel back real slow.",
+    "note": "Dry.",
+    "group": "Behind"
+   },
+   {
+    "file": "Graveyard_NewThing_01",
+    "say": "New thing tonight. It's all in the memo on the register.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Graveyard_NewThing_03",
+    "say": "Memo's up. Read it all the way through before the first section.",
+    "note": "",
+    "group": "New thing"
+   },
+   {
+    "file": "Graveyard_EventToday_03",
+    "say": "Something's going on tonight, team. Check the register before it kicks off.",
+    "note": "",
+    "group": "Event today"
+   },
+   {
+    "file": "Graveyard_Night7_Start",
+    "say": "Clock's closed tonight. Nothing out here to aim for but you guys.",
+    "note": "Night 7, at dusk. Plain, like a schedule change.",
+    "group": "Night 7"
+   },
+   {
+    "file": "Graveyard_Night7_Fall",
+    "say": "That's one completed. Thanks for everything, honestly.",
+    "note": "A player goes down; the lamp post's screen shows their staff number. Sincere.",
+    "group": "Night 7"
+   },
+   {
+    "file": "Graveyard_Night7_Last",
+    "say": "And that's our last one standing. Huge. He'll see you now.",
+    "note": "One player left: the night ends. \"He\" is the boss.",
+    "group": "Night 7"
+   }
+  ],
+  "freshFrom": "2026-11-06T00:00:00Z"
+ },
+ {
   "key": "callcentre-manager",
   "name": "The Call Centre Team Leader",
   "who": "A promoted agent, now the call centre's team leader, up in his glass booth over the floor. Indian English, English words only.",
