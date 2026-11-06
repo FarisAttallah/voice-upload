@@ -69,7 +69,7 @@ window.VOICE_LINES = [
    {
     "file": "Boss_11",
     "say": "Like mine.",
-    "note": "Optional. Pats his chair: the permanent position is his chair (docs/STORY.md)",
+    "note": "Optional. Pats his chair. He means the other permanent positions, the placement managers' posts, or he is lying (docs/ENDING.md); his chair is never on offer",
     "group": "The intro scene"
    },
    {
@@ -212,8 +212,8 @@ window.VOICE_LINES = [
    },
    {
     "file": "Boss_Next3_04",
-    "say": "Follow the binder and you'll go far. I did.",
-    "note": "He slides the contract across. \"I did\" almost to himself",
+    "say": "Follow the binder and you'll go far.",
+    "note": "He slides the contract across. Plain, as good advice. (2026-11-06: \"I did\" is gone, he was never a temp, docs/ENDING.md; no take existed. The game's text follows in 109F-2)",
     "group": "Scene 3: after the depot"
    },
    {
@@ -1408,284 +1408,6 @@ window.VOICE_LINES = [
   ]
  },
  {
-  "key": "graveyard-manager",
-  "name": "The Graveyard Manager",
-  "who": "The memorial park's night manager.",
-  "folder": "GraveyardManager",
-  "lines": [
-   {
-    "file": "Graveyard_Visit_1a",
-    "say": "Morning, team. Quick one before I clock off. Review one is in.",
-    "note": "Visit 1 (dawn after night 2). Warm, in person for the first time. A thermos in one hand. You walk in through the main gate while the ones still standing walk out past you; you never look at them.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_1b",
-    "say": "Passed. Lovely. Head office likes a quiet first review.",
-    "note": "Visit 1. Reading from a card.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_1c",
-    "say": "Same again tonight. Same plots, same order. Morning.",
-    "note": "Visit 1. Leaving by the main gate, the way you came.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_2a",
-    "say": "Review two. Numbers are fine. A few comments on digging pace.",
-    "note": "Visit 2 (dawn after night 4). Clipped, tired. You came up the path from among the stones, not from the gate.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_2b",
-    "say": "Nothing to action. Keep the clock clear.",
-    "note": "Visit 2. Flat.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_2c",
-    "say": "Right. I'll be off. Same time tonight.",
-    "note": "Visit 2. Ordinary, as if nothing is odd; then you walk back into the plots, not out of the gate.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_3a",
-    "say": "Final review. Passed. Well done, team. Truly.",
-    "note": "Visit 3 (dawn after night 6, the placement passed). Strained, slow. You were already in the line walking to the gate; you step out of it to speak.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_3b",
-    "say": "Your reassignment letter is on its way. Don't get comfortable.",
-    "note": "Visit 3.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_3c",
-    "say": "Your completion has been rescheduled. Please report to your next placement.",
-    "note": "Visit 3. The last line of the placement. Then you step back into the line and walk out of the gate with the others, in step.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_F_a",
-    "say": "Morning. I'll keep this short. The review didn't pass.",
-    "note": "Any failed review (one, two or the final one): you let the crew go in person, before the letter of separation. Quiet, not angry.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_F_b",
-    "say": "Your contract ends this morning. Please leave the shovels. They're counted.",
-    "note": "Any failed review.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Visit_F_c",
-    "say": "Don't worry about the future. We always find room for people.",
-    "note": "Any failed review. Leaving. Kind, which is the creepy part.",
-    "group": "Review scenes",
-    "cutscene": true
-   },
-   {
-    "file": "Graveyard_Hello",
-    "say": "Evening, team. I'm your night manager. I keep the time out here.",
-    "note": "Night 1, before the first greeting. Proud of the job, like a stationmaster.",
-    "group": "Hello"
-   },
-   {
-    "file": "Graveyard_Practice_Start",
-    "say": "A practice night first. Just the one late arrival. Take your time.",
-    "note": "Night 0, the practice starts (one zombie: hit, carry, bury).",
-    "group": "Practice"
-   },
-   {
-    "file": "Graveyard_Practice_End",
-    "say": "Lovely. Back where it belongs. The real nights are busier.",
-    "note": "Night 0, the practice is done.",
-    "group": "Practice"
-   },
-   {
-    "file": "Graveyard_Start_C1",
-    "say": "Good evening, team. The gates are locked. The clock is ready.",
-    "note": "The screen adds the night number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Graveyard_Start_K1",
-    "say": "Evening. Tonight's roster is on the register. Please read it.",
-    "note": "The screen adds the night number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Graveyard_Start_S1",
-    "say": "Good evening. Please stay together tonight. It helps the count.",
-    "note": "The screen adds the night number in front.",
-    "group": "Start"
-   },
-   {
-    "file": "Graveyard_Rise_01",
-    "say": "The first section is due. Please greet late arrivals firmly.",
-    "note": "",
-    "group": "Rise"
-   },
-   {
-    "file": "Graveyard_Rise_03",
-    "say": "Arrivals are starting. Please keep them away from the clock.",
-    "note": "",
-    "group": "Rise"
-   },
-   {
-    "file": "Graveyard_End_C1",
-    "say": "And that's dawn. Lovely work, team. Please put the shovels away.",
-    "note": "",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_End_K2",
-    "say": "Shift over. The gates open now. Please stand aside.",
-    "note": "The gates open for the ones still standing to walk out.",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_End_S2",
-    "say": "That's the shift. Please let the morning staff leave first.",
-    "note": "Said as if \"morning staff\" were an ordinary phrase.",
-    "group": "End"
-   },
-   {
-    "file": "Graveyard_Dawn_Review",
-    "say": "That's dawn. Review results at the gatehouse, team. I'm on my way.",
-    "note": "Review mornings only (after nights 2, 4 and 6), in place of the dawn line. Calls the crew to the gatehouse for the visit. Tone follows the night.",
-    "group": "Dawn"
-   },
-   {
-    "file": "Graveyard_Remark_C1",
-    "say": "Reminder: the lamp posts have cameras. And speakers. And opinions.",
-    "note": "Warm.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_K2",
-    "say": "Please do not chat with late arrivals. It encourages them.",
-    "note": "Clipped.",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Remark_S1",
-    "say": "Everyone is on the roster eventually. That's what makes it fair.",
-    "note": "Strained. Almost to yourself. (The rung's theme, as corporate talk.)",
-    "group": "Remark"
-   },
-   {
-    "file": "Graveyard_Strike_01",
-    "say": "A late arrival has clocked in. That is a strike.",
-    "note": "The screen shows how many strikes are left.",
-    "group": "Strike"
-   },
-   {
-    "file": "Graveyard_Strike_03",
-    "say": "Another one on the clock. Please keep them off it.",
-    "note": "Never the night's first strike.",
-    "group": "Strike"
-   },
-   {
-    "file": "Graveyard_Restart_01",
-    "say": "Too many on the clock. We'll run the night again. From dusk.",
-    "note": "The last strike: the night starts over (if the owner keeps the security rule). Tired.",
-    "group": "Restart"
-   },
-   {
-    "file": "Graveyard_SectionG",
-    "say": "Roster update: section G opens tonight. Same procedure as always.",
-    "note": "Night 6, at dusk, after the greeting. Say it like any other roster note: no weight on any word. (Section G is where the crew's own staff numbers rise; the line should only feel cold afterwards.)",
-    "group": "Section g"
-   },
-   {
-    "file": "Graveyard_NewContract_01",
-    "say": "A new contract is live. The quota is on your screen.",
-    "note": "Screen shows the contract number, quota and deadline.",
-    "group": "New contract"
-   },
-   {
-    "file": "Graveyard_NewReview_01",
-    "say": "A new review begins. The target is on your screen.",
-    "note": "Screen shows the review number, target and deadline.",
-    "group": "New review"
-   },
-   {
-    "file": "Graveyard_ReviewDay_01",
-    "say": "Review night. Your numbers will be reviewed at dawn. So will you.",
-    "note": "",
-    "group": "Review day"
-   },
-   {
-    "file": "Graveyard_LastDay_03",
-    "say": "Final night, team! We're all so calm. Look how calm we are.",
-    "note": "Clearly not calm.",
-    "group": "Last day"
-   },
-   {
-    "file": "Graveyard_LastDay_04",
-    "say": "The quota is due at dawn. Do the math. We already did.",
-    "note": "",
-    "group": "Last day"
-   },
-   {
-    "file": "Graveyard_Behind_02",
-    "say": "You are behind schedule. Please be ahead of schedule. Thanks!",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Graveyard_Behind_05",
-    "say": "Statistically, one of you is the problem. Let's not dig into who.",
-    "note": "",
-    "group": "Behind"
-   },
-   {
-    "file": "Graveyard_NewThing_01",
-    "say": "New procedure, effective tonight. Details are in your memo.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
-    "file": "Graveyard_NewThing_03",
-    "say": "A new memo. Please read it twice. Once is not policy.",
-    "note": "",
-    "group": "New thing"
-   },
-   {
-    "file": "Graveyard_EventToday_03",
-    "say": "Heads up, team: something is happening tonight. Plan accordingly, or don't.",
-    "note": "",
-    "group": "Event today"
-   },
-   {
-    "file": "Graveyard_Overtime_01",
-    "say": "Overtime approved. The night will be longer. So will the queue.",
-    "note": "",
-    "group": "Overtime"
-   },
-   {
-    "file": "Graveyard_Overtime_02",
-    "say": "Overtime tonight. More pay, more hours, more arrivals. Lovely.",
-    "note": "",
-    "group": "Overtime"
-   }
-  ]
- },
- {
   "key": "callcentre-manager",
   "name": "The Call Centre Team Leader",
   "who": "A promoted agent, now the call centre's team leader, up in his glass booth over the floor. Indian English, English words only.",
@@ -2321,7 +2043,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Case_05",
-    "say": "...Right. Upstairs, then.",
+    "say": "...Right. Permanent, then.",
     "note": "The file is stamped PERMANENT POSITION. The pause is you finding out: you expected CONTINUE.",
     "group": "Call centre, day 6: his own file"
    },
