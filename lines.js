@@ -250,79 +250,79 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Practice_Start",
-    "say": "First shift's just practice. Take your time, find your feet.",
+    "say": "First shift is just practice. Take your time and find your feet.",
     "note": "Day 0, the practice shift starts. Easygoing.",
     "group": "Practice"
    },
    {
     "file": "Diner_Practice_End",
-    "say": "Not bad for a first go. Tomorrow the doors open for real.",
+    "say": "Not bad for a first go. Tomorrow the doors open for real this time.",
     "note": "Day 0, the practice shift is done. Proud of them.",
     "group": "Practice"
    },
    {
     "file": "Diner_Start_C1",
-    "say": "Morning, team! Grill's hot, coffee's on. Let's open up.",
+    "say": "Good morning, team! Grill is hot, coffee is on. Let us open up.",
     "note": "",
     "group": "Start"
    },
    {
     "file": "Diner_End_C1",
-    "say": "And that's closing. Good shift, everyone. Get some sleep.",
+    "say": "And that is closing. Good shift, everyone. Get some sleep, please.",
     "note": "Warm, tired-happy.",
     "group": "End"
    },
    {
     "file": "Diner_Remark_C2",
-    "say": "Smells like a proper diner in here. Love it.",
+    "say": "Smells like a proper diner in here. I love it.",
     "note": "To himself, a happy sigh.",
     "group": "Remark"
    },
    {
     "file": "Diner_Start_K3",
-    "say": "Morning, team. Targets went up again, but we'll manage.",
+    "say": "Good morning, team. The targets went up again, but we will manage.",
     "note": "",
     "group": "Start"
    },
    {
     "file": "Diner_End_K3",
-    "say": "That's closing. Good shift today.",
+    "say": "And that is closing. Good shift today, everybody.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Diner_Remark_K3",
-    "say": "Busy one today. You're holding up well.",
+    "say": "Busy one today. You are holding up very well.",
     "note": "Once on a busy day.",
     "group": "Remark"
    },
    {
     "file": "Diner_Start_S1",
-    "say": "Morning, team. Good to see all of you.",
+    "say": "Good morning, team. Good to see every one of you.",
     "note": "He means every one of them. The screen may add the day number in front.",
     "group": "Start"
    },
    {
     "file": "Diner_End_S1",
-    "say": "That's closing. Get home safe.",
+    "say": "That is closing. Get home safe.",
     "note": "",
     "group": "End"
    },
    {
     "file": "Diner_Remark_S1",
-    "say": "You're doing great. Just keep it going.",
+    "say": "You are doing great. Just keep it going.",
     "note": "Once on a busy day.",
     "group": "Remark"
    },
    {
     "file": "Diner_NewReview_01",
-    "say": "New review today. You'll see the target up there.",
+    "say": "We have a new review today. You will see the target up there.",
     "note": "Screen shows the review number, target and deadline.",
     "group": "New review"
    },
    {
     "file": "Diner_ReviewDay_01",
-    "say": "It's review day, so... no pressure.",
+    "say": "It is review day, so... no pressure.",
     "note": "",
     "group": "Review day"
    },
@@ -334,55 +334,55 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_LastDay_04",
-    "say": "Quota's due tonight, so keep at it.",
+    "say": "The quota is due tonight, so keep at it.",
     "note": "",
     "group": "Last day"
    },
    {
     "file": "Diner_Behind_02",
-    "say": "We're behind, guys.",
+    "say": "We are behind, guys.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Diner_Behind_05",
-    "say": "Someone's dragging. Sort it out between you.",
+    "say": "Someone is dragging. Sort it out among you.",
     "note": "",
     "group": "Behind"
    },
    {
     "file": "Diner_BadReview_01",
-    "say": "Someone left us one star.",
+    "say": "Someone left us a one-star review.",
     "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_BadReview_02",
-    "say": "Somebody never got their food, and now it's online.",
+    "say": "Somebody never got their food, and now it is on the internet.",
     "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_BadReview_03",
-    "say": "Another bad review. Come on.",
+    "say": "And another bad review. Come on.",
     "note": "Screen also shows the fine.",
     "group": "Bad review"
    },
    {
     "file": "Diner_FreeMeal_01",
-    "say": "That one was late, so it's free.",
+    "say": "That one was late, so it is free now.",
     "note": "",
     "group": "Free meal"
    },
    {
     "file": "Diner_FreeMeal_02",
-    "say": "Another free meal. That's money, you know.",
+    "say": "Another free meal. That is money, you know.",
     "note": "",
     "group": "Free meal"
    },
    {
     "file": "Diner_FreeMeal_03",
-    "say": "The boss is going to see all these free meals.",
+    "say": "The boss is going to see all those free meals.",
     "note": "",
     "group": "Free meal"
    },
@@ -400,43 +400,43 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Meet_SitNudge",
-    "say": "Come on, sit down. I don't bite.",
+    "say": "Come on, sit down. I do not bite.",
     "note": "Only when the crew has not sat after a while. Lands differently after the first fail.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_1a",
-    "say": "So. Your first review. I've been looking forward to this.",
+    "say": "So, this is your first review. I have been looking forward to this.",
     "note": "Review 1, tone 1.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_1b",
-    "say": "You passed! The boss is going to love this.",
+    "say": "You have passed! The boss is going to love this.",
     "note": "Pleased, for the boss.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_1c",
-    "say": "Same again next time, yeah? See you in the morning.",
+    "say": "I will expect the same again next time, yeah? See you in the morning.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_2a",
-    "say": "Okay. Review number two. Let's have a look.",
+    "say": "Okay. Review number two. Let us have a look.",
     "note": "Review 2, tone 2.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_2b",
-    "say": "Oh great! You passed!",
+    "say": "Oh, great! You have passed!",
     "note": "Real relief, a little too big.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_2c",
-    "say": "Targets go up again tomorrow.",
+    "say": "The targets will go up again tomorrow.",
     "note": "",
     "group": "Meet"
    },
@@ -454,13 +454,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Meet_3c",
-    "say": "Two more days and you're out of here.",
+    "say": "Two more days and you are out of here.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_4a",
-    "say": "Last review. I didn't sleep much last night.",
+    "say": "This is the last review. I did not sleep much last night.",
     "note": "Review 4, tone 3.",
     "group": "Meet"
    },
@@ -472,43 +472,43 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Meet_4c",
-    "say": "Your reassignment's coming. Take it, and don't come back.",
+    "say": "Your reassignment is coming. Take it, and do not come back.",
     "note": "Kind, firm.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_a",
-    "say": "Ah. This one didn't pass.",
+    "say": "Ah. This one did not pass.",
     "note": "Fail at review 1, tone 1: routine policy to him. Mild, like a late delivery.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_b",
-    "say": "When a review fails, someone answers for it.",
+    "say": "When a review fails, someone ought to answer for it.",
     "note": "Matter-of-fact.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_pick",
-    "say": "Let's see who he picked...",
+    "say": "Let us see who he picked...",
     "note": "Reading a card. \"He\" is the boss.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_you",
-    "say": "Ah, it's you. Come on, follow me. Don't look so worried.",
+    "say": "Ah, it is you. Come on, follow me. Do not look so worried.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_desk",
-    "say": "Hand flat on the desk. Try not to move, it's quicker.",
+    "say": "Hand flat on the desk. Try not to move, it is quicker this way.",
     "note": "Helpful, like showing a new hire the fryer.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F1_done",
-    "say": "There we go. Wrap it up tight, it stops after a bit.",
+    "say": "There we go. Wrap it up tight, it stops after a while.",
     "note": "",
     "group": "Meet"
    },
@@ -520,25 +520,25 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Meet_F2_a",
-    "say": "It didn't pass. I really thought you had it.",
+    "say": "It did not pass. I really thought you guys had it.",
     "note": "Fail at review 2, tone 2: he no longer enjoys it.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F2_b",
-    "say": "Someone has to answer for it. That's how it works.",
+    "say": "Someone has to answer for it. That is how it works.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F2_pick",
-    "say": "Let's see who it is this time...",
+    "say": "Let us see who it is this time...",
     "note": "Quieter than F1.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F2_you",
-    "say": "It's you. Come on. Let's get it over with.",
+    "say": "It is you. Come on. Let us get it over with.",
     "note": "",
     "group": "Meet"
    },
@@ -550,55 +550,55 @@ window.VOICE_LINES = [
    },
    {
     "file": "Diner_Meet_F2_done",
-    "say": "Done. Here, let me wrap that for you.",
+    "say": "Done. Here, let me wrap that one for you.",
     "note": "He does the bandage himself.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F2_retry",
-    "say": "The boss is giving you another go. Please, make it count.",
+    "say": "The boss is giving you another go. Please, please make it count.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_a",
-    "say": "It didn't pass. I'm so sorry.",
+    "say": "I am sorry to report, it did not pass.",
     "note": "Fail at reviews 3-4, tone 3: it hurts him, he still does it.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_b",
-    "say": "I told him you tried. He doesn't care.",
+    "say": "I have told him you tried. He does not care.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_pick",
-    "say": "He's picked someone. I don't get a say.",
+    "say": "He has picked someone. I do not get a say in this.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_you",
-    "say": "It's you. I'm sorry. Come with me.",
+    "say": "It is you. I am very sorry. Come with me.",
     "note": "Can't look at them.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_desk",
-    "say": "Hand on the desk. On three. One, two.",
+    "say": "Hand on the desk, please. I will count to three. One, two.",
     "note": "The thunk lands on \"two\", to spare them the wait.",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_done",
-    "say": "It's over. Here, hold it up. I've got you.",
+    "say": "It is over. Here, hold it up. I have got you.",
     "note": "",
     "group": "Meet"
    },
    {
     "file": "Diner_Meet_F3_retry",
-    "say": "He's giving you another go. Please don't make me do that again.",
+    "say": "He is giving you another go. Please do not make me do that again.",
     "note": "",
     "group": "Meet"
    },
@@ -610,13 +610,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Escape_Yard_02",
-    "say": "Ziad said you'd sort the gate.",
+    "say": "Ziad said you would sort the gate.",
     "note": "A player is near the car and the gate is still shut.",
     "group": "The escape, call centre evening 5: in his car"
    },
    {
     "file": "CallCentre_Escape_Yard_03",
-    "say": "Hang on. Wrong key.",
+    "say": "Hang on, this is the wrong key.",
     "note": "Everyone is in. He tries the ignition and fumbles the keys; his hand shakes.",
     "group": "The escape, call centre evening 5: in his car"
    },
@@ -628,19 +628,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Escape_Drive_01",
-    "say": "Right. Seatbelts.",
+    "say": "Right, fasten your seatbelts, everybody.",
     "note": "The car moves off through the gate. Inside the car from here on.",
     "group": "The escape, call centre evening 5: in his car"
    },
    {
     "file": "CallCentre_Escape_Drive_02",
-    "say": "Came straight from close. Still got my tie on.",
+    "say": "I came straight from work. I even still got my tie on.",
     "note": "He touches his bow tie. Almost laughing at himself.",
     "group": "The escape, call centre evening 5: in his car"
    },
    {
     "file": "CallCentre_Escape_Drive_03",
-    "say": "I told you to take the reassignment.",
+    "say": "I told you guys to take the reassignment.",
     "note": "Plain. He says what he did, never what it meant.",
     "group": "The escape, call centre evening 5: in his car"
    },
@@ -652,19 +652,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Escape_Drive_05",
-    "say": "I still think about your hand.",
+    "say": "And I still think about your hand.",
     "note": "Only plays for a player in the car who lost the diner finger: said to them, looking at them in the mirror.",
     "group": "The escape, call centre evening 5: in his car"
    },
    {
     "file": "CallCentre_Escape_Drive_06",
-    "say": "My sister's got a spare room. After that, no idea.",
+    "say": "My sister has got a spare room. After that, I have no idea.",
     "note": "Lighter. A plan, as far as it goes.",
     "group": "The escape, call centre evening 5: in his car"
    },
    {
     "file": "CallCentre_Escape_Drive_07",
-    "say": "What about you, then?",
+    "say": "What about you, then? Any idea?",
     "note": "A real question. Then he waits for their answer.",
     "group": "The escape, call centre evening 5: in his car"
    },
@@ -676,7 +676,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "CallCentre_Escape_Stay_01",
-    "say": "Stay in the car, alright? This one's on me.",
+    "say": "Stay in the car, alright? This one is on me.",
     "note": "Back in bay two. The car stops; he opens his door. Quiet, kind.",
     "group": "The escape, call centre evening 5: in his car"
    }
@@ -718,14 +718,14 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Visit_4a",
-    "say": "That's the final review. You've passed.",
+    "say": "And that's the final review. You've passed.",
     "note": "Day 6. In person: you are already sitting at the head of the table when the crew comes in, and you do not move. Speak to people across a table.",
     "group": "Review scenes",
     "cutscene": true
    },
    {
     "file": "Office_Visit_4b",
-    "say": "Just a reminder, your next placement is in your inbox.",
+    "say": "And just a reminder, your next placement is in your inbox.",
     "note": "Day 6.",
     "group": "Review scenes",
     "cutscene": true
@@ -761,7 +761,7 @@ window.VOICE_LINES = [
    {
     "file": "Office_Fail_First_lift",
     "say": "The lift is coming down for you. Everyone else, wait by the lift.",
-    "note": "The chosen player walks to the lift; the rest of the crew may go and wait at its doors.",
+    "note": "The chosen player walks to the lift; the rest of the crew may go and wait at its doors. (Take recorded from the older draft says \"stay put\"; caption keeps 105C's \"wait by the lift\".)",
     "group": "A failed review (cutscene)",
     "cutscene": true
    },
@@ -823,7 +823,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Room_S2_done",
-    "say": "That's stage two done.",
+    "say": "That is stage two done.",
     "note": "",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
@@ -851,7 +851,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Room_S3_done",
-    "say": "Done. Mine's the same, for reference.",
+    "say": "All done. Mine is the same, for reference.",
     "note": "The only time you ever mention your own face. A fact.",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
@@ -871,13 +871,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Practice_Start",
-    "say": "We'll start with a practice run. It isn't scored.",
+    "say": "We'll start with a practice run. Don't worry, it isn't scored.",
     "note": "Day 0, the practice job starts.",
     "group": "Day 1 and the practice"
    },
    {
     "file": "Office_Practice_End",
-    "say": "That's the practice logged. The real demo is next.",
+    "say": "Now that's the practice logged. The real demo's next.",
     "note": "Day 0, the practice is done; the client is already in Room 1.",
     "group": "Day 1 and the practice"
    },
@@ -919,7 +919,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Client_In_01",
-    "say": "To loop you in, the client's in Room 1. Someone sit beside them.",
+    "say": "Just to loop you in, the client's in Room 1. Someone go ahead and sit beside them.",
     "note": "Clock-in. One of his two buzzwords.",
     "group": "The day's client"
    },
@@ -931,7 +931,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Early_01",
-    "say": "Finished early. I'll log that for head office.",
+    "say": "And we finished early. I'll log that for head office.",
     "note": "",
     "group": "The demo's result"
    },
@@ -943,19 +943,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Pitch_Bad_01",
-    "say": "They left without signing. I'll follow up with them tomorrow.",
+    "say": "Seems they left without signing. I'll follow up with them tomorrow.",
     "note": "Not annoyed. Three catches and the client walked out.",
     "group": "The demo's result"
    },
    {
     "file": "Office_Remark_K2",
-    "say": "Still here, by the way. Just listening in.",
+    "say": "By the way, I'm still here. Just listening in.",
     "note": "",
     "group": "Quiet moments"
    },
    {
     "file": "Office_Remark_S1",
-    "say": "I had my review here too, years ago. It's a fair system.",
+    "say": "I've also had my review here too, years ago. Trust me, it's a fair system.",
     "note": "His only self-disclosure. A fact, not reassurance.",
     "group": "Quiet moments"
    },
@@ -973,19 +973,19 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_LastDay_03",
-    "say": "Last day today. Please don't leave anything unfinished.",
+    "say": "This is the last day. Please don't leave anything unfinished. Please.",
     "note": "",
     "group": "Reviews"
    },
    {
     "file": "Office_Behind_02",
-    "say": "We're behind schedule. Noted.",
+    "say": "It seems we're behind schedule. Noted.",
     "note": "",
     "group": "Reviews"
    },
    {
     "file": "Office_ReplyAll",
-    "say": "Please don't reply all. I've muted the thread.",
+    "say": "Everyone, please don't reply all. I've now muted the thread. I don't want to have to ask again.",
     "note": "Eight emails land at once.",
     "group": "Events"
    },
@@ -997,13 +997,13 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_AllHands_Day6_02",
-    "say": "Head office asked me to share these. They're better than last month's.",
+    "say": "So, head office asked me to share these. They're better than last month's.",
     "note": "Reading from a slide. \"Last month's\" is the office's crumb that the crew is not the first.",
     "group": "Day 6: the all-hands"
    },
    {
     "file": "Office_AllHands_Day6_04",
-    "say": "That's all. Back to your desks.",
+    "say": "And that's all. Back to your desks now.",
     "note": "The call ends.",
     "group": "Day 6: the all-hands"
    }
@@ -1039,7 +1039,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Security_Visit_1b",
-    "say": "You passed. Client wants you back tomorrow.",
+    "say": "You passed. I want you back tomorrow. Good job.",
     "note": "Visit 1. Reading it off your phone. Your way.",
     "group": "Review scenes",
     "cutscene": true
@@ -2100,86 +2100,86 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Call3_01",
-    "say": "It's me. Don't say anything, the room's got a mic. Just listen.",
-    "note": "Someone is in the meeting room when the screen answers.",
+    "say": "Hey, yeah, it's me again. You know the drill. Do not make a sound. But this time, you need to be extra careful, because the whole room is wired. So just listen.",
+    "note": "Someone is in the meeting room when the screen answers. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_01M",
-    "say": "Nobody in there? Doesn't matter. I'll talk anyway.",
-    "note": "Nobody is in the room: plays instead of 01.",
+    "say": "Oh. So, no one there? Good. It's safer. I'm gonna talk anyway.",
+    "note": "Nobody is in the room: plays instead of 01. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_02",
-    "say": "You got through the diner. I knew you would, honestly.",
-    "note": "Warm, relieved.",
+    "say": "You made it out of the diner. I honestly had doubts that you would. Thank God you did.",
+    "note": "Warm, relieved. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_03",
-    "say": "Quick one, answer on the screen. Anyone gone up in the lift yet?",
-    "note": "The question. The screen shows YES and NO; then wait.",
+    "say": "Quick question though, just use the screen to answer. Has anyone gone up the lift yet?",
+    "note": "The question. The screen shows YES and NO; then wait. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_Y1",
     "say": "Right. Then you've seen it.",
-    "note": "They answered YES. Flat, a breath.",
+    "note": "They answered YES. Flat, a breath. As recorded (the 2026-11-03 take; words matched to it 2026-11-08).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_Y2",
-    "say": "Don't treat them any different. It's still them in there. Okay?",
-    "note": "YES. His one kind thing.",
+    "say": "Listen, don't treat them any different. It's still them inside. You have to remember that.",
+    "note": "YES. His one kind thing. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_N1",
-    "say": "Good. Keep it that way. Every review, pass it, whatever it takes.",
-    "note": "They answered NO. Firm.",
+    "say": "Good. Keep it that way. Every review, pass it. Whatever it takes.",
+    "note": "They answered NO. Firm. As recorded (the 2026-11-03 take; words matched to it 2026-11-08).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_N2",
     "say": "Just pass them. Please.",
-    "note": "NO. Quiet.",
+    "note": "NO. Quiet. As recorded (the 2026-11-03 take; words matched to it 2026-11-08).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_S",
-    "say": "Nothing? Fine. I'll say it anyway.",
-    "note": "Nobody answered. Then the NO lines.",
+    "say": "Playing dead? Fine, I'll tell you anyway.",
+    "note": "Nobody answered. Then the NO lines. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_04",
-    "say": "Look, your manager at the diner rang me. He's never done that before.",
-    "note": "The diner manager. Puzzled by it.",
+    "say": "Look, the manager from the diner actually called me, and that doesn't happen. He has never done that before.",
+    "note": "The diner manager. Puzzled by it. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_05",
-    "say": "He wants you out. Him. He's working on something.",
-    "note": "Slow.",
+    "say": "He wants you gone. I think it's getting personal somehow. He's setting something up.",
+    "note": "Slow. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_06",
-    "say": "I'll tell you more when I can. Not on this line.",
-    "note": "Careful.",
+    "say": "I'll explain more when I can. Not on this line.",
+    "note": "Careful. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_07",
-    "say": "They've given me a camera now, where I am. Weird, that.",
-    "note": "A small laugh.",
+    "say": "They just installed a camera in my space. Funny, right?",
+    "note": "A small laugh. As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_08",
-    "say": "Van's back. I've got to go. Pass the next one, okay?",
-    "note": "Hurried. Then the line clicks off (the game adds the click).",
+    "say": "Shit. The van just pulled up. I'm out of time. Look, please, pass the next review. Understand?",
+    "note": "Hurried. Then the line clicks off (the game adds the click). As recorded (2026-11-06).",
     "group": "Office, the call on the screen"
    },
    {
@@ -2434,7 +2434,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_Report_3",
-    "say": "Where's the report, then?",
+    "say": "Where is the report, then?",
     "note": "Asking the person sitting beside him.",
     "group": "His clicks"
    },
@@ -2476,7 +2476,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_Lost_2",
-    "say": "It's never working, man.",
+    "say": "It is never working, man.",
     "note": "The screen shows an error. To the person beside him.",
     "group": "The demo errors"
    },
@@ -2494,7 +2494,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_CaughtSmoke",
-    "say": "Is that smoke from a leak?",
+    "say": "Is that smoke from the leak?",
     "note": "He looks out through the glass and sees smoke. Puzzled.",
     "group": "Catching the crew"
    },
@@ -2518,7 +2518,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_CaughtPaper",
-    "say": "Somebody's dropped something.",
+    "say": "Somebody dropped something.",
     "note": "He looks out and sees paper all over the floor.",
     "group": "Catching the crew"
    },
@@ -2548,7 +2548,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Demo_Q2",
-    "say": "Who's Tawwah?",
+    "say": "Who is Tawwah?",
     "note": "Reading a name on the screen, a real question.",
     "group": "His four questions"
    },
@@ -2608,7 +2608,7 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Overtime_Six",
-    "say": "It's six. I'll take what you have.",
+    "say": "It's six. I will take what you have.",
     "note": "6 PM: he stands up from the table and ends the day.",
     "group": "Endings"
    },
