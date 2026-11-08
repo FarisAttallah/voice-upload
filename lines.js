@@ -2160,9 +2160,10 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Call3_05",
-    "say": "He wants you gone. I think it's getting personal somehow. He's setting something up.",
-    "note": "Slow. As recorded (2026-11-06).",
-    "group": "Office, the call on the screen"
+    "say": "He just said hang on, don't do anything stupid. He's sorting something out.",
+    "note": "Puzzled, a little relieved. As if he can't quite believe it. New words (owner 2026-11-08): please record it again.",
+    "group": "Office, the call on the screen",
+    "freshFrom": "2026-11-08T00:00:00Z"
    },
    {
     "file": "Office_Call3_06",
