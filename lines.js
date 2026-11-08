@@ -1006,6 +1006,18 @@ window.VOICE_LINES = [
     "say": "And that's all. Back to your desks now.",
     "note": "The call ends.",
     "group": "Day 6: the all-hands"
+   },
+   {
+    "file": "Office_Visit_Sit_01",
+    "say": "Seats at the table, please. I'll start when everyone's joined.",
+    "note": "To record (110D). Every review call, right after the gather line, as the lobby opens. Procedural, pleased the system is working.",
+    "group": "Visit"
+   },
+   {
+    "file": "Office_Visit_Sit_02",
+    "say": "We'll start in a minute, with or without the full team.",
+    "note": "To record (110D). About 35 s into the lobby's 60 s, only if a seat is still empty. Flat, not a threat; a fact about the clock.",
+    "group": "Visit"
    }
   ],
   "freshFrom": "2026-10-26T00:00:00Z"
