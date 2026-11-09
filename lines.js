@@ -984,12 +984,6 @@ window.VOICE_LINES = [
     "group": "Reviews"
    },
    {
-    "file": "Office_ReplyAll",
-    "say": "Everyone, please don't reply all. I've now muted the thread. I don't want to have to ask again.",
-    "note": "Eight emails land at once.",
-    "group": "Events"
-   },
-   {
     "file": "Office_AllHands_Day6_Call",
     "say": "All-hands, everyone. Gather at the screen, please.",
     "note": "The screen lights up.",
@@ -2506,42 +2500,6 @@ window.VOICE_LINES = [
     "group": "Catching the crew"
    },
    {
-    "file": "Office_Demo_CaughtSmoke",
-    "say": "Is that smoke from the leak?",
-    "note": "He looks out through the glass and sees smoke. Puzzled.",
-    "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_CaughtSmoke_2",
-    "say": "Do you want me to call a plumber?",
-    "note": "He looks out through the glass and sees smoke. Trying to help.",
-    "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_CaughtColleagues",
-    "say": "What's everyone doing?",
-    "note": "He looks out through the glass and sees people on their feet.",
-    "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_CaughtColleagues_2",
-    "say": "Why is everyone standing up?",
-    "note": "He looks out through the glass and sees people on their feet.",
-    "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_CaughtPaper",
-    "say": "Somebody dropped something.",
-    "note": "He looks out and sees paper all over the floor.",
-    "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_CaughtPaper_2",
-    "say": "Is someone going to pick that up?",
-    "note": "He looks out and sees paper all over the floor.",
-    "group": "Catching the crew"
-   },
-   {
     "file": "Office_Demo_CaughtQuestion",
     "say": "Hm. I'll write that down.",
     "note": "His question got no answer, or a wrong one. Cool, noting it.",
@@ -2552,30 +2510,6 @@ window.VOICE_LINES = [
     "say": "Okay. Noted.",
     "note": "His question got no answer, or a wrong one.",
     "group": "Catching the crew"
-   },
-   {
-    "file": "Office_Demo_Q1",
-    "say": "Why does this say October 2024? What happened in October 2024?",
-    "note": "Reading the screen, a real question to the person beside him.",
-    "group": "His four questions"
-   },
-   {
-    "file": "Office_Demo_Q2",
-    "say": "Who is Tawwah?",
-    "note": "Reading a name on the screen, a real question.",
-    "group": "His four questions"
-   },
-   {
-    "file": "Office_Demo_Q3",
-    "say": "These totals are the same as last year's.",
-    "note": "Reading the screen, suspicious. Expects an answer.",
-    "group": "His four questions"
-   },
-   {
-    "file": "Office_Demo_Q4",
-    "say": "Why is this one stapled?",
-    "note": "Holding up a printout. Expects an answer.",
-    "group": "His four questions"
    },
    {
     "file": "Office_Demo_Right",
