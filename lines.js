@@ -766,6 +766,13 @@ window.VOICE_LINES = [
     "cutscene": true
    },
    {
+    "file": "Office_Fail_Stall",
+    "say": "We're holding the lift for you.",
+    "note": "To record (110-FAIL). Only if the chosen player has not stepped into the lift 25 s after the lift line: polite and unhurried, the lift will wait as long as it takes.",
+    "group": "A failed review (cutscene)",
+    "cutscene": true
+   },
+   {
     "file": "Office_Fail_Retry",
     "say": "Head office have approved a retry of that review.",
     "note": "On the screen once the chosen player is back on the floor; then the review is retried.",
@@ -859,7 +866,7 @@ window.VOICE_LINES = [
    {
     "file": "Office_Room_Upkeep",
     "say": "Noted. It's dropped at the corners, so we'll top it up.",
-    "note": "A fourth time up, past stage 3. You have looked over their grin for three seconds in silence, close; checking a job, not admiring it. Then a quicker click.",
+    "note": "A fourth time up, past stage 3. You have looked over their grin for three seconds in silence, close; checking a job, not admiring it. Then one cut, sooner.",
     "group": "Upstairs, in the room (cutscene)",
     "cutscene": true
    },
@@ -2160,16 +2167,15 @@ window.VOICE_LINES = [
    },
    {
     "file": "Office_Call3_04",
-    "say": "Look, the manager from the diner actually called me, and that doesn't happen. He has never done that before.",
-    "note": "The diner manager. Puzzled by it. As recorded (2026-11-06).",
+    "say": "Look, your manager from the diner actually called me, and that never happens. He has never done that before.",
+    "note": "The diner manager. Puzzled by it. As recorded (2026-11-10).",
     "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_05",
-    "say": "He just said hang on, don't do anything stupid. He's sorting something out.",
-    "note": "Puzzled, a little relieved. As if he can't quite believe it. New words (owner 2026-11-08): please record it again.",
-    "group": "Office, the call on the screen",
-    "freshFrom": "2026-11-08T00:00:00Z"
+    "say": "Apparently he knows what we're up to. I don't know how, but he advised to stop anything stupid we're doing and to just hold on. He said he's actually working on a plan. He's setting some stuff up.",
+    "note": "Puzzled, a little relieved. As if he can't quite believe it. As recorded (2026-11-10).",
+    "group": "Office, the call on the screen"
    },
    {
     "file": "Office_Call3_06",
